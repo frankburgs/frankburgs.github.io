@@ -15,8 +15,9 @@ import {
 function App() {
 
   return (<>
+  
     <Routes>
-      <Route path='/Home' element={<Home />}></Route>
+      <Route path="/Home" element={<Home />}></Route>
       <Route path='/About' element={<About />}></Route>
       <Route path='/Treasurehunt' element={<TreasureHunt />}></Route>
       <Route path='/tictactoe' element={<TicTacToe />}></Route>

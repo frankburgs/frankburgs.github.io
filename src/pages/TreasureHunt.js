@@ -43,7 +43,7 @@ const TreasureHunt = () => {
  
   return (
     <>
-      <h1>Christmas Treasure Hunt Game</h1>
+      <h1>Treasure Hunt</h1>
       <div className="gameboard">
       {board.map((value, index) => {
         return (
@@ -57,7 +57,7 @@ const TreasureHunt = () => {
       })}
       </div>
       <p>
-        <Button reset={reset} />
+        <Button onClick={reset} />
       </p>
     </>
   )
