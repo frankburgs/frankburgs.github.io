@@ -21,10 +21,17 @@ export const Footer = () => {
         </NavItem>
 
         <NavItem>
-            <NavLink disabled href="#">
-                Disabled Link
+            <NavLink href="/treasurehunt">
+                Treasure Hunt
             </NavLink>
         </NavItem>
+
+        <NavItem>
+            <NavLink href="/tictactoe">
+                Tic Tac Toe
+            </NavLink>
+        </NavItem>
+
     </Nav>
   )
 }
