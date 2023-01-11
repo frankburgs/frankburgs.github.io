@@ -15,7 +15,6 @@ import {
 function App() {
 
   return (<>
-
     <Routes>
       <Route path='/Home' element={<Home />}></Route>
       <Route path='/About' element={<About />}></Route>
