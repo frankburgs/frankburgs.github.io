@@ -2,10 +2,16 @@
   <title>Safety Observations</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <script src="observations.js"></script><!-- Load the safety lists into browser memory -->
+  <link rel="stylesheet" href="style.css"><!-- CSS for print -->
 </head>
 
-<body>
-  <table class="table">
+<span><h1>Weld School Safety Observations</h1></span>
+
+
+<button type="button" class="btn" onclick="window.print()">Print</button>
+
+<body data-bs-theme="dark">
+  <table class="table table-bordered border-primary text-center">
     <thead>
       <tr>
         <th>Observation</th>
