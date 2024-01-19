@@ -1,37 +1,35 @@
+<html>
+
 <head>
   <title>Safety Observations</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <script src="observations.js"></script><!-- Load the safety lists into browser memory -->
-  <link rel="stylesheet" href="style.css"><!-- CSS for print -->
+  <script src="btnModal.js"></script>
+  <!-- CSS for print -->
+  <link rel="stylesheet" href="style1.css">
 </head>
 
-<span><h1>Weld School Safety Observations</h1></span>
-
-
-<button type="button" class="btn" onclick="window.print()">Print</button>
+<div class="d-flex flex-row m-2">
+  <h3>Weld School Safety Observations</h3>
+  <button class="btn btn-primary d-print-none ms-5" type="button" onclick="window.print()">
+    Print
+  </button>
+</div>
 
 <body data-bs-theme="dark">
-  <table class="table table-bordered border-primary text-center">
+  <table class="table table-bordered border-primary text-center align-middle">
     <thead>
       <tr>
-        <th>Observation</th>
-        <th>Thought</th>
         <th>Reference</th>
-        <th>Media</th>
+        <th>Observation</th>
+        <th>Recommendation</th>
+        <th class="d-print-none">Media</th>
       </tr>
     </thead>
-    <tbody id="tableBody">
 
-    </tbody>
+    <tbody id="tableBody"></tbody>
   </table>
 </body>
-
-<script src="script.js"></script>
-
-
-
-
-
-
-
+</html>
+<script src="script1.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
