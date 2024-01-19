@@ -2,6 +2,7 @@
 
 <head>
   <title>Safety Observations</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <script src="observations.js"></script><!-- Load the safety lists into browser memory -->
   <script src="btnModal.js"></script>
@@ -9,17 +10,25 @@
   <link rel="stylesheet" href="style1.css">
 </head>
 
-<div class="d-flex flex-row m-2">
-  <h3>Weld School Safety Observations</h3>
-  <button class="btn btn-primary d-print-none ms-5" type="button" onclick="window.print()">
-    Print
-  </button>
-</div>
-
 <body data-bs-theme="dark">
+
+  <div class="d-flex flex-row m-2">
+    <h3>Weld School Safety Observations</h3>
+    <button class="btn btn-primary d-print-none ms-5" type="button" onclick="window.print()">
+      Print
+    </button>
+    <button class="btn btn-primary d-print-none ms-5" type="button" onclick="window.close()">
+      Close
+    </button>
+    <button class="btn btn-primary d-print-none ms-5" type="button" onclick="toggleFullScreen()">
+      Full-Screen
+    </button>
+  </div>
+
   <table class="table table-bordered border-primary text-center align-middle">
     <thead>
       <tr>
+        <th>#</th>
         <th>Reference</th>
         <th>Observation</th>
         <th>Recommendation</th>

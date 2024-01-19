@@ -1,16 +1,30 @@
-// Try to only manipulate ID's instead of classes to not conflict with Bootstrap
-
-var tableBody = document.getElementById("tableBody") // Assign table body to a variable.
-
-for (counter in observations){
-  populateRow(observations[counter]) // Call the function to populate a row with an object.
+// Fullscreen
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else if (document.exitFullscreen) {
+    document.exitFullscreen();
+  }
 }
 
-// A counter to match buttons with modals
-var i = 0;
+
+// Assign table body to a variable.
+var tableBody = document.getElementById("tableBody")
+
+var counter = 1; // Counter to match button to modal ID's and count line items.
+
+for (observation in observations){
+  populateRow(observations[observation]) // Call the function to populate a row with an object.
+}
 
 function populateRow(obj){
   var newRow = document.createElement("tr") // Create a table row.
+  
+  // Line item #
+  newCell = newRow.appendChild(document.createElement("td"))
+  
+  var lineCount = counter
+  newCell.innerHTML = lineCount.toString()
 
   // The reference
   newCell = newRow.appendChild(document.createElement("td"))
@@ -33,11 +47,11 @@ function populateRow(obj){
     // Make a button to activate a modal pop up
     var btn = createModalButton() // Create the modal and assign to a variable.
 
-    var identifier = "godFuckingDammit" + i
-    i++;
+    var identifier = "godFuckingDammit" + counter
+
     var target = "#" + identifier // Create a target from the object variable name
     
-    // Assign dynamic target from the object name
+    // Assign dynamic target from the object name.
     btn.setAttribute("data-bs-target", target)
 
     newCell.appendChild(btn)
@@ -50,13 +64,12 @@ function populateRow(obj){
     var imgURL = "img/" + obj.media + ".jpg"
 
     // Add the modal innerHTML with custom image URL
-    newModal.innerHTML = '<div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <h1 class="modal-title fs-5" id="exampleModalLabel">Relevant Image</h1> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> </div> <div class="modal-body"> <img src="' + imgURL + '" class="img-fluid"> </div> <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> </div> </div> </div>'
+    newModal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h1 class="modal-title fs-5" id="exampleModalLabel">Relevant Image</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><img src="' + imgURL + '" class="img-fluid"></div> <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div></div></div>'
 
     document.body.appendChild(newModal) // Append the modal to the bodoy.
   }
  
+  counter++;
+
   tableBody.appendChild(newRow) // Append the row to the table.
-  
 }
-
-

@@ -9,7 +9,7 @@
 
 - ✅Sling is frayed & manufacturer's label is illegible
 - ✅ Flammable cabinet is not labeled
-- Cylinder cart barrier.
+- ✅Cylinder cart barrier.
 - Keep electrical surfaces clear of materials.
 - Keep area around fire extinguishers clear.
 - Do not modify the forklift lifting forks.
@@ -37,19 +37,12 @@ HAZCOM 29 CFR 1910.1200(e)(1)https://www.ecfr.gov/current/title-29/part-1910/sec
 
 ## anecdotes
 - ✅"My girlfriend's pants caught fire"
-- "The arc is almost too bright to look at but I'm messing with the auto-darkening filter settings"
-- "And then you get the black boogers at the end of the day"
+- ✅"The arc is almost too bright to look at but I'm messing with the auto-darkening filter settings"
+- "✅And then you get the black boogers at the end of the day"
 
-<details><summary>📃 To do</summary>
+<details><summary>📃 User stories</summary>
 <br>
 
-- Publish safety list to Pages.
-- Safety list is printable
-</details>
-
-<details><summary>✅ Completed tasks</summary>
-<br>
-
-- Publish safety list to Pages.
-- Safety list is printable
+- User sees a numbered table column.
+- User can print the safety table.
 </details>
