@@ -1,4 +1,6 @@
 var cameraIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16"><path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/><path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"/></svg>'
+var fullScreenIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/></svg>'
+var contractScreenIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-angle-contract" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707M15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707"/></svg>'
 
 frayedSling = {
   observation: "Sling is frayed.<br>Manufacturer's label is illegible",
@@ -62,14 +64,15 @@ toolCable = {
 }
 
 fireExtinguisherInspection = {
-  observation: "Fire extinguisher inspection tag not filled out for December",
+  observation: "Fire extinguisher inspection tag not filled out for December<br>Photo taken 17 Jan 2023",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.157#p-1910.157(e)(2)">29 CFR 1910.157(e)(2)</a>',
-  recommendation: ''
+  recommendation: '',
+  media: 'fireExtinguisherTag',
 }
-
 
 // End OSHA violations.
 // Begin student testimonies.
+
 flamePants = {
   observation: "&quot;My girlfriend's pants caught on fire.&quot", // Needs innerHTML to set.
   recommendation: "Daily open floor toolbox safety talk",
@@ -109,6 +112,18 @@ respiratoryProtection = {
   recommendation: "Respiratory protection program"
 }
 
+designateHotArea = {
+  reference: "Personal<br>observation",
+  observation: "Students DIY hot warning label",
+  recommendation: "Designate hot material area",
+  media: "hotArea",
+}
+
+// eyewashStationTag = {
+//   observation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'href='https://www.osha.gov/laws-regs/standardinterpretations/2002-04-18-1'>Somebody gave up on the eyewash station<br>a few years back</a>",
+//   reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.dir.ca.gov/title8/5162.html'>CalOsha Title 8 Subchapter 7<br>Group 16 Article 109 &sect;5162</a>",
+//   media: "eyewashStationTag"
+// }
 
 // End personal observations.
 // Begin weld textbook suggestions.
@@ -131,6 +146,8 @@ observations = [
   fallingCylinder,
   borax,
   respiratoryProtection,
+  designateHotArea,
+  // eyewashStationTag,
 
   flamePants,
   arcBrightness,

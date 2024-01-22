@@ -12,25 +12,16 @@
 
 <body class="bg-black text-white">
 
-  <div class="d-flex flex-row m-2">
-    <h3>Weld School Safety Observations</h3>
-    <button class="btn btn-primary d-print-none ms-5" type="button" onclick="window.print()">
-      Print
-    </button>
-    <button class="btn btn-primary d-print-none ms-5" type="button" onclick="window.close()">
-      Close
-    </button>
-    <button class="btn btn-primary d-print-none ms-5" type="button" onclick="toggleFullScreen()">
-      Full-Screen
-    </button>
-  </div>
-
   <table class="table table-bordered border-primary text-center align-middle">
     <thead>
       <tr>
-        <th class="bg-black text-white"></th>
+        <th class="bg-black text-white">
+          <button type="button" class="btn btn-info btn-sm" onclick="toggleFullScreen()" id="btnToggleFullScreen">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/></svg>
+          </button>
+        </th>
         <th class="bg-black text-white">Reference</th>
-        <th class="bg-black text-white">Observation</th>
+        <th class="bg-black text-white">Safety Observation</th>
         <th class="bg-black text-white">Recommendation</th>
         <th class="bg-black text-white" class="d-print-none">Media</th>
       </tr>

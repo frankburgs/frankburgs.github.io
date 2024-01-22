@@ -1,9 +1,12 @@
 // Fullscreen
+var toggleBtn = document.getElementById("btnToggleFullScreen")
 function toggleFullScreen() {
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen();
+    toggleBtn.innerHTML = contractScreenIcon;
   } else if (document.exitFullscreen) {
     document.exitFullscreen();
+    toggleBtn.innerHTML = fullScreenIcon;
   }
 }
 
@@ -61,14 +64,14 @@ function populateRow(obj){
     newCell.appendChild(btn)
 
     var newModal = document.createElement("div") // Create the modal's outermost div.
-    newModal.classList.add("modal", "fade")
+    newModal.classList.add("modal", "fade", "bg-black")
     newModal.setAttribute("tabindex", "-1")
     newModal.id = identifier // Add the object name as the modal ID.
 
     var imgURL = "img/" + obj.media + ".jpg"
 
     // Add the modal innerHTML with custom image URL
-    newModal.innerHTML = '<div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div><div class="modal-body"><img src="' + imgURL + '" class="img-fluid"></div></div></div>'
+    newModal.innerHTML = '<div class="modal-dialog"><div class="modal-content "><div class="modal-header"><button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/></svg></button></div><div class="modal-body"><img src="' + imgURL + '" class="img-fluid"></div></div></div>'
 
     document.body.appendChild(newModal) // Append the modal to the bodoy.
   }
