@@ -7,7 +7,6 @@ function toggleFullScreen() {
   }
 }
 
-
 // Assign table body to a variable.
 var tableBody = document.getElementById("tableBody")
 
@@ -19,29 +18,34 @@ for (observation in observations){
 
 function populateRow(obj){
   var newRow = document.createElement("tr") // Create a table row.
-  
+
   // Line item #
   newCell = newRow.appendChild(document.createElement("td"))
-  
   var lineCount = counter
   newCell.innerHTML = lineCount.toString()
+  newCell.classList.add("bg-black","text-white")
 
   // The reference
   newCell = newRow.appendChild(document.createElement("td"))
+  newCell.classList.add("text-nowrap") // Stop line breaks in this column.
   newCell.innerHTML = obj.reference
-  
+  newCell.classList.add("bg-black","text-white")
+
   // The observation
   var newCell = newRow.appendChild(document.createElement("td")) // Create a cell
   newCell.innerHTML = obj.observation // Add the observation as inner HTML.
+  newCell.classList.add("bg-black","text-white")
 
   // The recommendation
   newCell = newRow.appendChild(document.createElement("td"))
   newCell.innerHTML = obj.recommendation
+  newCell.classList.add("bg-black","text-white")
 
   // Create a cell that is populated only if the object has a media entry.
   newCell = newRow.appendChild(document.createElement("td"))
   newCell.classList.add("d-print-none")
-
+  newCell.classList.add("bg-black","text-white")
+  
   if (obj.media){ // If the object has a media item
 
     // Make a button to activate a modal pop up

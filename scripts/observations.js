@@ -78,13 +78,13 @@ flamePants = {
 
 arcBrightness = {
   observation: "&quot;The arc is almost too bright to look at, but I'm messing with my helmet's auto-darkening settings&quot;",
-  recommendation: "Regularly discuss arc-flash protection and reference posted shade table",
+  recommendation: "Regularly discuss arc-flash protection<br>Reference posted shade table",
   reference: "Student testimony",
 }
 
 blackBoogers = {
   observation: "&quot;And then you get the black boogers at the end of the day&quot;",
-  recommendation: "Implement respiratory protection program",
+  recommendation: "Respiratory protection program",
   reference: "Student testimony",
 }
 
@@ -93,20 +93,20 @@ blackBoogers = {
 
 fallingCylinder = {
   reference: "Personal<br>observation",
-  observation: "Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder that subsequently falls from the cart and audibly depressurizes",
+  observation: "Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder,<br> that subsequently falls from the cart and audibly depressurizes",
   recommendation: "Discuss expected behavior from service company employees.",
 }
 
 borax = {
   reference: "Personal<br>observation",
   observation: "Borax is used to regularly wash hands when hand soap dispenser is empty",
-  recommendation:  "Discuss importance of limiting use of Borax on skin and implement culture where anyone can refill handsoap dispenser",
+  recommendation:  "Discuss importance of limiting use of Borax on skin<br>Implement culture where anyone can refill handsoap dispenser",
 }
 
 respiratoryProtection = {
   reference: "Personal<br>observation",
   observation: "Students wearing a combination of no respiratory protection, balaclavas, and half-mask respirators with both organic and particulate filters attached.",
-  recommendation: "Implement a respiratory protection program"
+  recommendation: "Respiratory protection program"
 }
 
 
