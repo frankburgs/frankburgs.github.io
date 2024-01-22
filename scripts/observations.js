@@ -103,7 +103,7 @@ fallingCylinder = {
 borax = {
   reference: "Personal<br>observation",
   observation: "Borax is used to regularly wash hands when hand soap dispenser is empty",
-  recommendation:  "Discuss importance of limiting use of Borax on skin<br>Implement culture where anyone can refill handsoap dispenser",
+  recommendation:  "Discuss limiting Borax exposure<br>Anyone can/should refill handsoap dispenser",
 }
 
 respiratoryProtection = {
