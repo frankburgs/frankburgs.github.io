@@ -19,8 +19,13 @@ for (observation in observations){
   populateRow(observations[observation]) // Call the function to populate a row with an object.
 }
 
+function populateCell(val){
+
+}
+
 function populateRow(obj){
   var newRow = document.createElement("tr") // Create a table row.
+  newRow.classList.add("border-primary")
 
   // Line item #
   newCell = newRow.appendChild(document.createElement("td"))
@@ -49,6 +54,7 @@ function populateRow(obj){
   newCell.classList.add("d-print-none")
   newCell.classList.add("bg-black","text-white")
   
+
   if (obj.media){ // If the object has a media item
 
     // Make a button to activate a modal pop up
@@ -68,15 +74,15 @@ function populateRow(obj){
     newModal.setAttribute("tabindex", "-1")
     newModal.id = identifier // Add the object name as the modal ID.
 
-    var imgURL = "img/" + obj.media + ".jpg"
+    var imgURL = "images/" + obj.media + ".jpg"
 
     // Add the modal innerHTML with custom image URL
     newModal.innerHTML = '<div class="modal-dialog"><div class="modal-content bg-black"><div class="modal-header"><button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/></svg></button></div><div class="modal-body"><img src="' + imgURL + '" class="img-fluid"></div></div></div>'
 
     document.body.appendChild(newModal) // Append the modal to the bodoy.
   }
- 
-  counter++;
+
+  counter++; // The counter helps match dynamically generated id's from modal to button
 
   tableBody.appendChild(newRow) // Append the row to the table.
 }

@@ -60,7 +60,8 @@ exposedCable = {
 toolCable = {
   observation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.osha.gov/laws-regs/standardinterpretations/1998-12-16">Power tool cable has electrical tape covering.</a>',
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1926/section-1926.403#p-1926.403(b)(1)(iii)">29 CFR 1926.403(b)(1)(iii)</a>',
-  recommendation: "Tag and isolate tool until repaired."
+  recommendation: "Tag and isolate tool until repaired.",
+  media: 'tapedTool'
 }
 
 fireExtinguisherInspection = {
@@ -70,7 +71,16 @@ fireExtinguisherInspection = {
   media: 'fireExtinguisherTag',
 }
 
-// End OSHA violations.
+// End Fed OSHA
+// Begin Cal OSHA
+
+eyewashStationTag = {
+  observation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://oag.ca.gov/sites/all/files/agweb/pdfs/cci/safety/eyewashes.pdf'>Eyewash station inspection tag not filled out</a>",
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.dir.ca.gov/title8/5162.html'>Ca Labor code Title 8 Subchapter 7<br>Group 16 Article 109 &sect;5162</a>",
+  media: "eyewashStationTag",
+  recommendation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://webstore.ansi.org/standards/isea/ansiiseaz358z87eyewasheye?gad_source=1&gclid=Cj0KCQiAwbitBhDIARIsABfFYIJIfr5DDjOZu0CWTnSelTivjSseF24aAZl7WaelHiXSvwg526JT_fgaAgSmEALw_wcB'>Purchase copy of ANSI Z87.1</a><br>Install emergency shower station",
+}
+// End Cal OSHA
 // Begin student testimonies.
 
 flamePants = {
@@ -119,11 +129,12 @@ designateHotArea = {
   media: "hotArea",
 }
 
-// eyewashStationTag = {
-//   observation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover'href='https://www.osha.gov/laws-regs/standardinterpretations/2002-04-18-1'>Somebody gave up on the eyewash station<br>a few years back</a>",
-//   reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.dir.ca.gov/title8/5162.html'>CalOsha Title 8 Subchapter 7<br>Group 16 Article 109 &sect;5162</a>",
-//   media: "eyewashStationTag"
-// }
+puddleShoes = {
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>Z49.1 E11.4.9.2</a>",
+  observation: "Student not wearing protective boots<br>while standing in running water.",
+  media: "puddleBoots",
+  recommendation: "Strictly have morning meeting<br>even on rainy days",
+}
 
 // End personal observations.
 // Begin weld textbook suggestions.
@@ -142,13 +153,18 @@ observations = [
   exposedCable,
   toolCable,
   fireExtinguisherInspection,
+  // End Fed OSHA
+  // Begin Cal OSHA
+  eyewashStationTag,
 
+  // Begin observations
+  puddleShoes,
   fallingCylinder,
   borax,
   respiratoryProtection,
   designateHotArea,
-  // eyewashStationTag,
 
+  // Begin testimony
   flamePants,
   arcBrightness,
   blackBoogers,
