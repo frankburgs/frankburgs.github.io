@@ -81,49 +81,49 @@ eyewashStationTag = {
   recommendation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://webstore.ansi.org/standards/isea/ansiiseaz358z87eyewasheye?gad_source=1&gclid=Cj0KCQiAwbitBhDIARIsABfFYIJIfr5DDjOZu0CWTnSelTivjSseF24aAZl7WaelHiXSvwg526JT_fgaAgSmEALw_wcB'>Purchase copy of ANSI Z87.1</a><br>Install emergency shower station",
 }
 // End Cal OSHA
-// Begin student testimonies.
+// Begin Testimonies.
 
 flamePants = {
   observation: "&quot;My girlfriend's pants caught on fire.&quot", // Needs innerHTML to set.
   recommendation: "Daily open floor toolbox safety talk",
-  reference: "Student testimony",
+  reference: "Testimony",
 }
 
 arcBrightness = {
-  observation: "&quot;The arc is almost too bright to look at, but I'm messing with my helmet's auto-darkening settings&quot;",
+  observation: "&quot;The arc is almost too bright to look at<br>I'm messing with my helmet's auto-darkening settings&quot;",
   recommendation: "Regularly discuss arc-flash protection<br>Reference posted shade table",
-  reference: "Student testimony",
+  reference: "Testimony",
 }
 
 blackBoogers = {
   observation: "&quot;And then you get the black boogers at the end of the day&quot;",
   recommendation: "Respiratory protection program",
-  reference: "Student testimony",
+  reference: "Testimony",
 }
 
-// End student testimonies.
+// End Testimonies.
 // Begin personal observations
 
 fallingCylinder = {
-  reference: "Personal<br>observation",
+  reference: "Observation",
   observation: "Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder,<br> that subsequently falls from the cart and audibly depressurizes",
   recommendation: "Discuss expected behavior from service company employees.",
 }
 
 borax = {
-  reference: "Personal<br>observation",
+  reference: "Observation",
   observation: "Borax is used to regularly wash hands when hand soap dispenser is empty",
   recommendation:  "Discuss limiting Borax exposure<br>Anyone can/should refill handsoap dispenser",
 }
 
 respiratoryProtection = {
-  reference: "Personal<br>observation",
-  observation: "Students wearing a combination of no respiratory protection, balaclavas, and half-mask respirators with both organic and particulate filters attached.",
+  reference: "Observation",
+  observation: "Students wearing a combination of no respiratory protection, balaclavas,<br>and half-mask respirators with both organic and particulate filters attached.",
   recommendation: "Respiratory protection program"
 }
 
 designateHotArea = {
-  reference: "Personal<br>observation",
+  reference: "Observation",
   observation: "Students DIY hot warning label",
   recommendation: "Designate hot material area",
   media: "hotArea",
@@ -131,9 +131,10 @@ designateHotArea = {
 
 puddleShoes = {
   reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>Z49.1 E11.4.9.2</a>",
-  observation: "Student not wearing protective boots<br>while standing in running water.",
-  media: "puddleBoots",
-  recommendation: "Strictly have morning meeting<br>even on rainy days",
+  observation: "Student arc-welding while not wearing protective boots<br>and standing in running water",
+  media: "puddleBoots1",
+  recommendation: " ",
+  serious: " ",
 }
 
 // End personal observations.

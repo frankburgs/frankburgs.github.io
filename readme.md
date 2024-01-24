@@ -1,3 +1,10 @@
+# Status
+- Transitioning from script to script2,
+- A function that creates each td element
+- And applies necessary style to each
+- Join with the object to create styles for each a element etc.
+
+
 # 📜 To do
 - Complete the safety observations list:
 - ~4x images to take
@@ -6,9 +13,11 @@
 - The option to print is Bootstrapless CSS.
 - User can see as many related images as necessary adjacent to each other in the media pop-up modal.
 
+
 # Relevant
 - HAZCOM 29 CFR 1910.1200(e)(1)
 - https://www.ecfr.gov/current/title-29/part-1910/section-1910.1200#p-1910.1200(e)(1)
+
 
 # Images needed
 - Ladder model, height.
@@ -44,9 +53,11 @@
 
 1. ✅Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder that subsequently falls and then audibly depressurizes.
  
+ 
 ## Welding textbook
 1. High voltage signage.
 1. Emergency shower.
+
 
 ## Anecdotes
 1. ✅"My girlfriend's pants caught fire"

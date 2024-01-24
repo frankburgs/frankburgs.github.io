@@ -19,10 +19,6 @@ for (observation in observations){
   populateRow(observations[observation]) // Call the function to populate a row with an object.
 }
 
-function populateCell(val){
-
-}
-
 function populateRow(obj){
   var newRow = document.createElement("tr") // Create a table row.
   newRow.classList.add("border-primary")
