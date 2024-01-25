@@ -65,7 +65,7 @@ toolCable = {
 }
 
 fireExtinguisherInspection = {
-  observation: "Fire extinguisher inspection tag not filled out for December<br>Photo taken 17 Jan 2023",
+  observation: "Fire extinguisher inspection tag not filled out for December<br>Photo taken 17 Jan 2024",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.157#p-1910.157(e)(2)">29 CFR 1910.157(e)(2)</a>',
   recommendation: '',
   media: 'fireExtinguisherTag',

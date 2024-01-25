@@ -1,17 +1,21 @@
 
-# 📜 To do
+## 📜 To do
 - Take images
 - Add a Bootstrapless print option.
 - User can see multiple images in the media pop-up modal.
 
+## Menu
+1. Replace corner fullscreen toggle with a dropdown menu.
+1. The dropdown menu contains options for fullscreen, print, and send me an e-mail.
 
-# Images needed
+
+## 📷Images needed
 - Ladder model, height.
 - Booth grounding cable.
 - SMAW machine conducting cable.
 - Malfunctioning SMAW machine LOTO.
 
-## violations
+## 😲Violations
 
 1. ✅Sling is frayed & manufacturer's label is illegible
 1. ✅ Flammable cabinet is not labeled
