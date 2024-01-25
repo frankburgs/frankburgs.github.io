@@ -78,7 +78,7 @@ eyewashStationTag = {
   observation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://oag.ca.gov/sites/all/files/agweb/pdfs/cci/safety/eyewashes.pdf'>Eyewash station inspection tag not filled out</a>",
   reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.dir.ca.gov/title8/5162.html'>Ca Labor code Title 8 Subchapter 7<br>Group 16 Article 109 &sect;5162</a>",
   media: "eyewashStationTag",
-  recommendation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://webstore.ansi.org/standards/isea/ansiiseaz358z87eyewasheye?gad_source=1&gclid=Cj0KCQiAwbitBhDIARIsABfFYIJIfr5DDjOZu0CWTnSelTivjSseF24aAZl7WaelHiXSvwg526JT_fgaAgSmEALw_wcB'>Purchase copy of ANSI Z87.1</a><br>Install emergency shower station",
+  recommendation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://webstore.ansi.org/standards/isea/ansiiseaz358z87eyewasheye?gad_source=1&gclid=Cj0KCQiAwbitBhDIARIsABfFYIJIfr5DDjOZu0CWTnSelTivjSseF24aAZl7WaelHiXSvwg526JT_fgaAgSmEALw_wcB'>Purchase copy of ANSI Z87.1</a>",
 }
 // End Cal OSHA
 // Begin Testimonies.
@@ -130,8 +130,8 @@ designateHotArea = {
 }
 
 puddleShoes = {
-  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>Z49.1 E11.4.9.2</a>",
-  observation: "Student arc-welding while not wearing protective boots<br>and standing in running water",
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 E11.4.9.2</a>",
+  observation: "Student arc-welding while standing in running water",
   media: "puddleBoots1",
   recommendation: " ",
   serious: " ",
@@ -140,10 +140,23 @@ puddleShoes = {
 // End personal observations.
 // Begin weld textbook suggestions.
 
+emergencyShower = {
+  reference: '"Modern Welding" 12th Edition<br>GW Publisher<br>Section 1.2, page 6',
+  observation: "Textbook mentions welder&apos;s ability to douse<br>his or her entire body using emergency shower",
+  recommendation: "Install emergency shower", 
+}
+
+highVoltageSignage = {
+  reference: '"Modern Welding" 12th Edition<br>GW Publisher<br>Section 1.5.1, page 20',
+  observation: "Textbook mentions areas where > 220 V is present must be marked",
+  recommendation: "Add signage &quot;Danger: High Voltage&quot;", 
+}
 
 // End weld textbook suggestions.
 
 observations = [
+  
+  // Begin Fed OSHA
   frayedSling, 
   labelFlammableCabinet,
   cylinderFireBarrier,
@@ -157,6 +170,11 @@ observations = [
   // End Fed OSHA
   // Begin Cal OSHA
   eyewashStationTag,
+
+  // Begin welding textbook
+  emergencyShower,
+  highVoltageSignage,
+  // End welding textbook
 
   // Begin observations
   puddleShoes,

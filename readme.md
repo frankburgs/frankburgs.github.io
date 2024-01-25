@@ -1,29 +1,14 @@
-# Status
-- Transitioning from script to script2,
-- A function that creates each td element
-- And applies necessary style to each
-- Join with the object to create styles for each a element etc.
-
 
 # 📜 To do
-- Complete the safety observations list:
-- ~4x images to take
-- 2x textbook citations
-- author, date, title, and publication information (place of publication and publisher)
-- The option to print is Bootstrapless CSS.
-- User can see as many related images as necessary adjacent to each other in the media pop-up modal.
-
-
-# Relevant
-- HAZCOM 29 CFR 1910.1200(e)(1)
-- https://www.ecfr.gov/current/title-29/part-1910/section-1910.1200#p-1910.1200(e)(1)
+- Take images
+- Add a Bootstrapless print option.
+- User can see multiple images in the media pop-up modal.
 
 
 # Images needed
 - Ladder model, height.
 - Booth grounding cable.
 - SMAW machine conducting cable.
-- Fire extinguisher tags.
 - Malfunctioning SMAW machine LOTO.
 
 ## violations
@@ -36,27 +21,27 @@
 1. ✅Do not modify the forklift lifting forks.
 1. ✅Ladder labels should be legible.
 1. 🛠️Exposed booth & SMAW machine cables.
-1. 🛠️Tool electrical connection taped up. Tag and isolate.
-1. Z49.1 E11.4.9.2 Worker not wearing protective boots when working in standing water.
+1. ✅E-taped tool cable
+1. ✅Worker not wearing protective boots when working in standing water.
 
 
 ## observations
 1. ✅Borax soap incident.
-1. 🛠️Fire extinguisher inspection tag not filled out for December.
-1. General bad condition of signage.
+1. ✅Fire extinguisher inspection tag not filled out for December.
+1. 🛠️General bad condition of signage.
 
 1. ✅Students wearing a combination of no respiratory protection, balaclavas, and half-mask respirators with both organic and particulate filters attached.
 
-1. Eyewash station tag was given up on a few years back.
+1. ✅Eyewash station tag was given up on a few years back.
 
-1. Proper LOTO on malfunctioning weld booths.
+1. 🛠️Proper LOTO on malfunctioning weld booths.
 
 1. ✅Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder that subsequently falls and then audibly depressurizes.
  
  
 ## Welding textbook
-1. High voltage signage.
-1. Emergency shower.
+1. ✅High voltage signage.
+1. ✅Emergency shower.
 
 
 ## Anecdotes
