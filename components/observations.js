@@ -40,7 +40,7 @@ fireExtinguisherArea = {
 forkliftForks = {
   observation: "Forklift forks have been cut through",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.178#p-1910.178(q)(6)">29 CFR 1910.178(q)(6)</a>',
-  recommendation: "Do not alter forklift forks<br>Reference this standard in the forklift training program",
+  recommendation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.grainger.com/product/19ND78?gucid=N:N:PS:Paid:GGL:CSM-2295:4P7A1P:20501231&gad_source=1&gclid=EAIaIQobChMI4o3wlaKGhAMVGx6tBh1vEAJOEAQYAiABEgJM6PD_BwE&gclsrc=aw.ds">Replace forks</a>',
   media: "forkliftForks",
 }
 
@@ -58,7 +58,7 @@ exposedCable = {
 }
 
 toolCable = {
-  observation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.osha.gov/laws-regs/standardinterpretations/1998-12-16">Power tool cable has electrical tape covering.</a>',
+  observation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.osha.gov/laws-regs/standardinterpretations/1998-12-16">Power tool cable has electrical tape covering</a>',
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1926/section-1926.403#p-1926.403(b)(1)(iii)">29 CFR 1926.403(b)(1)(iii)</a>',
   recommendation: "Tag and isolate tool until repaired",
   media: 'tapedTool'
@@ -85,19 +85,19 @@ eyewashStationTag = {
 
 flamePants = {
   observation: "&quot;My girlfriend's pants caught on fire&quot", // Needs innerHTML to set.
-  recommendation: "Daily safety talk",
+  recommendation: "Discuss clothes material flammability",
   reference: "Testimony",
 }
 
 arcBrightness = {
   observation: "&quot;The arc is almost too bright to look at,<br>I'm messing with my helmet's auto-darkening settings&quot;",
-  recommendation: "Regularly discuss arc-flash protection<br>Reference posted shade table",
+  recommendation: "Discuss arc-flash protection<br>Reference posted shade table",
   reference: "Testimony",
 }
 
 blackBoogers = {
   observation: "&quot;And then you get the black boogers at the end of the day&quot;",
-  recommendation: "Respiratory protection program",
+  recommendation: "Discuss respiratory protection<br>past fume avoidance",
   reference: "Testimony",
 }
 
@@ -110,10 +110,11 @@ fallingCylinder = {
   recommendation: ""
 }
 
-borax = {
+washStation = {
   reference: "Observation",
-  observation: "Borax is used to regularly wash hands when hand soap dispenser is empty",
-  recommendation:  "Discuss limiting Borax exposure<br>Anyone can refill handsoap dispenser",
+  observation: "Wash station could use some TLC",
+  recommendation:  "Optimize wash station",
+  media: "washStation"
 }
 
 respiratoryProtection = {
@@ -135,6 +136,12 @@ puddleShoes = {
   media: "puddleBoots",
   recommendation: " ",
   serious: " ",
+}
+
+noSchool = {
+  reference: "Observation",
+  observation: "&ge;3 students show up to class on a school holiday",
+  recommendation:"Use e-mail notification for calendar deviations"
 }
 
 // End personal observations.
@@ -167,25 +174,20 @@ observations = [
   exposedCable,
   toolCable,
   fireExtinguisherInspection,
-  // End Fed OSHA
+  // Begin welding textbook
+  highVoltageSignage,
+  emergencyShower,
   // Begin Cal OSHA
   eyewashStationTag,
-
-  // Begin welding textbook
-  emergencyShower,
-  highVoltageSignage,
-  // End welding textbook
-
   // Begin observations
+  washStation,
   puddleShoes,
   fallingCylinder,
-  borax,
   respiratoryProtection,
   designateHotArea,
-
+  noSchool,
   // Begin testimony
   flamePants,
   arcBrightness,
   blackBoogers,
-  
 ]

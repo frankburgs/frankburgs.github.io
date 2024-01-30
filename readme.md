@@ -1,11 +1,10 @@
 
-## 📜 To do
-- Take images
-- Add a Bootstrapless print option.
+## 📜 User stories
+- The user sees a print option.
 - User can see multiple images in the media pop-up modal.
-- Add sort & filter functionality via table-header drop-down.
+- The table has sort & filter functionality.
 
-## 🛠️ Menu
+## 🛠️ Add menu
 - Replace corner fullscreen toggle with a offcanvas sidebar menu.
 - The menu contains options for fullscreen, print, and send me an e-mail.
 - Remove all class attributes from each element,
