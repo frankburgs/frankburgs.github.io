@@ -3,7 +3,7 @@ var fullScreenIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height=
 var contractScreenIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-angle-contract" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707M15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707"/></svg>'
 
 frayedSling = {
-  observation: "Sling is frayed.<br>Manufacturer's label is illegible",
+  observation: "Sling is frayed<br>Manufacturer's label is illegible",
   recommendation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.uline.com/BL_4023/Slings">Replace sling</a>',
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.184#p-1910.184(c)(1)">29 CFR 1910.184(c)(1)</a><br><a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.184#p-1910.184(c)(14)">29 CFR 1910.184(c)(14)</a>',
   media: "frayedSling",
@@ -40,7 +40,7 @@ fireExtinguisherArea = {
 forkliftForks = {
   observation: "Forklift forks have been cut through",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.178#p-1910.178(q)(6)">29 CFR 1910.178(q)(6)</a>',
-  recommendation: "Do not alter forklift forks.<br>Reference this standard in the forklift training program",
+  recommendation: "Do not alter forklift forks<br>Reference this standard in the forklift training program",
   media: "forkliftForks",
 }
 
@@ -60,7 +60,7 @@ exposedCable = {
 toolCable = {
   observation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.osha.gov/laws-regs/standardinterpretations/1998-12-16">Power tool cable has electrical tape covering.</a>',
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1926/section-1926.403#p-1926.403(b)(1)(iii)">29 CFR 1926.403(b)(1)(iii)</a>',
-  recommendation: "Tag and isolate tool until repaired.",
+  recommendation: "Tag and isolate tool until repaired",
   media: 'tapedTool'
 }
 
@@ -84,8 +84,8 @@ eyewashStationTag = {
 // Begin Testimonies.
 
 flamePants = {
-  observation: "&quot;My girlfriend's pants caught on fire.&quot", // Needs innerHTML to set.
-  recommendation: "Daily open floor toolbox safety talk",
+  observation: "&quot;My girlfriend's pants caught on fire&quot", // Needs innerHTML to set.
+  recommendation: "Daily safety talk",
   reference: "Testimony",
 }
 
@@ -118,7 +118,7 @@ borax = {
 
 respiratoryProtection = {
   reference: "Observation",
-  observation: "Students wearing a combination of no respiratory protection, balaclavas,<br>and half-mask respirators with both organic and particulate filters attached.",
+  observation: "Students wearing a combination of no respiratory protection, balaclavas,<br>and half-mask respirators with both organic and particulate filters attached",
   recommendation: "Respiratory protection program"
 }
 
