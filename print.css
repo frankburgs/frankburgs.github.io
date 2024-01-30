@@ -1,0 +1,12 @@
+@media print{
+
+  body, table, tbody{
+    color: black;
+    background-color: transparent;
+  }
+  
+  @page{
+    margin: 0.25in;
+    size: landscape;
+  }
+}

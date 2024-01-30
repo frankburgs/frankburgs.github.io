@@ -64,7 +64,7 @@ function populateRow(obj){
 
     // Button for modal.
     var btn = createModalButton() // Create button to activate modal.
-    var identifier = "randomText" + counter.toString() // Unique value to match button to modal, trying to not let the ID be an integer.
+    var identifier = "modal" + counter.toString() // Unique value to match button to modal, trying to not let the ID be an integer.
     var target = "#" + identifier // Create a target from the object variable name
     btn.setAttribute("data-bs-target", target) // Assign dynamic target from the object name.
     newCell.appendChild(btn)

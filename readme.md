@@ -3,13 +3,16 @@
 - Take images
 - Add a Bootstrapless print option.
 - User can see multiple images in the media pop-up modal.
+- Add sort & filter functionality via table-header drop-down.
 
-## Menu
-1. Replace corner fullscreen toggle with a dropdown menu.
-1. The dropdown menu contains options for fullscreen, print, and send me an e-mail.
+## 🛠️ Menu
+- Replace corner fullscreen toggle with a offcanvas sidebar menu.
+- The menu contains options for fullscreen, print, and send me an e-mail.
+- Remove all class attributes from each element,
+- then see if CSS print rules will work
 
 
-## 📷Images needed
+## 📷 Images needed
 - Ladder model, height.
 - Booth grounding cable.
 - SMAW machine conducting cable.

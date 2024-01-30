@@ -90,7 +90,7 @@ flamePants = {
 }
 
 arcBrightness = {
-  observation: "&quot;The arc is almost too bright to look at<br>I'm messing with my helmet's auto-darkening settings&quot;",
+  observation: "&quot;The arc is almost too bright to look at,<br>I'm messing with my helmet's auto-darkening settings&quot;",
   recommendation: "Regularly discuss arc-flash protection<br>Reference posted shade table",
   reference: "Testimony",
 }
@@ -107,13 +107,13 @@ blackBoogers = {
 fallingCylinder = {
   reference: "Observation",
   observation: "Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder,<br> that subsequently falls from the cart and audibly depressurizes",
-  recommendation: "Discuss expected behavior from service company employees.",
+  recommendation: ""
 }
 
 borax = {
   reference: "Observation",
   observation: "Borax is used to regularly wash hands when hand soap dispenser is empty",
-  recommendation:  "Discuss limiting Borax exposure<br>Anyone can/should refill handsoap dispenser",
+  recommendation:  "Discuss limiting Borax exposure<br>Anyone can refill handsoap dispenser",
 }
 
 respiratoryProtection = {
@@ -132,7 +132,7 @@ designateHotArea = {
 puddleShoes = {
   reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 E11.4.9.2</a>",
   observation: "Student arc-welding while standing in running water",
-  media: "puddleBoots1",
+  media: "puddleBoots",
   recommendation: " ",
   serious: " ",
 }
