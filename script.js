@@ -1,7 +1,20 @@
-// Fullscreen
+/*
+-------------------functions:
+toggleFullScreen
+populateCell
+populateRow
+
+*/
+
+var tableBody = document.getElementById("tableBody")
+var counter = 1; // Counter to match button to modal ID's and count line items.
 var toggleBtn = document.getElementById("btnToggleFullScreen")
 
-function toggleFullScreen() {
+for (observation in observations){ // Populates table
+  populateRow(observations[observation])
+}
+
+function toggleFullScreen() { // Fullscreen toggle
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen();
     toggleBtn.innerHTML = contractScreenIcon;
@@ -9,14 +22,6 @@ function toggleFullScreen() {
     document.exitFullscreen();
     toggleBtn.innerHTML = fullScreenIcon;
   }
-}
-
-// Assign table body to a variable.
-var tableBody = document.getElementById("tableBody")
-var counter = 1; // Counter to match button to modal ID's and count line items.
-
-for (observation in observations){
-  populateRow(observations[observation]) // Populate the table with observations.
 }
 
 function populateCell(row, val, serious){
