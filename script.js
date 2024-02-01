@@ -1,5 +1,6 @@
 /*
 -------------------functions:
+printIt
 toggleFullScreen
 populateCell
 populateRow
@@ -30,12 +31,10 @@ function populateCell(row, val, serious){
 
   newCell.innerHTML = val
 
-  newCell.classList.add("text-nowrap", "bg-black") // Stop line breaks (every cell ?)
+  newCell.classList.add("text-nowrap", "bg-black", "text-white") // Stop line breaks (every cell ?)
   
-  if(serious){
-    newCell.classList.add("text-danger")
-  }else{
-    newCell.classList.add("text-white")
+  if(serious){// Duplicating code because otherwise the row is not bordered red.
+    newCell.classList.add("border-danger", "border-top")
   }
 }
 
@@ -44,8 +43,10 @@ function populateRow(obj){
   var newRow = document.createElement("tr") // Create a table row.
   
   if(obj.serious){
+    newRow.classList.add("border-danger", "border-top")
     var serious = true;
   }else{
+    newRow.classList.add("border-primary")
     var serious = false;
   }
   
@@ -65,10 +66,15 @@ function populateRow(obj){
   newCell = newRow.appendChild(document.createElement("td"))
   newCell.classList.add("d-print-none", "bg-black")
   
+  // Make border red if serious
+  if(serious){// Duplicating code because otherwise the row is not bordered red.
+    newCell.classList.add("border-danger", "border-top")
+  }
+
   if (obj.media){ // If the object has a media item
 
     // Button for modal.
-    var btn = createModalButton() // Create button to activate modal.
+    var btn = createModalButton(serious) // Create button to activate modal.
     var identifier = "modal" + counter.toString() // Unique value to match button to modal, trying to not let the ID be an integer.
     var target = "#" + identifier // Create a target from the object variable name
     btn.setAttribute("data-bs-target", target) // Assign dynamic target from the object name.
@@ -88,4 +94,32 @@ function populateRow(obj){
 
   counter++; // The counter helps match dynamically generated id's from modal to button.
   tableBody.appendChild(newRow) // Append the row to the table.
+}
+
+function removeClasses(things){
+  things.forEach((thing) => {
+    thing.classList.remove("bg-black", "text-white", "border-primary", "border-danger", "border-top")
+  })
+}
+
+function printIt(){
+
+  var table = document.querySelector("table")
+  table.classList.remove("table-bordered")
+
+  var rows = document.querySelectorAll("tr")
+  removeClasses(rows)
+
+  var cells = document.querySelectorAll("td")
+  removeClasses(cells)
+
+  var heads = document.querySelectorAll("th")
+  removeClasses(heads)
+
+  var links = document.querySelectorAll("a")
+  links.forEach((link) => {
+    link.classList.remove("link-info", "link-offset-2", "link-underline-opacity-25", "link-underline-opacity-100-hover")
+  })
+
+  window.print()
 }

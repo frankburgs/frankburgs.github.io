@@ -1,35 +1,19 @@
-
 ## 📜 User stories
-- The user sees a print option.
 - User can see multiple images in the media pop-up modal.
 - The table has sort & filter functionality.
 
-## 🛠️ Add menu
-- Replace corner fullscreen toggle with a offcanvas sidebar menu.
-- The menu contains options for fullscreen, print, and send me an e-mail.
-- Remove all class attributes from each element,
-- then see if CSS print rules will work
-
-
-## 📷 Images needed
-- Ladder model, height.
-- Booth grounding cable.
-- SMAW machine conducting cable.
-- Malfunctioning SMAW machine LOTO.
 
 ## 😲Violations
-
 1. ✅Sling is frayed & manufacturer's label is illegible
-1. ✅ Flammable cabinet is not labeled
+1. ✅Flammable cabinet is not labeled
 1. ✅Cylinder cart barrier.
 1. ✅Keep electrical surfaces clear of materials.
 1. ✅Keep area around fire extinguishers clear.
-1. ✅Do not modify the forklift lifting forks.
-1. ✅Ladder labels should be legible.
-1. 🛠️Exposed booth & SMAW machine cables.
+1. 🛠️Do not modify the forklift lifting forks.
+1. 🛠️Ladder labels should be legible.
+1. 📷Exposed booth & SMAW machine cables.
 1. ✅E-taped tool cable
 1. ✅Worker not wearing protective boots when working in standing water.
-
 
 ## observations
 1. ✅Borax soap incident.
@@ -40,15 +24,13 @@
 
 1. ✅Eyewash station tag was given up on a few years back.
 
-1. 🛠️Proper LOTO on malfunctioning weld booths.
+1. 📷Proper LOTO on malfunctioning weld booths.
 
 1. ✅Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder that subsequently falls and then audibly depressurizes.
- 
  
 ## Welding textbook
 1. ✅High voltage signage.
 1. ✅Emergency shower.
-
 
 ## Anecdotes
 1. ✅"My girlfriend's pants caught fire"

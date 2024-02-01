@@ -1,8 +1,24 @@
 @media print{
 
-  body, table, tbody{
+  table{
     color: black;
     background-color: transparent;
+    border: none;
+  }
+
+  th{
+    color: black;
+    border: none;
+  }
+
+  td{
+    border: dashed;
+    border-width: 1px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
   }
   
   @page{

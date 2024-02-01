@@ -1,10 +1,14 @@
 // Create a button
 
-function createModalButton(){
+function createModalButton(serious){
   var btn = document.createElement("button")
 
-  btn.classList.add("btn", "btn-info")
-  
+  if(serious){
+    btn.classList.add("btn", "btn-danger")
+  }else{
+    btn.classList.add("btn", "btn-info")
+  }
+
   btn.setAttribute("type", "button")
   btn.setAttribute("data-bs-toggle", "modal")
   
