@@ -12,8 +12,8 @@
   }
 
   td{
-    border: dashed;
     border-width: 1px;
+    border-style: dashed none dashed none;
   }
 
   a{

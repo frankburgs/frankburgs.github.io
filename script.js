@@ -1,9 +1,9 @@
 /*
--------------------functions:
-printIt
-toggleFullScreen
-populateCell
-populateRow
+
+printIt()
+toggleFullScreen()
+populateCell(row,val,serious)
+populateRow(obj)
 
 */
 
@@ -105,7 +105,7 @@ function removeClasses(things){
 function printIt(){
 
   var table = document.querySelector("table")
-  table.classList.remove("table-bordered")
+  table.classList.remove("table-bordered","table")
 
   var rows = document.querySelectorAll("tr")
   removeClasses(rows)

@@ -52,7 +52,7 @@ ladderLabel = {
 }
 
 exposedCable = {
-  observation: "Exposed conducting cable in SMAW booth setup",
+  observation: "Exposed conducting cable in SMAW area",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.254#p-1910.254(d)(9)(iii)">29 CFR 1910.254(d)(9)(iii)</a><br><a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.305#p-1910.305(f)(1)">29 CFR 1910.305(f)(1)</a>',
   recommendation: "Insulate conductors",
 }
@@ -85,7 +85,7 @@ eyewashStationTag = {
 
 flamePants = {
   observation: "&quot;My girlfriend's pants caught on fire&quot", // Needs innerHTML to set.
-  recommendation: "Discuss clothes material flammability",
+  recommendation: "Discuss clothing flammability",
   reference: "Testimony",
 }
 
@@ -148,13 +148,13 @@ noSchool = {
 // Begin weld textbook suggestions.
 
 emergencyShower = {
-  reference: '"Modern Welding" 12th Edition<br>GW Publisher<br>Section 1.2, page 6',
+  reference: '"Modern Welding" 12th ed.<br>GW Publisher<br>Section 1.2 page 6',
   observation: "Textbook mentions welder&apos;s ability to douse<br>his or her entire body using emergency shower",
   recommendation: "Install emergency shower", 
 }
 
 highVoltageSignage = {
-  reference: '"Modern Welding" 12th Edition<br>GW Publisher<br>Section 1.5.1, page 20',
+  reference: '"Modern Welding" 12th ed.<br>GW Publisher<br>Section 1.5.1 page 20',
   observation: "Textbook mentions areas where > 220 V is present must be marked",
   recommendation: "Add signage &quot;Danger: High Voltage&quot;", 
 }
