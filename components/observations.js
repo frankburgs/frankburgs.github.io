@@ -65,7 +65,7 @@ toolCable = {
 }
 
 fireExtinguisherInspection = {
-  observation: "Fire extinguisher inspection tag not filled out for December<br>Photo taken 17 Jan 2024",
+  observation: "Fire extinguisher inspection tag not filled out for December<span class='d-print-none'><br>Photo taken 17 Jan 2024</span>",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.157#p-1910.157(e)(2)">29 CFR 1910.157(e)(2)</a>',
   recommendation: '',
   media: 'fireExtinguisherTag',
@@ -86,19 +86,19 @@ eyewashStationTag = {
 flamePants = {
   observation: "&quot;My girlfriend's pants caught on fire&quot", // Needs innerHTML to set.
   recommendation: "Discuss clothing flammability",
-  reference: "Testimony",
+  reference: "Anecdote",
 }
 
 arcBrightness = {
   observation: "&quot;The arc is almost too bright to look at,<br>I'm messing with my helmet's auto-darkening settings&quot;",
   recommendation: "Discuss arc-flash protection<br>Reference posted shade table",
-  reference: "Testimony",
+  reference: "Anecdote",
 }
 
 blackBoogers = {
   observation: "&quot;And then you get the black boogers at the end of the day&quot;",
   recommendation: "Discuss respiratory protection<br>past fume avoidance",
-  reference: "Testimony",
+  reference: "Anecdote",
 }
 
 // End Testimonies.
