@@ -124,7 +124,7 @@ respiratoryProtection = {
 }
 
 designateHotArea = {
-  reference: "Observation",
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 3.2.3.4</a>",
   observation: "Students DIY hot warning label",
   recommendation: "Designate hot material area",
   media: "hotArea",
@@ -182,9 +182,9 @@ observations = [
   // Begin observations
   washStation,
   puddleShoes,
+  designateHotArea,
   fallingCylinder,
   respiratoryProtection,
-  designateHotArea,
   noSchool,
   // Begin testimony
   flamePants,
