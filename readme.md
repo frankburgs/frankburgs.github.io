@@ -2,7 +2,6 @@
 - User can see multiple images in the media pop-up modal.
 - The table has sort & filter functionality.
 
-
 ## 😲Violations
 1. ✅Sling is frayed & manufacturer's label is illegible
 1. ✅Flammable cabinet is not labeled
@@ -18,15 +17,14 @@
 ## observations
 1. ✅Borax soap incident.
 1. ✅Fire extinguisher inspection tag not filled out for December.
-1. 🛠️General bad condition of signage.
-
+1. 🛠️Deteriorated signage.
 1. ✅Students wearing a combination of no respiratory protection, balaclavas, and half-mask respirators with both organic and particulate filters attached.
-
 1. ✅Eyewash station tag was given up on a few years back.
-
 1. 📷Proper LOTO on malfunctioning weld booths.
 
-1. ✅Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder that subsequently falls and then audibly depressurizes.
+## ANSI Z49.1
+1. 🛠️ 11.4.9.4 Electrode holders are not in good repair
+1. 🛠️10.8.3 Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder that subsequently falls and then audibly depressurizes.
  
 ## Welding textbook
 1. ✅High voltage signage.
@@ -35,4 +33,4 @@
 ## Anecdotes
 1. ✅"My girlfriend's pants caught fire"
 1. ✅"The arc is almost too bright to look at but I'm messing with the auto-darkening filter settings"
-1. "✅And then you get the black boogers at the end of the day"
+1. ✅"And then you get the black boogers at the end of the day"

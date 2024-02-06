@@ -51,9 +51,6 @@ function populateRow(obj){
   }
   
   // Line item #
-  //populateCell(newRow, counter.toString(), serious)
-
-  // replace above with below to hide line item # on print
   newCell = newRow.appendChild(document.createElement("td"))
 
   newCell.innerHTML = counter.toString()

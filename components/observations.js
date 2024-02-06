@@ -65,14 +65,11 @@ toolCable = {
 }
 
 fireExtinguisherInspection = {
-  observation: "Fire extinguisher inspection tag not filled out for December<span class='d-print-none'><br>Photo taken 17 Jan 2024</span>",
+  observation: "Fire extinguisher inspection tag not filled out for December<span class='d-print-none'><br>Photo taken 17 Jan 2024, no change as of 5 Feb 2024</span>",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.157#p-1910.157(e)(2)">29 CFR 1910.157(e)(2)</a>',
   recommendation: '',
   media: 'fireExtinguisherTag',
 }
-
-// End Fed OSHA
-// Begin Cal OSHA
 
 eyewashStationTag = {
   observation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://oag.ca.gov/sites/all/files/agweb/pdfs/cci/safety/eyewashes.pdf'>Eyewash station inspection tag not filled out</a>",
@@ -80,13 +77,11 @@ eyewashStationTag = {
   media: "eyewashStationTag",
   recommendation: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://webstore.ansi.org/standards/isea/ansiiseaz358z87eyewasheye?gad_source=1&gclid=Cj0KCQiAwbitBhDIARIsABfFYIJIfr5DDjOZu0CWTnSelTivjSseF24aAZl7WaelHiXSvwg526JT_fgaAgSmEALw_wcB'>Purchase copy of ANSI Z87.1</a>",
 }
-// End Cal OSHA
-// Begin Testimonies.
 
 flamePants = {
   observation: "&quot;My girlfriend's pants caught on fire&quot", // Needs innerHTML to set.
   recommendation: "Discuss clothing flammability",
-  reference: "Anecdote",
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 4.3</a>",
 }
 
 arcBrightness = {
@@ -101,11 +96,8 @@ blackBoogers = {
   reference: "Anecdote",
 }
 
-// End Testimonies.
-// Begin personal observations
-
 fallingCylinder = {
-  reference: "Observation",
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 10.8.3.1</a>",
   observation: "Gas cylinder company employee overloads a 2-cylinder cart with a third cylinder,<br> that subsequently falls from the cart and audibly depressurizes",
   recommendation: ""
 }
@@ -120,7 +112,7 @@ washStation = {
 respiratoryProtection = {
   reference: "Observation",
   observation: "Students wearing a combination of no respiratory protection, balaclavas,<br>and half-mask respirators with both organic and particulate filters attached",
-  recommendation: "Respiratory protection program"
+  recommendation: "Discuss respiratory protection"
 }
 
 designateHotArea = {
@@ -140,29 +132,34 @@ puddleShoes = {
 
 noSchool = {
   reference: "Observation",
-  observation: "&ge;3 students show up to class on a school holiday",
-  recommendation:"Use e-mail notification for calendar deviations"
+  observation: "&ge;4 students show up to class on a school holiday",
+  recommendation:"Use e-mail notification for days off"
 }
 
-// End personal observations.
-// Begin weld textbook suggestions.
-
 emergencyShower = {
-  reference: '"Modern Welding" 12th ed.<br><span class="d-print-none">GW Publisher<br></span>Section 1.2 page 6',
+  reference: '"Modern Welding" 12th ed.<br>G.W., Section 1.2 page 6',
   observation: "Textbook mentions welder&apos;s ability to douse<br>his or her entire body using emergency shower",
   recommendation: "Install emergency shower", 
 }
 
 highVoltageSignage = {
-  reference: '"Modern Welding" 12th ed.<br><span class="d-print-none">GW Publisher<br></span>Section 1.5.1 page 20',
+  reference: '"Modern Welding" 12th ed.<br>G.W., Section 1.5.1 page 20',
   observation: "Textbook mentions areas where > 220 V is present must be marked",
   recommendation: "Add signage &quot;Danger: High Voltage&quot;", 
 }
 
-// End weld textbook suggestions.
+bootTops = {
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 E4.3</a>",
+  observation: "Students trousers do not overlap with boot top",
+  recommendation: "PPE signage",
+}
 
+electrodeHolders = {
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 11.4.9.4</a>",
+  observation: "Electrode holders are not in good repair",
+  recommendation: "Replace electrode holders",
+}
 observations = [
-  
   // Begin Fed OSHA
   frayedSling, 
   labelFlammableCabinet,
@@ -177,17 +174,20 @@ observations = [
   // Begin welding textbook
   highVoltageSignage,
   emergencyShower,
-  // Begin Cal OSHA
-  eyewashStationTag,
-  // Begin observations
-  washStation,
+
+  eyewashStationTag, // Cal
+
+  // Begin AWS ANSI
   puddleShoes,
   designateHotArea,
   fallingCylinder,
-  respiratoryProtection,
-  noSchool,
-  // Begin testimony
-  flamePants,
+  bootTops,
+  electrodeHolders,
+  flamePants,  
+  // Observations
   arcBrightness,
   blackBoogers,
+  washStation,// wash recommendation
+  respiratoryProtection,
+  noSchool,
 ]
