@@ -132,14 +132,14 @@ puddleShoes = {
 
 noSchool = {
   reference: "Observation",
-  observation: "&ge;4 students show up to class on a school holiday",
+  observation: "&ge;3 students show up to class on a school holiday",
   recommendation:"Use e-mail notification for days off"
 }
 
 emergencyShower = {
   reference: '"Modern Welding" 12th ed.<br>G.W., Section 1.2 page 6',
   observation: "Textbook mentions welder&apos;s ability to douse<br>his or her entire body using emergency shower",
-  recommendation: "Install emergency shower", 
+  recommendation: "Consider emergency shower<br>Discuss fire blanket usage", 
 }
 
 highVoltageSignage = {

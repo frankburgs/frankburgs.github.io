@@ -13,14 +13,14 @@
 
 <body>
 
-  <table class="table table-bordered text-end align-middle">
+  <table class="table table-bordered align-middle">
 
-    <thead>
+    <thead class="d-print-none">
 
-      <tr class="border-primary">
-        <th class="bg-black text-white d-print-none">
+      <tr class="border-primary text-center align-middle">
+        <th class="bg-black text-whitee">
 
-          <div class="dropdown d-print-none">
+          <div class="dropdown">
             <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
             </button>
@@ -28,25 +28,25 @@
             <ul class="dropdown-menu dropdown-menu-dark">
               <li><a class="dropdown-item" onclick="toggleFullScreen()" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707m0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707"/>
-              </svg>  Toggle Fullscreen</a></li>
+              </svg>&nbsp;&nbsp;&nbsp;&nbsp;Toggle Fullscreen</a></li>
 
               <li><a class="dropdown-item" onclick="printIt()" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill" viewBox="0 0 16 16">
                 <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1"/>
                 <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
-              </svg>  Print</a></li>
+              </svg>&nbsp;&nbsp;&nbsp;&nbsp;Print</a></li>
 
               <li><a class="dropdown-item" href="#" onclick='window.open("mailto:franciscoburgers@yahoo.com?subject=From Github&body=");'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
-              </svg>  E-mail me</a></li>
+              </svg>&nbsp;&nbsp;&nbsp;&nbsp;E-mail me</a></li>
             </ul>
           </div>
         </th>
         <!-- End table dropdown menu -->
         <!-- Begin column headers -->
-        <th class="bg-black text-white align-middle">Reference</th>
-        <th class="bg-black text-white align-middle">Observation</th>
-        <th class="bg-black text-white align-middle">Recommendation</th>
-        <th class="bg-black text-white align-middle d-print-none">Media</th>
+        <th class="bg-black text-white">Reference</th>
+        <th class="bg-black text-white">Observation</th>
+        <th class="bg-black text-white">Recommendation</th>
+        <th class="bg-black text-white d-print-none">Media</th>
       </tr>
 
     </thead>

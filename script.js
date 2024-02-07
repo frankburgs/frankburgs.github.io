@@ -72,7 +72,7 @@ function populateRow(obj){
 
   // Create a cell that is populated only if the object has a media entry.
   newCell = newRow.appendChild(document.createElement("td"))
-  newCell.classList.add("d-print-none", "bg-black")
+  newCell.classList.add("d-print-none", "bg-black", "text-end")
   
   // Make border red if serious
   if(serious){// Duplicating code because otherwise the row is not bordered red.
