@@ -34,7 +34,8 @@ fireExtinguisherArea = {
   observation: "Space around fire extinguishers is cluttered",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.157#p-1910.157(c)(1)">29 CFR 1910.157(c)(1)</a>',
   recommendation: 'Maintain clearance around fire extinguishers',
-  media: "fireExtinguisherClearance",
+  media: "fireExtinguisherClearance1",
+  media2: "fireExtinguisherClearance2"
 }
 
 forkliftForks = {
