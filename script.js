@@ -1,9 +1,10 @@
 /*
 
-printIt()
 toggleFullScreen()
 populateCell(row,val,serious)
 populateRow(obj)
+removeClasses()
+printIt()
 
 */
 
@@ -75,7 +76,7 @@ function populateRow(obj){
   newCell.classList.add("d-print-none", "bg-black", "text-end")
   
   // Make border red if serious
-  if(serious){// Duplicating code because otherwise the row is not bordered red.
+  if(serious){// Duplicating code otherwise the row is not bordered red.
     newCell.classList.add("border-danger", "border-top")
   }
 
@@ -83,9 +84,13 @@ function populateRow(obj){
 
     // Button for modal.
     var btn = createModalButton(serious) // Create button to activate modal.
+
     var identifier = "modal" + counter.toString() // Unique value to match button to modal, trying to not let the ID be an integer.
-    var target = "#" + identifier // Create a target from the object variable name
+
+    var target = "#" + identifier // Create a target from the object variable name.
+
     btn.setAttribute("data-bs-target", target) // Assign dynamic target from the object name.
+
     newCell.appendChild(btn)
 
     // Modal.
@@ -96,22 +101,30 @@ function populateRow(obj){
     var imgURL = "images/" + obj.media + ".jpg"
 
     // Populate modal HTML
-    newModal.innerHTML = '<div class="modal-dialog"><div class="modal-content bg-dark"><div class="modal-header"><button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></button></div><div class="modal-body"><img src="' + imgURL + '" class="img-fluid"></div></div></div>'
-    document.body.appendChild(newModal) // Append the modal to the bodoy.
+    if(obj.media2){
+      var imgURL2 = "images/" + obj.media2 + ".jpg"
+      newModal.innerHTML = '<div class="modal-dialog modal-xl"><div class="modal-content bg-dark"><div class="modal-header"><button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></button></div><div class="modal-body d-flex"><img src="' + imgURL + '" style="width: 33%"><img src="' + imgURL2 + '" style="width: 33%"></div></div></div>'
+    }
+    else{
+      newModal.innerHTML = '<div class="modal-dialog"><div class="modal-content bg-dark"><div class="modal-header"><button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></button></div><div class="modal-body"><img src="' + imgURL + '" class="img-fluid"></div></div></div>'
+    }
+    document.body.appendChild(newModal) // Append the modal to the body.
   }
 
   counter++; // The counter helps match dynamically generated id's from modal to button.
   tableBody.appendChild(newRow) // Append the row to the table.
 }
 
+
+// Removes classes of components for print
 function removeClasses(things){
   things.forEach((thing) => {
     thing.classList.remove("bg-black", "text-white", "border-primary", "border-danger", "border-top")
   })
 }
 
+// Changes page appearance for printing.
 function printIt(){
-
   var table = document.querySelector("table")
   table.classList.remove("table-bordered","table")
 

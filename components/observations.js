@@ -55,6 +55,8 @@ exposedCable = {
   observation: "Exposed conducting cable in SMAW area",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.254#p-1910.254(d)(9)(iii)">29 CFR 1910.254(d)(9)(iii)</a><br><a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.305#p-1910.305(f)(1)">29 CFR 1910.305(f)(1)</a>',
   recommendation: "Insulate conductors",
+  media:'exposedWire1',
+  media2: 'exposedWire2'
 }
 
 toolCable = {
@@ -64,11 +66,12 @@ toolCable = {
   media: 'tapedTool'
 }
 
-fireExtinguisherInspection = {
-  observation: "Fire extinguisher inspection tag not filled out for December<span class='d-print-none'><br>Photo taken 17 Jan 2024, no change as of 5 Feb 2024</span>",
+fireExtinguisherTag = {
+  observation: "Fire extinguisher inspection tag not filled out for December, January, February",
   reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.157#p-1910.157(e)(2)">29 CFR 1910.157(e)(2)</a>',
   recommendation: '',
-  media: 'fireExtinguisherTag',
+  media: 'fireExtinguisherTag1',
+  media2: 'fireExtinguisherTag2'
 }
 
 eyewashStationTag = {
@@ -158,7 +161,30 @@ electrodeHolders = {
   reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 11.4.9.4</a>",
   observation: "Electrode holders are not in good repair",
   recommendation: "Replace electrode holders",
+  media: "electrodeHolder"
 }
+
+deterioratedSignage = {
+  reference: "Observation",
+  observation: "Signage deteriorated",
+  recommendation: "Replace signage",
+  media: "deterioratedSignage"
+}
+
+malfunctioningSMAWmachine = {
+  reference: "Observation",
+  observation: "Duct tape and paper used to mark malfunctioning equipment",
+  recommendation: "",
+  media: "SMAWmachineLOTO"
+}
+
+leatherJacketDump = {
+  reference: "Observatiom",
+  observation: "Leather jackets dumped in container develop smell during wet weather",
+  recommendation: "Use coat rack for leather jacket storage",
+  media: "leatherJacketDump"
+}
+
 observations = [
   // Begin Fed OSHA
   frayedSling, 
@@ -170,7 +196,7 @@ observations = [
   ladderLabel,
   exposedCable,
   toolCable,
-  fireExtinguisherInspection,
+  fireExtinguisherTag,
   // Begin welding textbook
   highVoltageSignage,
   emergencyShower,
@@ -190,4 +216,7 @@ observations = [
   washStation,// wash recommendation
   respiratoryProtection,
   noSchool,
+  deterioratedSignage,
+  malfunctioningSMAWmachine,
+  leatherJacketDump
 ]
