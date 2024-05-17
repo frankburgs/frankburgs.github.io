@@ -206,7 +206,25 @@ leatherJacketDump = {
 
 eating = {
   reference: "Observation",
-  observation: "Students eat in the shop and near metal cutting areas.",
+  observation: "Students eat in the shop and near metal cutting areas",
+  recommendation: "",
+}
+
+cSuites = {
+  reference: "ANSI Z49.1 4.2.1.4",
+  observation: "College president and associated staff perform media & walkthrough in working area during work without PPE on date X",
+  recommendation: "",
+}
+
+curriculum = {
+  reference: "Observation",
+  observation: "Curriculum does not include coverage of AWS ANSI standards, OSHA standards, safety data sheets, technical data sheets, or user manuals",
+  recommendation: "",
+}
+
+feedback = {
+  reference: "Observation",
+  observation: "No anonymous/whistleblower suggestion/complaint mechanism promoted",
   recommendation: "",
 }
 
@@ -222,6 +240,7 @@ observations = [
   exposedCable,
   toolCable,
   fireExtinguisherTag,
+  
   // Begin welding textbook
   highVoltageSignage,
   emergencyShower,
@@ -234,7 +253,9 @@ observations = [
   fallingCylinder,
   bootTops,
   electrodeHolders,
-  flamePants,  
+  flamePants,
+  cSuites,
+  
   // Observations
   arcBrightness,
   blackBoogers,
@@ -245,5 +266,6 @@ observations = [
   malfunctioningSMAWmachine,
   leatherJacketDump,
   eating,
-  
+  curriculum,
+  feedback,
 ]
