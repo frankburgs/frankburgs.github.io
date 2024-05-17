@@ -212,13 +212,13 @@ eating = {
 
 cSuites = {
   reference: "ANSI Z49.1 4.2.1.4",
-  observation: "College president and associated staff perform media & walkthrough in working area during work without PPE on date X",
+  observation: "College administrative staff perform media & walkthrough<br>in working area during hot work without PPE",
   recommendation: "",
 }
 
 curriculum = {
   reference: "Observation",
-  observation: "Curriculum does not include coverage of AWS ANSI standards, OSHA standards, safety data sheets, technical data sheets, or user manuals",
+  observation: "Curriculum does not include coverage of AWS ANSI standards,<br>OSHA standards, safety data sheets, technical data sheets, or user manuals",
   recommendation: "",
 }
 
