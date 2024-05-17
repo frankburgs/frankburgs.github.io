@@ -1,5 +1,7 @@
 /*
 
+This is the script that populates index.html
+
 toggleFullScreen()
 populateCell(row,val,serious)
 populateRow(obj)

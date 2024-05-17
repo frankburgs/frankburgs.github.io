@@ -211,7 +211,7 @@ eating = {
 }
 
 cSuites = {
-  reference: "ANSI Z49.1 4.2.1.4",
+  reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.aws.org/Standards-and-Publications/Free-Resources/'>ANSI Z49.1 4.2.1.4</a>",
   observation: "College administrative staff perform media & walkthrough<br>in working area during hot work without PPE",
   recommendation: "",
 }
