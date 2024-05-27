@@ -224,7 +224,7 @@ curriculum = {
 
 feedback = {
   reference: "Observation",
-  observation: "No anonymous/whistleblower suggestion/complaint mechanism promoted",
+  observation: "No anonymous institutional suggestion mechanism promoted",
   recommendation: "",
 }
 
