@@ -233,7 +233,13 @@ observations = [
 {
   reference: 'Observation',
   observation: "Majority of new students fail safety quiz",
-  recommendation: "Treat exam and answer key as controlled documents",
-}
+  recommendation: "Add to controlled documents:<br>safety exam, safety exam answer key",
+},
+
+{
+  reference: 'Observation',
+  observation: "Introductory class using mixed metal stock",
+  recommendation: "Document consumible life cycle"
+},
 
 ]
