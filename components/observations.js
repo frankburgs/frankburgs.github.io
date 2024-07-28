@@ -195,7 +195,7 @@ observations = [
 {
   reference: "Observation",
   observation: "Duct tape and paper used to mark malfunctioning equipment",
-  recommendation: "",
+  recommendation: "Document LOTO procedures",
   media: "SMAWmachineLOTO"
 },
 
