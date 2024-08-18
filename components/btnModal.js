@@ -10,7 +10,7 @@ function createModalButton(serious){
   }
 
   btn.setAttribute("type", "button")
-  btn.setAttribute("data-bs-toggle", "modal")
+  btn.setAttribute("data-bs-toggle", "modal") // It only works on a separate line ❔
   
   btn.innerHTML = cameraIcon
 

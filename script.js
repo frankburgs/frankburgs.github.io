@@ -1,38 +1,19 @@
-/*
-
-This is the script that populates index.html
-
-toggleFullScreen()
-populateCell(row,val,serious)
-populateRow(obj)
-removeClasses()
-printIt()
-
-*/
-
 var tableBody = document.getElementById("tableBody")
+
 var counter = 1; // Counter to match button to modal ID's and count line items.
-var toggleBtn = document.getElementById("btnToggleFullScreen")
-
-for (observation in observations){ // Populates table
-  populateRow(observations[observation])
+const sortedObservations = sortObservations();
+for (observation in sortedObservations){
+  populateRow(sortedObservations[observation])
 }
 
-function toggleFullScreen() { // Fullscreen toggle
-  if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen();
-    toggleBtn.innerHTML = contractScreenIcon;
-  } else if (document.exitFullscreen) {
-    document.exitFullscreen();
-    toggleBtn.innerHTML = fullScreenIcon;
-  }
-}
 
+
+// serious needs to be sent to cell to color top red as the bootstrap row does not.
 function populateCell(row, val, serious){
 
-  newCell = row.appendChild(document.createElement("td"))
+  newCell = row.appendChild(document.createElement("td"));
 
-  newCell.innerHTML = val
+  newCell.innerHTML = val;
 
   newCell.classList.add("text-nowrap", "bg-black", "text-white") // Stop line breaks (every cell ?)
   
@@ -41,13 +22,15 @@ function populateCell(row, val, serious){
   }
 }
 
+
+// Cannot daisy chain observations[obs].anything 🤔
 function populateRow(obj){
 
   var newRow = document.createElement("tr") // Create a table row.
   
   if(obj.serious){
     newRow.classList.add("border-danger", "border-top")
-    var serious = true;
+    var serious = true; // why ?
   }else{
     newRow.classList.add("border-primary")
     var serious = false;
@@ -56,12 +39,12 @@ function populateRow(obj){
   // Line item #
   newCell = newRow.appendChild(document.createElement("td"))
 
-  newCell.innerHTML = counter.toString()
+  newCell.innerHTML = counter.toString();
 
   newCell.classList.add("text-nowrap", "bg-black", "text-white", "text-start", "d-print-none") // Stop line breaks (every cell ?)
   
   if(serious){// Duplicating code because otherwise the row is not bordered red.
-    newCell.classList.add("border-danger", "border-top")
+    newCell.classList.add("border-danger", "border-top");
   }
   
   // The reference
@@ -100,11 +83,12 @@ function populateRow(obj){
     newModal.classList.add("modal", "fade", "bg-black")
     newModal.setAttribute("tabindex", "-1") // Bootstrap says so.
     newModal.id = identifier // Add the object name as the modal ID.
-    var imgURL = "images/" + obj.media + ".jpg"
+    var imgURL = "data/images/" + obj.media + ".jpg"
 
-    // Populate modal HTML
+    // Maybe do this conditionally on image click.
+    // Populate modal HTML.
     if(obj.media2){
-      var imgURL2 = "images/" + obj.media2 + ".jpg"
+      var imgURL2 = "data/images/" + obj.media2 + ".jpg"
       newModal.innerHTML = '<div class="modal-dialog modal-xl"><div class="modal-content bg-dark"><div class="modal-header"><button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></button></div><div class="modal-body"><img src="' + imgURL + '" class="w-50"><img src="' + imgURL2 + '" class="w-50"></div></div></div>'
     }
     else{
@@ -113,36 +97,7 @@ function populateRow(obj){
     document.body.appendChild(newModal) // Append the modal to the body.
   }
 
-  counter++; // The counter helps match dynamically generated id's from modal to button.
+  counter++; // The counter matches dynamically generated id's from modal to button.
+  
   tableBody.appendChild(newRow) // Append the row to the table.
-}
-
-
-// Removes classes of components for print
-function removeClasses(things){
-  things.forEach((thing) => {
-    thing.classList.remove("bg-black", "text-white", "border-primary", "border-danger", "border-top")
-  })
-}
-
-// Changes page appearance for printing.
-function printIt(){
-  var table = document.querySelector("table")
-  table.classList.remove("table-bordered","table")
-
-  var rows = document.querySelectorAll("tr")
-  removeClasses(rows)
-
-  var cells = document.querySelectorAll("td")
-  removeClasses(cells)
-
-  var heads = document.querySelectorAll("th")
-  removeClasses(heads)
-
-  var links = document.querySelectorAll("a")
-  links.forEach((link) => {
-    link.classList.remove("link-info", "link-offset-2", "link-underline-opacity-25", "link-underline-opacity-100-hover")
-  })
-
-  window.print()
 }

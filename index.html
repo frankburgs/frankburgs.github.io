@@ -1,20 +1,29 @@
 <html lang="en" class="bg-black">
 
 <head>
-  <title>Safety Observations</title>
 
-  <link rel="icon" href="images/icon.svg" type="image">
-  <script src="bootstrap/popper.js"></script><!-- Popper for bootstrapped dropdown -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"><!-- Bootstrap stylesheet -->
+  <!-- 😴 -->
+  <title>Safety Observations</title>
+  <link rel="icon" href="data/images/icon.svg" type="image">
+  <script src="components/print.js"></script>
+  <script src="components/fullscreen.js"></script>
+  <script src="scripts/sort.js"></script>
   
-  <script src="components/observations.js"></script><!-- Load the safety lists into browser memory -->
+  <!-- Style -->
+  <script src="style/bootstrap/popper.js"></script><!-- Popper for bootstrapped dropdown -->
+  <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css"><!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="style/print.css"><!-- Print -->
+  
+  <!-- Components -->
+  <script src="components/svg/svg.js"></script>
   <script src="components/btnModal.js"></script><!-- Load the modal component into browser memory -->
+
+  <!-- The list -->
+  <script src="data/observations.js"></script><!-- Load the safety lists into browser memory -->
 </head>
 
 <body>
-
   <table class="table table-bordered align-middle">
-
     <thead class="d-print-none">
 
       <tr class="border-primary text-center align-middle">
@@ -35,7 +44,7 @@
                 <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
               </svg>&nbsp;&nbsp;&nbsp;&nbsp;Print</a></li>
 
-              <li><a class="dropdown-item" href="#" onclick='window.open("mailto:franciscoburgers@yahoo.com?subject=From Github&body=");'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+              <li><a class="dropdown-item" href="#" onclick='window.open("mailto:franciscoburgers@yahoo.com?subject=From Github");'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                 <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
               </svg>&nbsp;&nbsp;&nbsp;&nbsp;E-mail me</a></li>
             </ul>
@@ -48,12 +57,12 @@
         <th class="bg-black text-white">Recommendation</th>
         <th class="bg-black text-white d-print-none">Media</th>
       </tr>
-
     </thead>
+
     <tbody id="tableBody"></tbody>
+    
   </table>
 </body>
 </html>
 <script src="script.js"></script><!-- Populate the table -->
-<script src="bootstrap/js/bootstrap.min.js"></script><!-- Bootstrap script -->
-<link rel="stylesheet" href="print.css"><!-- Print -->
+<script src="style/bootstrap/js/bootstrap.min.js"></script><!-- Bootstrap script -->
