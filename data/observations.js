@@ -261,4 +261,13 @@ var observations = [
     observation: "Introductory class using mixed metal stock",
     recommendation: "Document consumible life cycle"
   },
+
+  {
+    type: "anecdote",
+    observation: "&quot;What am I supposed to do, just fix everything?&quot;",
+    recommendation: "Empower teaching staff with confidence<br/>to at least try to &quot;fix everything&quot;",
+    reference: "Anecdote",
+  },
+
+  
 ]
