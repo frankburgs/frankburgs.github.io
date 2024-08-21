@@ -265,7 +265,7 @@ var observations = [
   {
     type: "anecdote",
     observation: "&quot;What am I supposed to do, just fix everything?&quot;",
-    recommendation: "Empower teaching staff with confidence<br/>to at least try to &quot;fix everything&quot;",
+    recommendation: "Empower teaching staff with confidence<br/>to implement a Safety Management System",
     reference: "Anecdote",
   },
 
