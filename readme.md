@@ -13,7 +13,7 @@ It can be viewed in your browser @ frankburgs.github.io
 
 2️⃣ Modify code to not require recommendation keyed object.
 
-3️⃣ Add 93-item Weld safety checklist to program using Adobe OCR.
+3️⃣ Incorporate 93-item Weld safety checklist to program using Adobe OCR.
 
 3️⃣ Table column sorting functionality.
 
@@ -23,14 +23,4 @@ It can be viewed in your browser @ frankburgs.github.io
 - SDS's, TDS's, fact sheets, etc.
 - Linked to line item and dropdown menu.
 
-🦺 find legal requirement for signage legibility and or condition.
-
-✅ Restructure.
-
-## Folder structure
-
-
-
-### Style folder
-- 🌈print.css
-- 📁 bootstrap folder
+🦺 find legal requirement for signage legibility (or 'condition').
