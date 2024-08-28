@@ -5,6 +5,9 @@ this is a table of safety observations I made while attending welding school.
 It can be viewed in your browser @ frankburgs.github.io
 
 ## To-do [1 easy] - [3 hard]
+
+1️⃣ Standardize how SVG icons are handled.
+
 2️⃣ Make images an array and update script.
 
 2️⃣ if type = anecdote make reference Anecdote
@@ -22,5 +25,7 @@ It can be viewed in your browser @ frankburgs.github.io
 3️⃣ Table of consumibles & equipment with:
 - SDS's, TDS's, fact sheets, etc.
 - Linked to line item and dropdown menu.
+
+3️⃣ Mermaid diagram of PPE.
 
 🦺 find legal requirement for signage legibility (or 'condition').
