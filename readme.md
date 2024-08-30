@@ -25,7 +25,10 @@ It can be viewed in your browser @ frankburgs.github.io
 3️⃣ Table of consumibles & equipment with:
 - SDS's, TDS's, fact sheets, etc.
 - Linked to line item and dropdown menu.
+- Start with one item.
 
 3️⃣ Mermaid diagram of PPE.
+
+3️⃣ Add functional "add safety observation" that allows user to create an added table item in their browser.
 
 🦺 find legal requirement for signage legibility (or 'condition').
