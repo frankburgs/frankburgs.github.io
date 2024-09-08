@@ -9,6 +9,7 @@
 */
 
 var observations = [
+
   {
     type: "fed",
     observation: "Sling is frayed<br>Manufacturer's label is illegible",
@@ -90,6 +91,13 @@ var observations = [
     recommendation: '',
     media: 'fireExtinguisherTag1',
     media2: 'fireExtinguisherTag2'
+  },
+
+  {
+    type: "fed",
+    observation: "Student uses personal Milwaukee<br/>angle grinder with guard removed",
+    reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/subpart-P#p-1910.243(c)(4)">29 CFR 1910.243(c)(4)</a>',
+    recommendation: "Student safety training checklist<br/>for each tool used in the shop.",
   },
 
   {type: "state",
