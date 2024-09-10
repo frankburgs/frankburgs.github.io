@@ -245,7 +245,7 @@ var observations = [
   {
     type: "observation",
     reference: "Observation",
-    observation: "Curriculum does not include coverage of AWS ANSI standards,<br>OSHA standards, safety data sheets, technical data sheets, or user manuals",
+    observation: "Curriculum does not include coverage of AWS ANSI standards,<br>OSHA standards, safety data sheets, technical data sheets, user manuals",
     recommendation: "",
   },
 
