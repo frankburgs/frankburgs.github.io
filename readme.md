@@ -4,31 +4,34 @@ this is a table of safety observations I made while attending welding school.
 
 It can be viewed in your browser @ frankburgs.github.io
 
-## To-do [1 easy] - [3 hard]
+## To-do
 
-1️⃣ Standardize how SVG icons are handled.
+- Convert to Tailwind.
 
-2️⃣ Make images an array and update script.
+- Add recommendationLink & referenceLink to key value pairs & update script.
 
-2️⃣ if type = anecdote make reference Anecdote
+- Standardize how SVG icons are handled.
 
-2️⃣ Add "date taken" to fire extinguisher inspection tag images.
+- Make images an array & update script.
 
-2️⃣ Modify code to not require recommendation keyed object.
+- if type = anecdote make reference Anecdote
 
-3️⃣ Incorporate 93-item Weld safety checklist to program using Adobe OCR.
+- Add "date taken" to fire extinguisher inspection tag images.
 
-3️⃣ Table column sorting functionality.
+- Modify code to not *require* recommendation keyed object.
 
-3️⃣ First quarter student task matrix.
+- Incorporate 93-item Weld safety checklist to program using Adobe OCR.
 
-3️⃣ Table of consumibles & equipment with:
-- SDS's, TDS's, fact sheets, etc.
-- Linked to line item and dropdown menu.
-- Start with one item.
+- Table column sorting functionality.
 
-3️⃣ Mermaid diagram of PPE.
+- First quarter student task matrix.
 
-3️⃣ Add functional "add safety observation" that allows user to create an added table item in their browser.
+- Table of consumibles & equipment
+
+- Mermaid diagram of PPE.
+
+- SVG of standardized booth layout.
+
+- Add functional "add safety observation" option that allows user to create an added table item in their browser.
 
 🦺 find legal requirement for signage legibility (or 'condition').
