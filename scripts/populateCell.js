@@ -1,12 +1,14 @@
 function populateCell(row, val, serious){
 
-    newCell = row.appendChild(document.createElement("td")); // Chained cell creation and row append.
+    newCell = row.appendChild(document.createElement("td"));
 
     newCell.innerHTML = val;
 
-    newCell.classList.add("text-nowrap", "bg-black", "text-white") // Stop line breaks (every cell ?)
-
-    if(serious){// Duplicating code because otherwise the row is not bordered red.
-        newCell.classList.add("border-danger", "border-top")
+    newCell.classList.add("text-nowrap", "text-white");
+    if (counter%2 == 0) {
+        newCell.classList.add("bg-dark", "border-0")
+    }
+    else{
+        newCell.classList.add("bg-black", "border-0")
     }
 }

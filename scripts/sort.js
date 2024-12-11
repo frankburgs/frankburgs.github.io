@@ -1,5 +1,6 @@
 /*
     Sorts the observations by type for table display.
+    Convert to elseif 
 */
 function sortObservations(){
     

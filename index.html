@@ -1,36 +1,33 @@
 <html lang="en" class="bg-black">
-
 <head>
-
-  <!-- 😴 -->
   <title>Safety Observations</title>
   <link rel="icon" href="data/images/icon.svg" type="image">
-  <script src="components/print.js"></script>
-  <script src="components/fullscreen.js"></script>
-  <script src="scripts/sort.js"></script>
-  
-  <!-- Style -->
-  <script src="style/bootstrap/popper.js"></script><!-- Popper for bootstrapped dropdown -->
-  <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css"><!-- Bootstrap stylesheet -->
-  <link rel="stylesheet" href="style/print.css"><!-- Print -->
   
   <!-- Components -->
   <script src="components/svg/svg.js"></script>
-  <script src="components/btnModal.js"></script><!-- Load the modal component into browser memory -->
+  <script src="components/btnModal.js"></script>
+  <script src="components/print.js"></script>
+  <script src="components/fullscreen.js"></script>
+  
+  <!-- Style -->
+  <script src="style/bootstrap/popper.js"></script>
+  <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/print.css">
 
   <!-- Functions -->
+  <script src="scripts/sort.js"></script>
   <script src="scripts/populateCell.js"></script>
   <script src="scripts/populateRow.js"></script>
 
   <!-- The list -->
-  <script src="data/observations.js"></script><!-- Load the safety lists into browser memory -->
+  <script src="data/observations.js"></script>
 </head>
 
 <body>
-  <table class="table table-bordered align-middle">
+  <table class="table align-middle">
     <thead class="d-print-none">
 
-      <tr class="border-primary text-center align-middle">
+      <tr class="border-primary text-start align-middle">
         <th class="bg-black text-whitee">
 
           <div class="dropdown">
@@ -61,9 +58,7 @@
         <th class="bg-black text-white">Recommendation</th>
       </tr>
     </thead>
-
     <tbody id="tableBody"></tbody>
-    
   </table>
 </body>
 </html>
