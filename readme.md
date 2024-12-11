@@ -4,11 +4,11 @@ this is a table of safety observations I made while attending welding school.
 
 It can be viewed in your browser @ frankburgs.github.io
 
-## To-do
+# To-do
 
-- Convert to Tailwind.
+- ⛏️ Add recommendationLink & referenceLink to key value pairs & update script. (shortened all variable names to obs, obslink, etc...)
 
-- Add recommendationLink & referenceLink to key value pairs & update script.
+- Follow sample github profile setup.
 
 - Standardize how SVG icons are handled.
 
@@ -26,7 +26,7 @@ It can be viewed in your browser @ frankburgs.github.io
 
 - First quarter student task matrix.
 
-- Table of consumibles & equipment
+- Table of consumibles & equipment (msds)
 
 - Mermaid diagram of PPE.
 
@@ -34,4 +34,9 @@ It can be viewed in your browser @ frankburgs.github.io
 
 - Add functional "add safety observation" option that allows user to create an added table item in their browser.
 
-🦺 find legal requirement for signage legibility (or 'condition').
+🦺 find legal requirement for signage legibility (or 'condition'). Do search for 'oag'.
+
+- Send finished front-end app to school staff.
+
+# Done
+- ✅ Consolidated button for image modal with line item number cell.

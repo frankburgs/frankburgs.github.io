@@ -1,7 +1,5 @@
 /*
-
-    Sort the observations by type for display and further user sorting.
-
+    Sorts the observations by type for table display.
 */
 function sortObservations(){
     

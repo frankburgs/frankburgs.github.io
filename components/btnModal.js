@@ -1,17 +1,17 @@
 // Create a button
 
-function createModalButton(serious){
+function btnModal (serious) {
   var btn = document.createElement("button")
 
   if(serious){
     btn.classList.add("btn", "btn-danger")
   }else{
-    btn.classList.add("btn", "btn-info")
+    btn.classList.add("btn", "btn-primary")
   }
 
   btn.setAttribute("type", "button")
-  btn.setAttribute("data-bs-toggle", "modal") // It only works on a separate line ❔
-  
+  btn.setAttribute("data-bs-toggle", "modal")
+
   btn.innerHTML = cameraIcon
 
   return btn
