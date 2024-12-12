@@ -8,7 +8,7 @@ function populateCell(row, val, serious){
     if (counter%2 == 0) {
         newCell.classList.add("bg-dark", "border-0")
     }
-    else{
+    else {
         newCell.classList.add("bg-black", "border-0")
     }
 }

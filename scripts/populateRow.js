@@ -16,11 +16,11 @@ function populateRow (obj) {
 
   newCell.classList.add("text-nowrap", "text-white", "text-start", "d-print-none","border-0")
 
-  if (counter%2 == 0) {
-    newCell.classList.add("bg-dark")
+  if (counter%2) {
+    newCell.classList.add("bg-black")
   }
-  else{
-      newCell.classList.add("bg-black")
+  else {
+      newCell.classList.add("bg-dark")
   }
 
   if (obj.media){ // If the object has a media item
