@@ -97,7 +97,7 @@ var observations = [
     type: "fed",
     observation: "Student uses personal Milwaukee<br/>angle grinder with guard removed",
     reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/subpart-P#p-1910.243(c)(4)">29 CFR 1910.243(c)(4)</a>',
-    recommendation: "Student safety training checklist<br/>for each tool used in the shop.",
+    recommendation: "Tool-specific student safety training checklist",
   },
 
   {type: "state",
