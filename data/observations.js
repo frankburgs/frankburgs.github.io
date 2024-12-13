@@ -1,19 +1,9 @@
-/* 
-
-  {
-    type: "", # fed, state, textbook, ansi, observation, anecdote, sortable
-    observation: "",
-    recommendation: "",
-  }
-
-*/
-
 var observations = [
 
   {
     type: "fed",
     observation: "Sling is frayed<br>Manufacturer's label is illegible",
-    recommendation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.uline.com/BL_4023/Slings">Replace sling</a>',
+    recommendation: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.uline.com/BL_4023/Slings">Replace sling</a><br/>Tag & isolate sling',
     reference: '<a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.184#p-1910.184(c)(1)">29 CFR 1910.184(c)(1)</a><br><a class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.ecfr.gov/current/title-29/part-1910/section-1910.184#p-1910.184(c)(14)">29 CFR 1910.184(c)(14)</a>',
     media: "frayedSling",
   },
@@ -276,6 +266,4 @@ var observations = [
     recommendation: "Empower teaching staff with confidence<br/>to implement a Safety Management System",
     reference: "Anecdote",
   },
-
-  
 ]
