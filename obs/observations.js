@@ -1,3 +1,5 @@
+// 35 observations
+
 var observations = [
 
   {
@@ -202,8 +204,8 @@ var observations = [
   },
 
   {
-    type: "observation",
-    reference: "Observation",
+    type: "fed",
+    reference: "<a class='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' href='https://www.ecfr.gov/current/title-29/part-1910/section-1910.147#p-1910.147(a)(3)(i)'>29 CFR 1910.147(a)(3)(i)</a>",
     observation: "Duct tape and paper used to mark malfunctioning equipment",
     recommendation: "Document LOTO procedures",
     media: "SMAWmachineLOTO"

@@ -1,3 +1,8 @@
+/*
+  This is the modified observations object.
+  The intent is to divorce Bootstrap styling from the raw data.
+*/
+
 var observations = [
   {
     type: "osha",

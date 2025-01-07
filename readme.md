@@ -6,9 +6,11 @@ It can be viewed in your browser @ frankburgs.github.io
 
 # To-do
 
-- ⛏️ Add recommendationLink & referenceLink to key value pairs & update script. (shortened all variable names to obs, obslink, etc...)
+- Add Print icon top left cell
+- Add media="print" to print script. Use !important if difficulties arise.
 
-- Follow sample github profile setup.
+- Try window.addEventListener("afterprint", () => self.close);
+- to reinstate old CSS rules ?
 
 - Standardize how SVG icons are handled.
 
@@ -34,9 +36,9 @@ It can be viewed in your browser @ frankburgs.github.io
 
 - Add functional "add safety observation" option that allows user to create an added table item in their browser.
 
-🦺 find legal requirement for signage legibility (or 'condition'). Do search for 'oag'.
+- 🦺 find legal requirement for signage legibility (or 'condition'). Do search for 'oag'.
 
-- Send finished front-end app to school staff.
+- Why even have a light mode ?
 
-# Done
-- ✅ Consolidated button for image modal with line item number cell.
+# Gov
+- The California Department of Industrial Relations (DIR) keeps a copy of 

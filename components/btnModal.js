@@ -1,4 +1,4 @@
-// Create a button
+// A button with a camera icon
 
 function btnModal (serious) {
   var btn = document.createElement("button")

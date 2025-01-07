@@ -1,26 +1,26 @@
 <html lang="en" class="bg-black">
 <head>
   <title>Safety Observations</title>
-  <link rel="icon" href="data/images/icon.svg" type="image">
+  <link rel="icon" href="components/svg/icon.svg" type="image">
   
   <!-- Components -->
   <script src="components/svg/svg.js"></script>
   <script src="components/btnModal.js"></script>
-  <script src="components/print.js"></script>
   <script src="components/fullscreen.js"></script>
   
-  <!-- Style -->
+  <!-- Style, bootstrap needs a .CSS, a .JS @ bottom, & popper for dropdowns & such-->
   <script src="style/bootstrap/popper.js"></script>
   <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style/print.css">
+  <link rel="stylesheet" media="print" href="style/print.css">
 
   <!-- Functions -->
   <script src="scripts/sort.js"></script>
   <script src="scripts/populateCell.js"></script>
   <script src="scripts/populateRow.js"></script>
+  <script src="scripts/print.js"></script>
 
   <!-- The list -->
-  <script src="data/observations.js"></script>
+  <script src="obs/observations.js"></script>
 </head>
 
 <body>
@@ -37,5 +37,5 @@
   </table>
 </body>
 </html>
-<script src="script.js"></script><!-- Populate the table -->
+<script src="scripts/script.js"></script><!-- Populate the table -->
 <script src="style/bootstrap/js/bootstrap.min.js"></script><!-- Bootstrap script -->

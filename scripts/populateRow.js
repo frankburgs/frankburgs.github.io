@@ -23,7 +23,7 @@ function populateRow (obj) {
       newCell.classList.add("bg-dark")
   }
 
-  if (obj.media){ // If the object has a media item
+  if (obj.media){ // If the object has a media item (images in /obs/img)
 
     var btn = btnModal(serious) // Create button to activate modal.
 
@@ -39,10 +39,10 @@ function populateRow (obj) {
     newModal.classList.add("modal", "fade", "bg-black")
     newModal.setAttribute("tabindex", "-1") // Bootstrap says so.
     newModal.id = identifier // Add the object name as the modal ID.
-    var imgURL = "data/images/" + obj.media + ".jpg"
+    var imgURL = "obs/img/" + obj.media + ".jpg"
 
     if(obj.media2){
-      var imgURL2 = "data/images/" + obj.media2 + ".jpg"
+      var imgURL2 = "obs/img/" + obj.media2 + ".jpg"
       newModal.innerHTML = '<div class="modal-dialog modal-xl"><div class="modal-content bg-dark"><div class="modal-header"><button type="button" class="btn btn-info btn-lg" data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg></button></div><div class="modal-body"><img src="' + imgURL + '" class="w-50"><img src="' + imgURL2 + '" class="w-50"></div></div></div>'
     }
     else{
