@@ -14,6 +14,10 @@ function populateRow (obj) {
 
   newCell.innerHTML = counter.toString() + "&nbsp;";
 
+  if (counter < 10){
+    newCell.innerHTML += "&nbsp;&nbsp;";
+  }
+
   newCell.classList.add("text-nowrap", "text-white", "text-start", "d-print-none","border-0")
 
   if (counter%2) {
