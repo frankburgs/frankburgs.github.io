@@ -215,7 +215,7 @@ var observations = [
     type: "observation",
     reference: "Observatiom",
     observation: "Leather jackets dumped in container develop smell during wet weather",
-    recommendation: "Use coat rack for leather jacket storage",
+    recommendation: "DIY coat rack for leather jacket storage",
     media: "leatherJacketDump"
   },
 

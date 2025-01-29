@@ -5,6 +5,7 @@ this is a table of safety observations I made while attending welding school.
 It can be viewed in your browser @ frankburgs.github.io
 
 # To-do
+- Add shrink wrap and heater to conductor insulation recommendation.
 
 - Add Print icon top left cell
 - Add media="print" to print script. Use !important if difficulties arise.
@@ -30,15 +31,10 @@ It can be viewed in your browser @ frankburgs.github.io
 
 - Table of consumibles & equipment (msds)
 
-- Mermaid diagram of PPE.
+- PPE diagram with spats.
 
 - SVG of standardized booth layout.
 
 - Add functional "add safety observation" option that allows user to create an added table item in their browser.
 
 - 🦺 find legal requirement for signage legibility (or 'condition'). Do search for 'oag'.
-
-- Why even have a light mode ?
-
-# Gov
-- The California Department of Industrial Relations (DIR) keeps a copy of 
