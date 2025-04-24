@@ -1,0 +1,1946 @@
+Term	Definition
+32-bit versus 64-bit	32-bit versus 64-bit refers to the maximum size of an instruction that the CPU can process.
+8.3 Filenames	The 8.3 filenames file-naming standard began with Microsoft DOS in 1981 and consisted of an eight-character ASCII name followed by a three-character file extension. Modern operating systems support long filenames, but Windows can also generate a short filename based on DOS 8.3 naming rules for compatibility with much older applications.
+Access Control List (ACL)	The ACL specifies the user accounts and host IP addresses that can access a site and specifies the privileges allowed for the account or program accessing the site.
+Access Point (AP)	An AP, such as a router, provides connectivity between wireless devices and a cabled network. Access points that provide Internet connectivity located in grocery stores, shops, restaurants, libraries, airports, and medical facilities are often referred to as hotspots.
+Active Partition	The primary partition is the active, bootable partition.
+Adapter Card	Adapter card circuit boards provide additional video, sound, and communication.
+Advanced Micro Device (AMD)	An AMD is a CPU manufacturer that sells K6, Athlon 64, and Opteron branded chips.
+Advanced RISC Machine (ARM)	An ARM is a designer of CPU and chip set architectures for mobile devices based on the Reduced Instruction Set Computing (RISC). RISC microarchitectures process simple instructions fast.
+Airplane Mode	Airplane mode is accessed using the toggle or slider user interface button on mobile devices. It quickly disables and enables wireless connectivity and cellular access.
+Android	Android is an open source operating system built for mobile devices developed by the Open Handset Alliance and primarily sponsored by Google.
+Antivirus Software	The goal of antivirus software is to detect and remove virus infections and most malware. Antivirus software identifies malware code (signatures) and detects suspicious behavior (heuristics). Antivirus software requires frequent updating.
+Apple	Apple is a company that manufactures desktops, laptops, all-in ones, tablets, phones and other related peripheral devices and software. Apple computers use macOS, built on UNIX, and use Apple-native apps or third-party developer apps built to run on the macOS platform.
+Audio Card	Audio cards are adapter cards that enable computers to record and play sound.
+Audio Port	Audio ports, usually located at the edge of the motherboard, provide a connection to the cable to support audio in, speaker out, microphone input, and headphones.
+Authentication	Authentication is a method for users to prove who they are. Methods include specifying a username and password, smart cards, biometrics, and additional techniques such as two-factor authentication.
+Availability	Availability is the balance of implementing security measures that protect resources from loss, damage, or DoS attacks, and providing users with methods to recover access to their devices.
+Backup	A backup is a copy of data stored for use in case of a system failure. Backups help prevent loss of work.
+Battery	A battery is a power source for computing devices, typically rechargeable Lithium-ion (Li-ion) batteries of differing capacities. Computers use coin cell batteries to power their CMOS RAM.
+Binary	Binary is a notational system with two values per digit, zero and one.
+Biometric	Biometric identification is the use of physically identifying features as security authentication to access a device, software application, or website.
+Bit	A bit, the smallest measurable computer value is a single digit with two values, zero and one.
+Bits per Second (bps)	Bits per second is a data rate measurement used to describe data transfer speeds.
+Bluetooth	Bluetooth is a short-range, radio-based technology that works at up to 10m (30 feet) at up to 1 Mbps connecting computing devices with peripherals.
+Blu-ray	Blu-ray is optical drive technology with disc capacity of 25 GB per layer. Transfer rates are measured in multiples of 36 MBps.
+Boolean	Boolean is a data type that supports 1-bit storage, representing the values of true and false. Boolean logic is a statement that uses true and false conditions. Boolean logic supports the branching and looping features in computer code.
+Boot Partition	The boot partition, or system partition, for both Apple and Windows devices is the partitioned part of the hard drive that contains the Microsoft Windows operating system.
+Browser	A web browser is software designed to view HTML pages that runs plug-in applications to enable the use of file formats including PDFs, sound, and video.
+Bus	A bus is the physical connection between motherboard components and peripheral devices attached to the computer. A bus’s capabilities include data sharing, memory addressing, and suppling power to the port. Common bus types include PCI, PCI Express, ExpressCard, and USB.
+Byte	A byte is the value of eight bits.
+Cathode Ray Tube (CRT) Monitor	A CRT monitor receives an analog signal from the graphics adapter and illuminates red, green, and blue dots, forming a picture. Most current systems use LCD panels.
+Celeron Processor Series	The Celeron processor series is a set of CPU models produced by Intel alongside their Pentium and Core brands.
+Cell Phone	Cell phones are mobile devices that send and receive data and voice communications using base station transmitters, known as cells, which connect to cellular and telephone networks. Data communications are divided into bands with differing data transmission capabilities: 4G (LTE, up to about 150 Mbps), and 5G (up to 1 Gbps). Most cellular networks in the United States now offer 4G and 5G communications.
+Central Processing Unit (CPU)	The CPU is the principal microprocessor in a computer or smartphone responsible for running operating system and applications software.
+Char	Char, short for character, is a data type that represents one unit of data storage. ASCII and Unicode are char data types.
+Chip Set	A chip set communicates with components using controllers. Chip sets can also include “integrated” adapters for video, sound, and network connections. Chip sets placed close to the CPU are referred to as northbridge chip sets. Chip sets further away on the board, or located at the perimeter of the board, are referred to as southbridge.
+Chrome OS	Based on Linux, Chrome OS is a proprietary operating system developed by Google to run on specific laptops (Chromebooks) and personal computers (Chromebox).
+Client	A client device is any computer hardware or software device that requests access to a service, such as to a printer or to stored data, which is available via the network.
+Compatibility Mode	Compatibility mode is the capability of an application to work with data, files, and settings from previous versions of an application or operating system.
+Computer Management Console	The Computer Management Console provides access to Windows Device Manager, Event Viewer, Disk Management, Services, and Performance Monitor. One way to access the console is to type Computer Management in the Taskbar search field and open the Computer Management app.
+Control Panel	The control panel is the primary Windows management interface for managing operating system settings.
+Converged Network	Converged networks carry both voice and data. These networks require additional security considerations to mitigate the vulnerability to denial of services (DoS) and eavesdropping.
+Cooling Device	Cooling devices dissipate the heat that CPUs generate. This heat can damage the processor or chip. Generally, CPUs include a heatsink, which consists of a metal block with fins and includes a fan. Thermal compound, applied at the contact point between the chip and the heatsink, helps with heat transfer. Most computers also include one or more fans that route heated air out of the case. Modern motherboards have temperature sensors that provide warning of overheating before damage can occur. Large computing systems and performance PCs may require liquid cooling. Active cooling systems use electricity. Passive cooling systems do not require electricity.
+Core Processor Series	Core Processor Series is an Intel processor brand. Core, Core 2, and Core iX CPUs are based on the Pentium M architecture.
+Data Rate	Data rate is the speed at which data is sent and received among two or more computer components.
+Data Unit	A data unit is a fundamental unit of data storage. A bit is a computer’s most fundamental data unit and computer storage.
+Default Account	Default accounts include default administrative and guest accounts configured on servers and networks of unauthorized access. A good practice is to rename the Windows administrative account. Another good practice is to leave the “root” system owner account unused on UNIX/Linux systems.
+Default Gateway	The default gateway is a TCP/IP address parameter that identifies the location of a router on the local subnet. The host device uses that TC/IP address as part of the routing information needed to contact other networks.
+Desktop	The desktop is the main window displayed when a user opens a computer. The term “desktop” is usually associated with Microsoft Windows computers.
+Device Driver	Device driver code, usually provided by the hardware manufacturer, loads on startup and works with the OS to establish communication with the additional hardware. Windows uses a signing system for drivers to validate that the code is approved.
+Device Manager	The Windows Device Manager enables the administrator to add devices, view device properties, disable and remove devices, update device drivers, view system resources, and update device drivers.
+Digital Camera (Digicam)	Digital cameras use light-sensitive diodes and nonvolatile electronic storage media. The sensitivity of the array determines the maximum resolution of the image, usually documented in pixels. Digital cameras can connect to a computer using a USB or Firewire port. However, with digital cameras as part of smartphones, users often store images on the cloud and download images to other sites for publication and storage.
+Digital Signaling	Digital signaling uses discrete states to represent simple values, such as 1 or 0.
+Digital Video Interface (DVI)	DVI is a video adapter designed to replace VGA ports on CRT monitors. DVI interfaces can support digital-only or digital and analog signaling.
+Directory	A directory is a file system object that organizes files within a specific space. Directories, also known as folders, are created within the hard drive. The main space that holds directories and subdirectories is referred to as the root folder.
+Disaster Recovery Plan	In conjunction with business continuity is the disaster recovery plan, which sets out actions and responsibilities for foreseen and unforeseen critical incidents. Disaster recovery plans include the actions and responsibilities in response to critical incidents. Recovery plans can also include practice exercises to assess disaster recovery procedures.
+Disk Operating System (DOS)	Widely adopted in the 1980s, Microsoft developed MS-DOS as a single-task operating system. The last MS-DOS release was version 6.22, released in June 1994.
+DisplayPort	DisplayPort, developed by Video Electronics Standards Association (VESA), is a digital A/V interface that supports some cross-compatibility with DVI and HDMI devices.
+Domain Name System (DNS)	The DNS is a hierarchical, distributed database that provides a worldwide name to IP address mapping services for the Internet and large intranets.
+Dual Core	Dual core is a CPU design that puts two chips onto the same platform.
+Dynamic RAM (DRAM)	DRAM is a type of volatile memory that stores data in the form of electronic charges within transistors. Standard DRAM is the most basic type of DRAM. Modern PCs usually use upgraded DRAM to help process data.
+Embedded System	Embedded systems contain proprietary operating systems and perform specific, dedicated functions. Appliances, spacecraft, and IoT devices use embedded systems.
+Encryption	Encryption is the masking and/or scrambling of characters to securely store data including passwords and messages.
+Ethernet (802.3)	Ethernet (802.3) is a popular local area networking technology method. Ethernet is compatible with coax, thinnet, UTP, and fiber optic cables. Wireless devices can also connect to Ethernet networks via a Wireless Access Point.
+Facsimile (Fax)	A facsimile is the transfer of the image of a document over a telephone line using a fax modem that is usually part of a single fax machine, a multifunction printer, or within PC equipment.
+Fault Tolerance (Redundancy)	Fault-tolerant systems provide extra capacity, or redundancy, which helps organizations identify and eliminate causes of failure.
+File	A file is a collection of data. Files store data either as plain text data or binary data. Files have a descriptive name followed by a period and a three-character extension, which is used to associate the file with a particular software application.
+File Allocation Table (FAT)	The FAT is a method of formatting a hard disk. The FAT contains information that describes the position of file data chunks on the disk. Data for a single file can exist on multiple tracks.
+File Server	A file server is a network-based machine that provides centralized access to data and print services.
+File System	When data is stored on a disk, the data is stored in a file system based on the directory and files sizes available based on how the disk was partitioned. File systems include FAT16, FAT32, and NTFS (used for internal storage) and optical storage formats including CDFS (ISO 9660) and UDF (Universal Disk Format).
+Firewall	A firewall consists of hardware, software, or a combination both that examines the network packet data passing through the network and determines if the data should be allowed past the firewall to the destination computing devices.
+Firewire (IEEE 1394 Standard)	The IEEE standard 1394 port, known as Firewire, is a serial SCSI bus standard that supports up to 400 Mbps data transfer rates. Firewire enables intensive data transfer such as digital media transfers.
+Firmware	Firmware comprises software instructions that are stored semi-permanently (embedded) on a hardware device.
+Float	Float is the data type supporting the storage of floating-point numbers (decimal fractions).
+Frame	Just like packets, frames are small parts of a message within the network that help decode and interpret the data, including source and target MAC (hardware) addresses as well as the data and error-checking regions. The main difference between a packet and a frame is the association with the network’s OSI data link layer. Frames contain more information about the transmitted message than a packet.
+Frontside Bus	The frontside bus is between the CPU and the memory controller (system RAM).
+Function (Fn) Key	Function keys are special keys or key combinations that access the BIOS and adjust computing settings such as volume up and down, microphone off and on, screen brightness, and others.
+Fuser	A fuser is the assembly that fixes toner to media, using a combination of a heat and pressure roller.
+Gesture-based Interaction	Gesture-based interaction enables the use of swipe, pinch, and stretch actions to perform tasks using a touchscreen.
+Graphical User Interface (GUI)	A graphical user interface, or GUI (pronounced “gooey”), displays both text and images on a monitor. Most GUIs require an input pointing device, such as a mouse or keyboard, to operate efficiently and an output device, such as a monitor. Although these operating systems have command line interfaces, Windows, macOS, Chrome OS, iOS, and Android operating systems, by default, are GUI operating systems.
+Group Account	A group account is a collection of user accounts.
+Hard Disk Drive (HDD)	Hard disk drives provide nonvolatile, long-term data storage. An HDD installed within a PC is known as a hard disk. Portable, external, enclosed hard disk data storage is also known as Network Attached Storage (NAS).
+Hexadecimal	Hexadecimal, known as hex, is a notational system with 16 values per digit. Values above 9 are represented by the letters A, B, C, D, E, and F. Hex is a compact way of referring to long byte values, MAC and IPv6 addresses, and color notations for web pages.
+Homegroup	Used with Windows 7, Homegroup is a networking feature that enables Windows 7 home networks to share files and printers easily via passwords.
+Host	In TCP/IP networking terminology, a host is any device that connects to a network.
+Hot Swappable	A hot-swappable device can be added or removed without having to restart the operating system.
+Hybrid Fiber Coax	Hybrid fiber coax cables, which include both a fiber optic line and coax cable, are usually installed by a cable provider to carry both television and Internet access within the same cable.
+Inkjet Printer	An inkjet printer, also known as an ink dispersion printer, is a type of printer that uses nozzles to spray colors of ink onto paper.
+Input/Output (I/O) Port	An I/O port is a device connection through which data can be sent and received.
+Integer	An integer is a whole number and is usually a supported data type.
+Intel	Intel processors were used in the first IBM PCs and the company’s CPUs and chip sets continue to dominate the PC and laptop market.
+Internet	The Internet core consists of high-speed data communications lines using TCP/IP protocols by major host computers, hosted by thousands of commercial, government, educational, and other computer systems that route data and messages. No single company or organization owns the Internet.
+Internet of Things (IoT)	IoT devices are special-purpose computers, usually with a specialized operating system, designed to perform limited, specific functions.
+Internet Protocol (IP)	IP is the network-layer protocol in TCP/IP that enables packet addressing and routing for all higher-level protocols in the suite.
+Internet Protocol (IP) Address	Each receiving computer must have a manually or dynamically allocated IP address.
+Intranet	An intranet is a company’s network.
+iOS	iOS is the mobile operating system developed by Apple for its iPhone and iPad devices.
+Kernel	A kernel is a low-level piece of core code in an operating system that controls the rest of the operating system. Windows uses a multiprocessor-aware, preemptive, multitasking kernel.
+Keyboard	A keyboard is the oldest PC input device that is still fundamental to operating a computer. Desktop keyboards can have PS/2, USB, or wireless (IrDA or Bluetooth) interfaces. There are many designs and layouts for different countries. Some keyboards feature special keys.
+Knowledge Base	A knowledge base is a searchable database of advice, frequently asked questions, and solutions to known troubleshooting issues.
+Laptop/Notebook	A laptop/notebook is a powerful portable computer offering similar functionality to a desktop computer. Laptops include built-in output and input devices (monitor, keyboard, and touchpad), powered by both AC and DC power. These devices typically include USB, PCMCIA, ExpressCard adapters, and Bluetooth adapters for connecting peripherals.
+Laser Printer	A laser printer develops an image on a drum using electrical charges to attract special toner in one or more colors. The toner is then fixed to the paper using a high-heat and pressure roller (fuser).
+Least Privilege	Least privilege is a basic principle of security stating that a user is given the minimum necessary rights, privileges, or information to perform their role.
+Legacy Device	Legacy devices are hardware, such as printers and scanners, which are not Plug-and-Play compatible and require additional configuration.
+Library	Virtual folders, called libraries, introduced in Windows 7, are predefined locations for documents, pictures, and music.
+Licensing	Licensing is the contracted terms and conditions users accept to install and use an operating system software or other software on a single computer or multiple computers.
+Lightning Connector	A lightning connector is a proprietary connector and interface for Apple devices.
+Linux	Linux is an open source operating system developed by Linus Torvalds for both enterprise and personal use.
+Liquid Cooling System	A liquid cooling system uses water piped around the PC board components and heatsinks to cool those components. Liquid cooling systems allow for fewer fans and less noise.
+Local Area Network (LAN)	A LAN is a type of network located in one geographic location and owned/managed by a single organization.
+Long File Name	A long file name is a 255-character Unicode file name that can contain spaces and multiple periods.
+Long Term Evolution (LTE)	LTE is the cellular bandwidth space that provides upgrade to 3G technologies such as W-CDMA and HSPA. LTE Advanced provides 4G standard network access. LTE is rapidly becoming outdated as many carriers are moving to 5G.
+Mapping	Mapping is the process of establishing a connection with a file resource on a remote server, for example, mapping a network drive, identified by a letter or name.
+Microsegmentation	In a switched network, microsegmentation is the data routing technique that keeps each port in a separate collision domain and, therefore, prevents data collisions.
+Microsoft	Microsoft is the world’s foremost supplier of operating system and productivity software. Microsoft has dominated the PC market since the development of the first IBM-compatible PCs running MS-DOS.
+Mobile Device	Mobile devices are characterized as general-purpose computing devices, such as mobile phones, phablets, and tablets, that humans can carry to multiple locations. These devices often store valuable personal or corporate information.
+Mobile Phone	A mobile phone is the UK English term for a cell phone.
+Modem (Modulator/Demodulator)	Modems convert the digital signals from a computer into the appropriate analog signal required to transmit data over public phone lines, a process known as modulation. Demodulation occurs at the receiving computer.
+Motherboard	The computer motherboard, also called the system board, provides the foundation for all the computer’s hardware including the processor, RAM, BIOS, and expansion cards. Several motherboard standards are available each with a different layout and associated advantages.
+Mouse	A mouse is an input device that interfaces with graphical displays. With a mouse, a user can control the movement of a cursor to select on-screen objects.
+Multimedia	Multimedia refers to PC components that can input and output sound and video.
+Multiprocessing	Multiprocessing happens where two or more processors are used on a single motherboard. Both processors can share operations thereby increasing performance. Business and professional editions of Windows support a type of multiprocessing called Symmetric Multiprocessing (SMP) with a maximum of 2 CPUs.
+Near Field Communication (NFC)	NFC, based on RFID technology, is a standard communication type for peer-to-peer radio communications over approximately 1.5 inches. NFC enables, exchange of contact information, contactless payments, and others.
+Network	Networks are two or more computers that can connect to share data.
+Network Address	Like having a home address, computing devices require a network address for other computing devices to find them. The IPv4 address method uses a 32-bit binary number, typically expressed as a 4-part decimal number separated by dots, while IPv6 uses a 128-bit binary number displayed using hexadecimal formatting. Networks, network devices, and peripherals on the network also have their own addresses.
+Network Attached Storage (NAS)	NAS is storage hardware with an embedded OS that enables fast “near computer” access. Users should take extra care to protect NAS storage from security concerns.
+Notification Area	The notification area is part of the taskbar (usually located on the right-hand side) that displays background applications and status information (such as the date and time, antivirus software, network connections, and alerts). Some users may refer to this space as the system tray.
+Open Source	Open source refers to programming code that is freely available. Linux is an example of open source operating system code. Learn more at opensource.org.
+OS X	Based on the BSD version of UNIX, OS X is Apple’s operating system for iMac computers, Mac workstations, and MacBook portables.
+Partition	A partition is a discrete area of hard disk storage created using either the Master Boot Record (MBR) scheme or the GUID Partition Table (GPT). You can have multiple partitions on the same disk. Partitions can be created as boot partitions and can have different formatting methods.
+Password	A password is the stored, encrypted arrangement of letters, numbers, special characters, and spaces that enables a user to access hardware, devices, software, online sites, and accounts.
+Password Policy	A password policy contains the requirements related the required amount and arrangement of letters, numbers, special characters, and spaces for device and account passwords.
+Patch Management	Patch management includes identification, testing, and deployment of software and firmware. Patches are often classified as critical, security-critical, recommended, and optional.
+PCI Express (PCIe)	(PCIe is the latest expansion bus standard featuring serial, point-to-point connections. PCIe software is backward compatible, enabling manufacturers to place both expansion bus types on the same motherboard.
+Peer-to-Peer (P2P)	P2P file-sharing networks are often associated with hosting malware and illegal material to clients that use the network.
+Pentium Processor Series	The Pentium processor series is a brand of Intel processors.
+Permission	Permissions are the rights to access files and folders on a volume, which may span multiple disk partitions.
+Plug-and-Play (PnP)	A Plug-and-Play system (comprising a compatible BIOS, operating system, and hardware) is self-configuring. When a hardware device is added or removed, the operating system detects the change and automatically installs the appropriate drivers.
+Port	Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) applications use a uniquely numbered port assigned to a particular application protocol (such as HTTP or SMTP). The port number, along with the IP address creates a two-way communications channel or socket between the client (end-user computer) and network computers, such as servers.
+Power-On Self-Test (POST)	The POST procedure is a hardware-checking routine built into the PC firmware that monitors the processor, RAM, system clock, internal display, and the BIOS itself.
+Presentation Software	Presentation software is a form of application software that enables users to create files that display graphics, text, and can include video and audio. The user can display the resulting file as an on-screen slide show, print the pages from the file for shared usage, create a movie, or print the pages from the file onto transparent plastic pages for use with an overhead projector.
+Printer	A printer is a physical output device that produces a paper copy of a document or data file, or a deliverable, such as 3-D output. Printers consist of a spool directory, a printer driver, and configuration information.
+Product Key	A product key is the license key a software company provides so that a user can activate and use their software.
+Program Files Folder	The Windows Program Files folder is the default location for application executables and supporting files.
+Projector	Projectors are output devices that use CRT, LCD, or DLP technologies to display images in a large format, usually for multiuser views.
+Protocol	A protocol is a set of rules computers use to exchange data. A single network can use many different protocols. Protocol header fields describe each packet, include a maximum length for the payload (the data in the packet), and describe methods of processing information from the headers.
+PS/2 Connector	A PS/2 connector is a port for attaching a keyboard and mouse to a desktop computer, now largely replaced by USB.
+Radio Frequency (RF)	Radio frequency waves at different frequencies and wavelengths can transmit data. Wi-Fi network products typically work at 2.4 GHz or 5 GHz.
+Random Access Memory (RAM)	RAM is the principal storage space for computer data and program instructions. RAM is described as volatile because RAM memory is temporary, meaning that the data is only retained while the computer is in use.
+RCA Connector	An RCA connector has a distinctive collar or ring used for a variety of audio/visual (A/V) functions and equipment. The connector is named after its developer (Radio Corporation of America), but the socket is also referred to as a phono plug.
+Recordable CD Drive	Recordable CD drives are optical drives that enable users to write data to compact discs, or CDs.
+Recycle Bin	The recycle bin is the location where files reside after they are removed from their directory locations and before they are deleted completely from the hard disk.
+Registered Jack (RJ) Connector	An RJ connector is used for twisted pair cabling. Four-pair network cabling uses the larger RJ-45 connector. Modem/telephone 2-pair cabling uses the RJ-11 connector.
+Registry	The registry database is the configuration database for Windows hardware and software. Sometimes hardware and software configurations can become out of sync or corrupted. An experienced support person can directly edit the registry using a variety of tools. Always back up the registry before editing the file.
+Remote Desktop Protocol (RDP)	The Remote Desktop Protocol is Microsoft’s protocol allowing remote connections to a Windows machine for Terminal Services. Terminal Services enables authorized users to log onto the computer via a local network, wide area network, or the Internet.
+Removable Media	Removable media refers to data or media storage that a user can disconnect from their computing device. Removable media includes eSATA drives, external SSD drives, memory cards, tapes, CDs, DVDs, and Blu-ray disks.
+Resolution	A digital image is made up of many thousands of picture elements (pixels). Resolution describes the number of dots that an imaging device can use to sample or display the image, measured in pixels per inch (PPI). The higher the resolution, the better the quality. On a digital printer, the resolution is the number of toner or ink dots that the print engine can put on paper (measured in dots per inch [dpi]). Note that sometimes dpi is used interchangeably with PPI to describe scanner or monitor resolution, but image pixels and printer dots are not equivalent, as multiple printer dots are required to represent a single image pixel accurately.
+Router	Routers connect similar and dissimilar networks at network layer 3 within the Open Systems Interconnection (OSI) model. Routers can access multiple source and destination addresses within packets, based on speed, traffic loads, and costs and can keep track of multiple active paths within a given source and destination network. Network administrators can use TCP/IP routers on a local area network to divide the network into logical subnets.
+Satellite	Satellite transmission of data happens using microwave transmissions where orbital satellites relay signals between earth-bound receivers and other orbital satellites. Satellite Internet connectivity uses a receiving antenna connected to the PC or network through a DVB-S modem.
+Scanner	A scanner is a type of photocopier that converts the image of a physical object into an electronic data file. This file may or may not be editable based on the software included with the scanner.
+Scanner	A flatbed scanner scans text or images by the user placing the paper on a glass faceplate. The scan head moves under the glass faceplate and reads the data to an electronic file. Portable scanners enable the user to feed the document through the scanner and scan the text or images one line at a time to build the document or image.
+Secure Digital (SD) Card	SD cards are removable storage media and one of the first types of available flash memory cards.
+Secure Sockets Layer (SSL)	SSL, developed by Netscape, is an authentication method for accessing websites and writing data to databases accessed via those websites.
+Serial ATA (SATA) Drive	SATA hard drives feature a 7-pin data connector and data throughput of 1.5 Gbps, 3 Gbps, and 6 Gbps. External SATA drives attach to a computer using the eSATA interface.
+Server	A server is a computer located on a network with memory and storage, which provides access to shared resources.
+Service	Windows machines run services to provide functions such as Plug-and-Play, print spooling, and others. Open the Services app to view, configure, start, and stop these functions.
+Service Pack (SP)	A service pack includes software updates and customer-specific hotfixes released as one installable file. Service packs often add new features to the OS.
+Service Set ID (SSID)	The SSID is the name for a specific Wireless LAN (WLAN) such as you might find in a café. When multiple access points use the same SSID, this is referred to as an Extended (ESSID).
+Share	The installation and enablement of Windows File and Print Sharing enables the sharing of folders, files, and printers across networks.
+Shortcut	A shortcut is an icon that contains a URL to open a program or file. Shortcuts are usually located on the desktop or in the Start menu.
+Smartphone	A smartphone is a mobile device that uses a lightweight operating system and supports cellular phone call, SMS text messaging, Wi-Fi access. Smartphones include general-purpose computing functionality, including cameras, Internet messaging apps, productivity apps and mores. Smartphones typically have screen sizes of between 4 and 5.5 inches.
+Start Menu	The Start menu is a list of programs and shortcuts that locates and loads applications or folders.
+String	A string data type supports the storage of variable-length series of characters.
+Stylus	A digitizer, which enables touchscreen type capabilities, can use a stylus as a pointing device (rather than using a finger), often as a drawing tool.
+Switch	Networks use multiple types of switches. Ethernet (or LAN) switches perform bridge functions to route the data. Advanced switches perform routing at multiple layers: Layer 3 (IP), 4 (TCP), or 7 (Application). Switches routing at layer 4 or 7 are referred to as load balancers and content switches.
+Synchronous DRAM (SDRAM)	Synchronous DRAM, an improvement on the basic DRAM chip, is designed to run at the system clock speed thus accelerating the periodic refresh cycle times.
+System Requirement	System requirements include the hardware needed to install additional add-on hardware components, operating systems, application software, and utility software.
+Tablet	A tablet is a type of ultra-portable laptop with a touchscreen. Tablets run specialized operating systems including android, iOS, windows, and ChromeOS.
+Task Manager	The Windows Task Manager app enables the control of running tasks, processes, and CPU/memory utilization.
+Task Scheduler	The Task Scheduler enables users to set tasks such as program starts and stops to happen at a preset time or in response to another event.
+Taskbar	The Taskbar is a means of locating running programs and contains the Start menu and system tray/notification area (as well as an optional Quick Launch toolbar). It appears by default at the bottom of the desktop.
+Test Page	A test page is a printed page generated after installing or updating a printer that verifies the printer is working correctly.
+Thumb Drive	A thumb drive is a flash memory card contained within a case. Thumb drives connect to computing devices using a USB adapter.
+Thunderbolt	The Thunderbolt (TB) interface was developed by Intel and until recently was primarily used on Apple workstations and laptops. Thunderbolt adapters can power display interfaces (like DisplayPort) and function as a USB3 port.
+Toner	Toner is the chemical that uses dye, wax, or plastic, and uses an electromagnetic charge to functions as ink to print to paper or other materials.
+Touchpad	A touchpad is an input device used on most laptops to replace the mouse. The touchpad allows the user to control the cursor by moving a finger over the pad’s surface. Touchpads can have buttons and recognize “tap” events and perform scrolling functions.
+Touchscreen	Touchscreens display output and accept programming that enables touch user input.
+Transfer Rate	The transfer rate is the amount of data sent or received via a network connection in a specific amount of time, typically measured in bits or bytes per second.
+Troubleshooting	Troubleshooting is the methodical approach to diagnosing and resolving issues that affect computer performance.
+TWAIN	TWAIN is not an acronym but a name for the standard driver or API used for communications between printers and scanners and  their application software.
+Unicode	Unicode is made of code points and includes code point and hexadecimal characters that represent character glyphs. Unicode supports international alphabets.
+Universal Disk Format (UDF)	UDF is the file system used for optical media, replacing the Compact Disk File System (CDFS).
+Universal Serial Bus (USB)	According to the website How Stuff works, a USB supports up to 127 different peripherals.
+UNIX System	The UNIX operating system was developed by AT&T and first used in 1969. Considered a general-purpose operating system, UNIX was novel at the time for its support for parallel processing and multiple vendor hardware platforms. UNIX servers are used for the Internet backbone and use TCP/IP communication protocols to provide compatibility between networks.
+Update	Software and hardware manufacturers push firmware and software updates to fix malfunction, address security vulnerabilities, and enhance features. Updates include hotfixes, (customer specific fixes) patches (available fixes), and service packs (combined patches and enhancements).
+User Account	A user account is an individual account within Windows User Account Control.
+User Account Control (UAC)	This Windows security system enables user privilege based on need so that users don’t inadvertently or intentionally make changes that would harm the computer, the organization, or both.
+User Datagram Protocol (UDP)	UDP works in the network transport layer to provide fast communications. This protocol is faster than TCP but does not ensure reliability.
+Video Card	Video cards, also known as graphics adapters, provide the interface between the graphics components of the computer and display devices. Video cards can work with VGA-, DVI-, and HDM-connected internal and external displays. Most video cards include a processor (Graphics Processing Unit [GPU]) and onboard memory.
+Video Conferencing	Video conferencing or video teleconferencing (VTC) software allows users to use their input and output devices to conduct voice and video meetings. Some software packages include options for multiple individual meeting rooms and instant messaging.
+Video Standard	Video standards define the resolution and color depth for a graphics adapter and computer display. You can find the available video standards within the operating systems settings.
+Virtual Memory	Virtual memory (also known as swapping or paging) is an area on the hard disk allocated for volatile memory when the installed RAM is insufficient, or the hardware is malfunctioning.
+Web Application	A web application is software run from a web server. Clients can access the application using a web browser.
+Web Server	Web servers host websites.
+Webcam	A webcam is a video device that inputs video for viewing on an output device.
+Wide Area Network (WAN)	A WAN is a network that includes more than one physical site and often uses multiple protocols via phone lines, fiber optic cables, and even satellite links.
+Wi-Fi Protected Access (WPA)	WPA is an improved encryption technique for protecting Wi-Fi communications, designed to replace WEP. WPA was subsequently updated to WPA2.
+Wi-Fi Protected Setup (WPS)	When using WPS to configure a network connection, users push a button on the network access point, usually a router and another button or on-screen selection to connect the devices to associate the two devices. Some WPS-enabled devices use a PIN instead of a push-button configuration.
+Windows	Windows is the general-purpose operating system from Microsoft. Windows started as version 3.1 for 16-bit computers. Microsoft operating systems evolved to support servers, desktops, gaming consoles, laptops, tablets, and mobile devices.
+Windows Defender	Windows Defender is an anti-spyware tool provided with Windows Vista, Windows 7, and Windows 8. At the time of this writing, Windows AntiSpyware is in beta release.
+Windows Explorer	Windows Explorer opens as a window and performs as the standard interface for the management of files and folder. In Windows 10, the capability is called File Explorer.
+Windows Firewall	Windows Firewall is a default security option for the Windows operating system that helps prevent hackers from intruding into a computing device.
+Windows Update	A Windows Update includes the Microsoft Windows operating system patches and security updates. The Automatic Update feature enables Windows to connect and download updates automatically.
+Wired Equivalent Privacy (WEP)	WEP is a networking security protocol that has been replaced by Wi-Fi Protected Access (WPA). WEP is an IEEE standard for wireless networking based on spread-spectrum radio transmission in the 2.4 GHz and 5 GHz bands.
+Wireless	Wireless network connectivity uses the electromagnetic broadcast spectrum to send and receive data and voice.
+Word Processing Application	Word processing applications enable users to create, edit, and save documents. Most word processing applications include capabilities to format, edit, review, and share documents.
+Workgroup	A workgroup is a small group of computers that share resources via a peer-to-peer network.
+
+
+ 
+
++
+-
+cognitiveclass.ai logo
+
+Welcome! This alphabetized glossary contains many of the terms you’ll find within this course. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+Each country determines the band usage and the available 802.11 modes. The supported modes for the 2.4 GHz band are 802.11 (b/g/n). And the supported modes for the 5 GHz band are 802.11 (a/n/ac). Every router has a default option that supports all types. If you are not sure which modes are supported, select the default one.
+Terms	Definitions
+Access control	Access control prevents unauthorized viewing, modification, or copying of data. IT staff use access control to restrict what users can do, which resources they have access to, and what functions they are allowed to perform. (See RBAC and ROLP.)
+Access tokens	Bits of code that signify a user has successfully authenticated their identity. Hackers get access tokens by sniffing network traffic between trusted entities. Once they find an access token, they can hijack the session and use the token to impersonate the trusted entities. After that, the hacker can intercept and modify any information sent or access private accounts as if they were the account holder. (See Replay attack.)
+ActiveX	Old online browser technology for downloading and embedding content on websites.
+Add-ons	Small bits of code or software applied to browsers to enhance functionality and user experience. Add-ons have evolved over the years. Toolbars, plug-ins, and extensions are all examples of browser add-ons.
+Adware	Software coded into online ads that records your personal data, website visits, and keystrokes to send you personalized ads. Adware can be legitimate or malicious. Adware is often bundled with apps, it activates on install. Adware can collect data, track online activity, or link out to malicious websites with viruses. It can also cause sluggish system performance, crashes, changes to your browser’s home page, the appearance of new extensions, toolbars, or software, and web pages not displaying properly. Popup ads and the sudden appearance of unfamiliar apps are the most common way to recognize adware.
+Anti-replay protection	Network standards that stop hackers from re-using data (See IPsec.)
+Asymmetric encryption	Uses a public key and a private key. It takes longer than symmetric encryption because it is more complex. It is used for smaller amounts of data. It is safe to widely share the public key for encryption or decryption because only the secret key can undo the public key’s action. It’s used in Authentication, digital certificates, digital signatures, and key exchange – where a symmetric encryption key is shared only to specific recipients. Also called “Public Key Cryptography”. (See Symmetric encryption.)
+Authentication	The act of confirming the identity of a user. Authentication involves two steps: entering the correct login information and confirming that it is really you.
+Authentication factors	Ways to confirm a user’s identity. These include something you know, something you have, and something you are. Examples include the answer to a security question, a 2FA security card, and a fingerprint scan.
+Authentication header protocol (AH protocol)	Protocol that authenticates the sender and both IP addresses (See IPsec.)
+Authentication methods	Ways to log in to a system. These include SSO, 2FA, and MFA.
+Authorization	Permission to access a location or do an action. Access control must be set up before authorization can be granted.
+Autorun	Computer feature that allows inserted drives and disks to run or play automatically. Disabling autorun is recommended since it would allow an infected drive to install malware automatically the moment it is inserted.
+Baiting	In social engineering, the use of a lure just like the bait or lure you'd use to catch a fish. Lures can be physical or logical. (See Social engineering.)
+Basic Input Output System (BIOS)	Firmware that boots up Windows and Linux PCs, runs hardware checks, and starts the OS. (See Firmware.)
+Basic Input Output System password (BIOS password)	A security feature that requires a correct password in order to start a system’s OS. Also called ‘firmware password.” (See Firmware and BIOS.)
+Biometrics	Body scan that can confirm whether a person physically accessed a device, network, or area. (See Non-repudiation.)
+Bloatware	Unwanted trial software, usually pre-loaded on new devices. Aging bloatware is soon outdated and may have vulnerabilities.
+Browser history	A list of every page you've visited and for how long. Browser histories help you find sites you visited, but they can also be used against you by family, hackers, or law enforcement. Use browser settings to clear history.
+Browsing history	List of recently visited web sites. Anyone with access to your device can see what sites you visited. Attackers use browsing history to learn where they might impersonate their victims, and companies use it to see which sites you go to on your work computer. (See Digital accounting.)
+Brute force attacks	A type of password cracking attack where hackers submit as many passwords as possible, hoping one will work.
+Buffer overflow	Common type of DoS attack that sends a website more Internet traffic than it can handle.
+Cache	Storage area that holds downloaded web pages you’ve visited. Cached pages load immediately. If a page has changed since the last cache, it is downloaded, displayed, and cached again. Over time, very large caches cause sluggish performance. Use browser settings to clear the cache, set disk space limits, and set expiration dates.
+Certificate authority (CA)	A trusted organization that issues digital certificates. The major CAs are Apple, Microsoft, Mozilla, and Google. Which CA your device uses depends on the operating system it’s running. Also called ‘Root certificate store’. (See Digital certificate, SSL certificates, and HTTPS websites.)
+CIA Triad	Confidentiality, integrity, and availability. Confidentiality means that data is protected from unauthorized access. Integrity means that data is protected from unauthorized changes. And availability means that you have access to your data whenever you need it.
+Cipher	An algorithm that is used to scramble plain text, so it is secure.
+Ciphertext	Plain text that is encrypted, which makes it unreadable.
+Company Confidential Information	Any information that is used to run a company, like intellectual property, product designs, procedures, plans, employee records, and financial data. (See Confidential information.)
+Confidential information	Information that must be kept secret. Employees are trained to recognize and deal with confidential information so that it remains secure. Companies rank information and files by how sensitive each one is. Each company ranks their information differently, but there are four main types of confidential information that should be universally protected: PII, Company Confidential information, Customer Confidential Information, and PHI.
+Cookies	Text files with small pieces of data. When you visit a site, the server creates a cookie and saves it on your browser to track you. Cookies let websites remember your logins, shopping carts, and more. This creates an easier, more personalized online experience. Cookies can also be used to ban you from a website if you've violated any of its conditions for use. Most cookies are safe, but some are designed to track without consent. Even legitimate cookies can be harmful if you get hacked. (See Digital accounting.)
+Cookies, authentication	Authentication cookies save logins, usernames, and passwords, so you don’t have to remember them.
+Cookies, session	Session cookies are used only for one session. They are stored in RAM and are automatically deleted when the browsing session ends.
+Cookies, third-party	Third-party cookies are from sites you are not on. These track you across the web. Ads can generate cookies, even if you never click on them.
+Cookies, zombie	Zombie cookies are third-party cookies that don’t follow normal cookie protocols. They can store their code directly on your device to recreate themselves even after deletion. They are extremely difficult to remove. Websites may also use zombie cookies to ban specific users.
+Cryptographic hash	A short string of numbers and letters created by running a password or file through an algorithm. A single password and a full library will have different cryptographic hashes, but each hash will have the same number of characters. If any data is altered or removed from a password or file, its cryptographic hash will be different. When you create a password, it’s converted into a cryptographic hash. On your next log in, it’s converted again. If the stored hash and the new hash match, the system lets you in. Cryptographic hashes save space, authenticate data, and keep information secure.
+Customer Confidential Information	Information customers or partners provide to companies, which includes PII and also things like purchase histories, and credit card information. (See Confidential information.)
+Data	Raw values and facts are usually collected by automated systems. For example, page visits, link clicks, and monthly sales. (See Information, Insights, and Data analytics.)
+Data analytics	The processing of raw data, like values or facts to create meaningful information. (See Information, Insights, and Data.)
+Data at rest	Data that resides on a storage device. The files aren't open or being transmitted anywhere. Data at rest can be encrypted at the file level, storage device level, and cloud level. Encryption at the file level lets you encrypt all your files on a storage device or just a select few. Data at rest is less vulnerable than data in motion, but it’s not immune from attacks.
+Data availability	Data availability means that authorized users have immediate and reliable access to their data. This includes granting access to authorized users with passwords and security questions. Data availability can be compromised by hardware failures, unscheduled software downtime, network bandwidth issues, cyberattacks and sabotage. To protect against these threats, systems that require high availability (99.999% uptime) have network monitoring, redundant systems, and backup servers ready to take over. If the primary system is compromised, business continuity and customer access can be maintained.
+Data breaches	Data breaches are when a data leak is caused intentionally by a cybercriminal. These occur when social engineering or phishing attacks trick employees into leaking sensitive credentials or information.
+Data capture	The collection of data from multiple sources and the secure storage of it in relational databases, or more commonly, semi-structured data warehouses. Data may be captured by server logs showing where customers browse, IoT sensors in home appliances and business technology, or customer and employee surveys or rating systems. (See Data correlation and Meaningful reporting.)
+Data confidentiality	The control of data access and the use of security tools like encryption and multifactor authentication (MFA) to keep data secure. Data confidentiality prevents identity theft, compromised accounts and systems, legal concerns, damage to reputation, and other severe consequences. To determine if data should be confidential, ask: Who is authorized? Do confidentiality regulations apply? Are there conditions for when data can be accessed? What would the impact of disclosure be? Is the data valuable?
+Data correlation	When raw data points are analyzed to find connections or links. For example, Netflix uses tools that compare searches, views, and ratings so they can predict which movies and shows will be successful on their platform. AI and machine learning algorithms automate parts of the analysis. (See Data capture and Meaningful reporting.)
+Data dumps	Data dumps are when cybercriminals dump stolen data onto the dark web for monetary gain. A data dump might include PII, PHI, bank account numbers, PINs, social security numbers, and more. Other cybercriminals buy and use data dumps for things like identity theft and password attacks.
+Data in motion	Data that is actively moving between two devices – meaning two computers, a mobile device and a mail server, or your computer and your bank's online website. Data in motion is especially at risk for interception attacks like man-in-the-middle. Also called data in transit.
+Data in transit	(See data in motion.)
+Data integrity	The collection of actions and fail safes that protect data. Data integrity guarantees that data is accurate, complete, and consistent. It covers data in storage, during processing, and in transit. The two main types of data integrity are physical and logical. Without data integrity, loss, corruption, or compromise can cause significant damage and financial loss for both businesses and customers.
+Data integrity (logical)	Logical data integrity are the checks and protocols that protect data from human error and hackers. These confirm that data is correct and accurate as it’s used in different ways within an organization.
+Data integrity (physical)	Physical data integrity is the collection of actions and fail safes that protect the physical systems that store and process the data.
+Data leaks	The accidental exposure of confidential or sensitive data through a security vulnerability.
+Data-driven business decisions	Business decisions based on data capture, data correlation, and meaningful reporting.
+Distributed denial of service attack (DDoS attack)	DoS attack made with a large collection of compromised, malware-infected computers known as a botnet. It's harder to identify a DDoS attack’s origin, which makes it harder to shut down. And DDoS attacks are far more devastating than DoS attacks since hundreds or thousands of computers are used instead of just one.
+Decryption key	(See Encryption key.)
+Default usernames and passwords	The default login information that comes with new hardware or software. These are essential to tech support, software installation, and device configuration. They have admin-level privileges and hide who’s using them, as they aren’t associated with any registered users. Hackers use them to break into apps, devices, OSes, databases, and BIOS since they are easily found online in help guides or user manuals.
+Denial of Service (DoS)	Cyberattack, where a website or server is targeted with so much traffic that it overwhelms that system, degrading performance until the server is unable to respond.
+Denial of service attack (DoS attack)	Cyberattack that floods a network with so much traffic that it crashes. DoS attack victims are typically high-profile, like government sites, banks, or social media sites. Sometimes, DoS attacks are used to distract from other attacks happening at the same time.
+Device lock	The literal locking of a device—either physically, behind a locked door, or with a steel cable and padlock; or digitally with passwords or PINs.
+Dictionary attacks	A type of password cracking attack where hackers use words pulled from dictionaries or newspapers to crack passwords.
+Digital accounting	Investigating online and network activity to discover the reasons behind a certain outcome. Digital accounting is used in troubleshooting, security analysis, forensics, and hacking.
+Digital certificate	A security approval that includes a public encryption key that encrypts data. If the data recipient trusts the CA that issued the digital certificate, they use a private key to decrypt the data. Digital certificates are also used in smart card authentication. (See CA and PKI.)
+Digital Millennium Copyright Act (DMCA)	Law that makes it illegal to bypass copy protections or to develop technology that helps bypass copy protections. (See DRM and Digital products.)
+Digital products	Non-tangible assets a company owns, like software, online music, online courses, e-books, audiobooks, and web elements like WordPress templates or Shopify themes. (See DRM and DMCA.)
+Digital receipt	Encryption and authentication method used to prove that a message was sent from one party to another. (See Non-repudiation.)
+Digital Rights Management (DRM)	Code added directly to files that helps prevent digital assets from being copied or pirated, but there are tools that can remove DRM code. (See Digital products and DMCA.)
+Digital signatures	A regular signature used in conjunction with a hardware or software token. This authenticates the signer. The sender sends an encrypted signature and a public decryption key to a recipient. If the recipient can decrypt the signature with the public key, that proves the sender signed it because they must have performed the encryption with the private key. (See PKI and Non-repudiation.)
+Drive encryption	The scrambling of a drive’s data so it’s unreadable. (See Firmware.)
+Dumpster diving	Dumpster diving is the act of physically searching through a literal dumpster to find something valuable. A company’s trash might contain lists of customer names, phone numbers, contact information, business plans, product designs, or an access code written on a post-it note. Tech companies require document shredding and device destruction as a normal part of business because these can be stolen from the trash to harvest data that can be used for identity theft and data breaches. Or the data could be sold to hackers or a company's competitors.
+Eavesdropping	When hackers use a packet sniffer to read unencrypted network traffic so they can intercept, alter, or delete data transmitted between devices. Eavesdropping (or packet sniffing) attacks occur on wireless, wired, and phone connections. Staying off public wifi or using encryption with a VPN or cellular connection helps prevent eavesdropping attacks. Eavesdropping is also called “packet sniffing”. (See Packet sniffer.)
+Email management	Classifying email messages and deciding whether they should be saved or deleted. It helps prioritize emails, saves time, and increases productivity. It includes using folders and subfolders, using rules or filters, unsubscribing from email lists, and configuring settings to block spam.
+Encapsulating security payload protocol (ESP protocol)	Protocol that encrypts data and authenticates data and senders. (See IPsec.)
+Encryption	Encryption is the act of taking readable plain text and scrambling it into unreadable ciphertext with an algorithm, so it can only be read by a recipient that has the decryption key. Encryption is used at the network layer for data traveling across networks. It can also be done locally to hard drives, phones, and even thumb drives so that lost device data remains unreadable. In some industries, data encryption is a mandatory requirement. This includes student records, medical records, and consumer data. Many OSes have encryption built in. For those that don't, third-party encryption software is available.
+Encryption and hashing algorithms	Algorithms that scramble data. (See IPsec.)
+Encryption key	A series of random, unique numbers combined with very powerful algorithms that are used to encrypt (or scramble) data before it is sent. The person on the receiving end has a decryption key that's used to decrypt (or unscramble) the data, so it's in a readable or usable format.
+Exploits	Pieces of code that use vulnerabilities in hardware or software to get into a system. Malware-infected websites use exploits to automatically download malware to a system. This is called a drive-by download.
+Extension	Small piece of source code that adds a function or feature to a browser. Ad-blockers and in-browser PDF readers are extensions. Since extensions are given special authorizations within the browser, they are attractive targets for attackers. (See Add-ons.)
+File integrity monitoring (FIM)	Software that audits sensitive files and folders to ensure all activity is authorized.
+Firewall	Software or hardware that monitors connections and blocks harmful traffic based on preset rules. For example, schools and businesses use firewalls to block social media sites, age-inappropriate content, and certain types of downloads.
+Firmware	Firmware is software that tells hardware how to behave. Security firmware protects devices and data from malware and tampering. Outdated firmware leaves devices vulnerable.
+Firmware password	A security feature that requires a correct password in order to start a system’s OS. Also called ‘firmware password.” (See Firmware and BIOS.)
+General Data Protection Regulation (GDPR)	Set of regulations that mandate digital privacy for all countries in the European Union.
+Hardening	The process of securing a device to minimize vulnerabilities. This includes disabling unneeded device features, regularly updating a device’s firmware, OS, and software, and using firewalls, VPNs, and antimalware. (See Patches.)
+Hashing	Hashing is when an algorithm transforms an input string (like your password) into a smaller, fixed-length output string (or hash) that's saved to a file. A hash is like a digital fingerprint. Passwords are hashed with a scrambling algorithm. If a password hash is determined, attackers can use it to determine other passwords that were scrambled in the same way—that can be over 90% of unknown passwords in some cases. (See Password hash.)
+Health Insurance Portability and Accountability Act (HIPAA)	Set of regulations that mandate the use and disclosure of protected health information in America.
+Hypertext Transfer Protocol Script protocol (HTTP protocol)	A protocol that governs the flow of online traffic.
+HTTP websites	Websites relying on the HTTP protocol are not secure, especially when visited over public wifi. Everything that you send and receive is in plain text. It makes you an easy target for cybercriminals. (See HTTPS websites.)
+Hypertext Transfer Protocol Script Secure protocol (HTTPS protocol)	A protocol that governs the flow of online traffic and provides encryption for security.
+HTTPS websites	Secure HTTP, or HTTPS, protocol provides an encrypted connection between you and the sites that use it. Most commercial websites, social networking sites, or sites that offer a customer login use HTTPS. The easiest way to tell is to see if a website is HTTPS is if the URL starts with HTTPS. Or you can look for a lock icon in your browser’s URL window to confirm that site’s digital certificate and other security information. HTTPS websites only provides a secure connection between you and the web server. A site can use HTTPS and still try to scam users or be compromised in some way. (See HTTP websites and SSL certificates.)
+ICMP flood	Common type of DoS attack where diagnostic pings are sent to every computer on a network. Each computer pings every other computer, and so on, until the network crashes.
+Identity fraud	The act of using the personal, private, or financial information stolen from victims to commit fraud. (See Identity theft.)
+Identity theft	The act of stealing personal, private, or financial information from a person with the intent of using it to assume the victim’s identity and to commit fraud. (See Identity fraud.)
+Impersonation	When a hacker sets up a public wifi network that seems legitimate. Once a user connects, login credentials, session information, and PII can be intercepted. Or when a hacker sets up a fake website that looks and feels exactly like a real website, such as a well-known bank or other high-profile site. They may send fake email or text links (known as phishing) to trick you into visiting the fake site so they can steal your credentials to the real site and install malware on your device. A third type of impersonation is when a hacker pretends to be someone else so they can steal data or take over systems. This is also called social engineering. Impersonation attacks can be used individually or in combination with each other.
+Incognito mode	(See Private browsing.)
+Information	A summary of raw data. For example, positive or negative results that happen after some specific change. (See Data, Insights, and Data analytics.)
+Information asset	Information or data that has value. Like patient records, customer information, and intellectual property. Information assets can exist physically, on paper, on disks or other media, or they can exist electronically in databases and files.
+Insights	Conclusions based on the results of information analysis. Meaningful business decisions are based on insights. For example, if a positive trend occurs after store hours are changed, the right business decision would be to maintain those new hours. (See Information, Data, and Data analytics.)
+Intellectual property (IP)	Creations of the mind that are generally are not tangible. Often protected by copyright, trademark, and patent law. Examples of IP include industrial designs, trade secrets, research discoveries, and even some employee knowledge. Companies use a legally binding document called a Non-Disclosure Agreement (NDA) to prevent the sharing of IP and other sensitive information.
+Internet key exchange (IKE)	Secure exchange of cryptographic keys. (See IPsec.)
+Internet Protocol Security (IPsec)	A suite of network standards and protocols that use cryptography to protect data traveling over the Internet. The core protocols for the IPsec suite are the AH and ESP protocols. To support data security, the IPsec suite uses security associations (SA), Internet key exchange (IKE), encryption and hashing algorithms, and anti-replay protection. IPsec has two modes: tunnel mode and transport mode.
+IPsec transport mode	In IPsec transport mode, the IP header of the original data packet is left unencrypted. Only the content of the data packet is encrypted. Transport mode is common in host-to-site VPN. (See IPsec.)
+IPsec tunnel mode	In IPsec tunnel mode, the entire data packet is wrapped in a new packet, encrypted, and given a new header. Tunnel mode is common in site-to-site VPN. (See IPsec.)
+Jailbreaking	When users remove device restrictions on Apple iPhones so they can make changes and install non-approved apps. This adds functionality but also adds vulnerability. It is harder to jailbreak newer model phones, and there is less reason for it with updated features and app selections. (See Rooting.)
+Java	Programming language used to enhance website interactivity.
+Logical lure	An online ad or social media platform that looks too good to be true so users will click the ad to find out more. It’s a set up so an attacker can infect their computer with malware to gain access to login credentials, financial information, and other valuable data. (See Social engineering and Baiting.)
+LogsFiles	that capture access, changes, error messages, and other basic information. Most software and systems generate audit logs. Audit logs capture log file events which can show who did what and how the system behaved. (See Digital accounting.)
+Macro viruses	Bits of code that affect Microsoft Office files via the macros they use to automate tasks.
+Malicious websites	Websites that mimic real websites to trick users into entering login or payment data or to install malware that gathers personal information or takes over a device. Malicious website pages often have typos or designs that don’t match the legitimate site they are mimicking. Their URLs might use a zero instead of an “O” or a capital “i” instead of a lower case “L”.
+Malware	A general term for software designed to compromise computer systems. Malware can cause system slowdowns, odd requests, browser misdirection, and popup ads. It can also steal data, record everything you do with or near your device, spam your contacts with infected links, and connect your computer to a network of hijacked computers that are remotely controlled (known as a botnet). Malware can come from attachments, sketchy websites, file downloads, infected USB drives, or links in emails, ads, social media, torrents, and even text messages. Malware types include viruses, worms, trojans, exploits, spyware, adware, and ransomware.
+Man-in-the-middle attack	A man-in-the-middle attack is a form of eavesdropping. It has a victim, a receipt point, and an attacker. The victim and receipt point are unaware the attacker is listening in. Man-in-the-middle attacks can be physical or logical. Other man-in-the-middle attacks include spoofing, hijacking, and theft of browser cookies. (See Eavesdropping.)
+Man-in-the-middle attack (logical)	In a logical man-in-the-middle attack, the attacker sends emails or texts with fake links that direct victims to sites that steal their data and install malware. If a fake email warned about a bank account problem, the victim might click the link and try to login. This gives the attacker control of their bank account and installs malware on the victim’s computer.
+Man-in-the-middle attack (physical)	In a physical man-in-the-middle attack, the attacker is physically near the victim, like the same public wifi network or a network they set up themselves as a trap. The attacker sniffs the unencrypted network traffic to gain access to everything the victim is doing online so they can steal information.
+Meaningful reporting	The presentation of analyzed information in ways that help people further analyze and interpret. Reporting tools use captured and correlated data to provide charts, keyword searches, and graphs that help companies achieve business insights. (See Data correlation and Data capture.)
+Multi-factor authentication (MFA)	Authentication method that requires multiple authentication factors before authentication is granted. Usually, MFA requires that you fill in a code sent to your email or phone to prove that a login attempt came from you.
+Near field communication (NFC)	Wireless technology that transfers data across devices with a tap or a bump. It’s usually used for payments or sharing contacts. It has a much shorter range than Bluetooth and has zero security protections aside from its limited range.
+Non-repudiation	When you can't deny being in a specific location. It guarantees that a message sent between two parties is genuine. Non-repudiation examples include video, biometrics, digital signature, and digital receipt. (See Non-repudiation.)
+Open network	Free, unencrypted networks that do not require a password to log on. Airports, coffee shops, hotels and even fast-food restaurants offer their guests access to open networks. Open network providers may track what you do and sell your data to advertisers. Open networks also invite eavesdroppers to view everything sent and received on that network. On unprotected devices, they can install malware or hijack user sessions. Also called ‘unsecure network’ and ‘public wifi’.
+Original equipment manufacturer (OEM)	The original maker of a hardware device. OEMs provide drivers and firmware updates on their websites.
+Packet sniffer	A packet sniffer is a tool that intercepts everything transmitted on a network. Anything your device sends on an unencrypted network can be viewed with a packet sniffer. If a network is encrypted, packet sniffers will only be able to see things like the origin and destination of a packet but not the data inside it. (See Eavesdropping.)
+Packet sniffing	(See Eavesdropping.)
+Password cracking	Getting a correct password in an unauthorized way.
+Password hash	The string of letters and numbers that result after a password is processed by a scrambling algorithm. (See Hashing.)
+Patches	Patches are updates to apps and OSes that fix security weaknesses. Companies regularly release patches alongside system improvement updates to make sure that their customers are safe from new threats. But patches are a response to KNOWN threats—meaning the threat has already happened to someone. (See Hardening.)
+Personally Identifiable Information (PII)	Any information that can be used to identify someone, like government ID numbers, birthdates, addresses, and phone numbers. (See Confidential information.)
+Phishing	Email or text-based social engineering attacks that hackers use to steal usernames and passwords, bank account information, Social Security numbers, and more. Phishing attacks make it look like the email or message came from a friend or family member, or someone official like a bank, the government, or a large company. They use fear, greed, or a sense of urgency, so users are more likely to make a rush decision and click a malware-infected link or attachment. For example, a data breach alert from your bank that includes a password reset link. The email message and website were fake, and your password was never reset. Phishing emails usually have typos and grammatical errors. (See Social engineering.)
+Physical lure	A physical object, such as a malware-infected USB flash drive that's been deliberately left somewhere in the hope that someone will take the drive and plug it into their computer. It’s a set up so an attacker can gain access to login credentials, financial information, and other valuable data. (See Social engineering and Baiting.)
+Plain text	Data that has not been encrypted.
+Plug-ins	Site-specific browser add-ons that you click on to install. They are not supported in today’s modern browsers, in favor of extensions. (See Add-ons.)
+Polymorphic viruses	Bits of code that change their characteristics to get around cybersecurity defenses. 97% of all malware uses polymorphic viruses.
+Pretexting	When an attacker poses or impersonates someone with authority – such as a police officer, someone from your bank, a tax official, or one of your co-workers. They can use a sense of fear, intimidation, friendliness, sympathy, or urgency to try to trick or pressure you into confirming your identity under the pretense that they need something from you or need you to perform some critical or urgent task for them. (See Social engineering.)
+Private browsing	Browser setting that doesn’t save browsing history, cookies, site data, or form data. Also called ‘incognito mode’. Private browsing users appear as a new or unknown user on sites, and other people who use the device won't see private browsing history, and cookies and site data are remembered while browsing but deleted when the browser is closed. But private browsing activity isn’t hidden from employers, schools, or ISPs. Also, any bookmarks or downloads created during private browsing will be kept.
+Program viruses	Bits of code that insert themselves into another program.
+Protected Health Information (PHI)	Any information added to a person’s medical record during diagnosis or treatment that can be used to identify them, like PII, medical history, prescription lists, photos, and more. (See Confidential information.)
+Public key infrastructure (PKI)	When a user is validated with a digital certificate by a Certificate Authority. (See Smart card authentication, Digital certificate, and Digital signatures.)
+Public wifi	(See Open network.)
+Rainbow attacks	A type of password cracking attack where hackers use words from an original password hash to generate all other possible passwords.
+Ransomware	Software that locks a system, encrypts its files, and displays a ransom demand. To get the encryption key, you must pay the ransom. Or you can regain access by doing a full system restore from a backup.
+Relational database management system (RDBMS)	A database that records user access and data changes. RDBMS is safer than a spreadsheet program.
+Replay attack	A type of man-in-the-middle attack which intercepts and retransmits data. Replay attacks involve “trusted entities” and require an “access token”. Replay attacks are also known as repeat or playback attacks.
+Role-based access control (RBAC)	Access control method that follows a company’s org chart. Different customer and employee roles are set up as groups on a network, and then those groups are granted certain permissions. When a new user joins the network, they are assigned to the group that fits their role. They will have the lowest level of permissions they need to do their job. (See Access control and ROLP.)
+Root certificate store	(See CA and SSL certificates.)
+Rooting	When users remove device restrictions on Android phones so they can make changes and install non-approved apps. This adds functionality but also adds vulnerability. It is harder to root newer model phones, and there is less reason for it with updated features and app selections. (See Jailbreaking.)
+Rule of least privilege (ROLP)	Access control method where access is only granted to resources that a user needs to fulfill their role. (See RBAC and Access control.)
+Search engine algorithms	Algorithms used by search engines that detect harmful sites. Browsers use those results to warn users that a site may contain malware, malicious code, phishing scams, or be hacked in some other way. If your browser tells you a site is unsafe, avoid that site.
+Secure boot	A feature of UEFI. It confirms an OS manufacturer’s digital signature, which prevents malware from taking control during boot-up. (See Firmware and UFEI.)
+Secure sockets layer certificates (SSL certificates)	Certificate that authenticates a website’s identity and enables an encrypted connection between a web server and a browser. SSL certificates come from CAs. When you browse a website using HTTPS, you’re trusting the CA to validate the information submitted by the business who has requested an SSL certificate. Businesses need SSL security certificates for their websites so they can keep user data secure, verify their ownership of the site, prevent attackers from creating fake versions of their site, and to convey trust to users. They also need them if they want to have an HTTPS web address. When you see a lock icon in the address bar of a URL you visited, then you know that website is using HTTPS. Also called ‘security certificate’ and ‘trust seal’. (See CA and HTTPS websites.)
+Security associations (SA)	Defines which types of hashing and encryption are used (See IPsec.)
+Security certificate	(See SSL certificate.)
+Security zones	A feature of older browsers. They block or allow websites and confine them to different zones such as the local network, Internet, or intranet. For each zone you could apply different security levels. For example, medium, high, or custom. Security zones can also be configured to allow ActiveX and Java for added website interactivity or functionality, but this introduces risk. Modern browsers do not use Zones. Older web apps may require you to enable ActiveX in order to run properly.
+Session hijacking	When an attacker intercepts and hijacks your connection. For example, they can take over a connection while you’re logged in to your bank and transfer funds to an outside account.
+Shoulder surfing	When an attacker sits strategically in public areas to try to see usernames and passwords, bank account pins, and other essential information. They literally watch what you enter on your screen and look at your finger's keystrokes, too. Shoulder surfing is common in busy public places.
+Smart card authentication	User authentication using a card that has a security chip. The smart card has a public/private key pair. It presents a digital certificate (including the public key) to the server it’s trying to access. If the server trusts the CA that issued the digital certificate, it will use the public key to send an encrypted request. Only the smart card’s private key can decrypt the request, which means only the smart card owner can send the correct response. (See PKI and digital certificate.)
+Snooping	Cyberattack that intercepts data between devices. Snooping can reveal logins, credit card numbers, intellectual property, and more. Snooping attack types include: eavesdropping, man-in-the-middle, and replay. Some hackers can even use a computer monitor’s electromagnetic fields to reconstruct what it displays. Snooping is common on open, unsecured networks and can be difficult to trace.
+Social engineering	The use of psychological manipulation to trick people into giving away sensitive information or getting them to make security-related mistakes. Attackers try to gain a victim's trust and then try to manipulate that person into doing what the attackers want them to do. Often times, the sense of fear or urgency is used to further the process along. Social engineering is a trap. It relies on human error. (See Pretexting, Baiting, and Phishing.)
+Software or license theft	The unauthorized copy or use of copyright-protected software. This includes pirating software and counterfeiting activation codes.
+Spam	Unwanted, unsolicited digital communication sent out in bulk to multiple recipients at once. Much of the time, it is sent from unknown senders. It comes in the forms of email, text messages, instant messages, robocalls and social media. It is junk, typically used for advertising products, goods, or services, but it can also be used to distribute malware. Your company and web-based email services filter out most spam at the email server level and block domains known for sending spam. But some still gets through. Some spam is harmless, but it can be dangerous when scammers use it to commit phishing attacks or fraud against you.
+Spyware	Software collects personal data, login credentials, credit card information, online activity, and can record using a device’s camera or microphone. Spyware can be legitimate or malicious.
+Single sign-on (SSO)	Authentication method that lets you log in to multiple applications and platforms with one login.
+Stealth viruses	Bits of code that copy themselves to different locations to avoid antivirus scans.
+Strong password	Passwords that are long, difficult to guess, and have a mix of numbers, letters, symbols, and capitalizations. For example: the phrase, “Johnny Appleseed loves apples” would be a very strong password, especially if it included a mix of numbers and symbols.
+Symmetric encryption	When a single key is used between parties to encrypt and decrypt data. With only one key, it uses less memory, which is great for quickly and securely processing larger amounts of data. That’s why it is often used to protect the main data exchange in a session. But it’s harder to keep a single key secret, especially if it needs to be broadly distributed. If this key is intercepted by a hacker, then they can decrypt messages, hack accounts, and steal or tamper with data. 3DES and CAST are examples of symmetric encryption technologies. Also called “single-key” or “private key” encryption. (See Asymmetric encryption.)
+SYN flood	Common type of DoS attack that sends a rapid series of incomplete connection requests which flood a website until the server crashes.
+Toolbars	Toolbars were designed to add functionality to the browser, like spell check, auto fill, yellow pages, and dictionaries. But most toolbars were considered nuisance-ware. Some would show sponsored results instead of what you originally searched for, or they’d impede system performance. Some even installed malware, tracked browsing habits, and collected user data. Toolbars used to be forcibly installed on user devices during software installation processes. Fortunately, toolbars are a thing of the past. (See Add-ons.)
+Tracking	Following a person to see where they go and what they do. Websites can track your OS, browser version, installed extensions, screen resolution, installed fonts, time zone, language, and how long you spent on a site and what you did there. (See Digital accounting.)
+Trojans	Bits of code that trick you into installing legitimate-seeming software that includes harmful malware.
+Trust seal	(See SSL certificate.)
+Trusted entities	Users or websites that get an access token (or security key) after verifying that they are who they say they are. For example, connecting to your bank or your work network on a network-registered device. (See Replay attack.)
+Trusted Platform Module (TPM)	A chip that stores and manages encryption keys. TPM chips won’t start a device or unencrypt data if tampering is detected. (See Firmware.)
+Two-factor authentication (2FA)	Authentication method that requires an authentication device before authentication is granted.
+Unified Extensible Firmware Interface (UEFI)	Newer and more advanced boot firmware. (See Firmware.)
+Unsecure network	(See Open network.)
+Viruses	Programs designed to spread from host to host, just like real viruses. An infected app or file has to be started by a user for a virus to activate. Viruses can turn on a webcam, record keystrokes and site visits, steal data, corrupt files, and hijack email accounts.
+Virtual Private Network (VPN)	Technology that encrypts the traffic coming out of your device or site. Even if a hacker captures your data, they won't be able to read it or decrypt it. A VPN is an encrypted tunnel set up between two or more sites. All traffic in the tunnel is unreadable and useless to anyone who might try to intercept the traffic. VPN traffic is encrypted at the originating site and decrypted at the receiving site. VPNs make it much more difficult for hackers to make eavesdropping attacks, man-in-the-middle attacks, and replay attacks. This is especially useful if public wifi is your only connection option. VPNs can be hardware based or software based.
+VPN hardware device	Device specifically designed to create VPNs or network devices with added VPN functionality. They include VPN concentrators, routers, and firewalls.
+VPN, host-to-host	Host-to-host VPN is when two remote users need to connect securely to each other. This user-to-user or device-to-device interaction doesn’t require a complex encryption solution. Both host devices use VPN software. Traffic that needs to traverse the internet is encrypted by the sender’s VPN and then decrypted by the receiver’s VPN. (See VPN, or virtual private network.)
+VPN, host-to-site	Host-to-site VPN is when a remote user needs to connect securely to a site. The host device uses VPN software while the site uses a VPN device or software to protect its internal network. Traffic that needs to traverse the internet is encrypted by the sender’s VPN and then decrypted by the receiver’s VPN, which then receives the traffic if the host is the receiver, or routes it to its intended recipient if the site is the receiver. (See VPN.)
+VPN, site-to-site	Site-to-site VPN is when two sites connect across an existing internet connection with a VPN device. Each site’s internal network traffic is unencrypted. Traffic that needs to traverse the internet is encrypted by the origination site’s VPN and then decrypted by the receiving site’s VPN device, which then routes the traffic to its intended recipient. (See VPN.)
+Whois Lookup tool	Online tool that shows who owns a site.
+Windows Defender	Pre-loaded anti-malware software from Microsoft. Windows Defender protects your computer against viruses and malware for free. It also integrates with the built-in firewall that comes with the Windows operating system and is enabled by default. However, Windows Defender does not perform VPN functions.
+Wiretapping	Covertly intercepting phone-based and internet-based telecommunications. Any type of traffic is a target: computer transmissions, phone calls, texts, social media updates, and fax transmissions. This can be done legally with a warrant, or it can be used illegally in cyberattacks. Wiretapping only involves listening. It cannot alter or stop data. Wiretapping is also known as lawful interception.
+Worms	Viruses that start themselves after identifying system weaknesses. They don’t rely on apps or files. Unlike viruses, worms can be controlled remotely.
+
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 1 of 44 
+Glossary 
+ 
+Module 1: Data and Privacy ............................................................................................................ 2 
+Module 2: Governance, Risk, and Compliance .............................................................................. 7 
+Module 3: Threats and Vulnerabilities ......................................................................................... 11 
+Module 4: Vulnerability Management .......................................................................................... 14 
+Module 5: System Security ........................................................................................................... 17 
+Module 6: Network Security ......................................................................................................... 21 
+Module 7: Cloud Computing and Virtualization ........................................................................... 26 
+Module 8: Securing Cloud Infrastructure..................................................................................... 29 
+Module 9: Security Operations ..................................................................................................... 32 
+Module 10: Security Monitoring ................................................................................................... 35 
+Module 11: Incident Response .................................................................................................... 38 
+Module 12: Digital System Forensics ........................................................................................... 40 
+Module 13: Emerging Threats and the Future of Cybersecurity Technologies ........................... 43 
+ 
+  
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 2 of 44 
+Module 1: Data and Privacy 
+Term Definition 
+Administrative 
+controls 
+Guidelines, policies, and procedures written to meet and enforce 
+security goals. 
+Antimalware 
+(antivirus) 
+software 
+Software that detects, quarantines, and destroys malware that 
+threatens data or networks. 
+Asymmetric 
+encryption 
+An encryption process that involves using two keys: a public key to 
+encrypt data and a private key to decrypt it. 
+Availability An objective of the CIA triad that means ensuring timely and reliable 
+access to and use of data. 
+Authentication A measure to verify the source of a message. 
+A1Z26 cipher An encryption process that replaces each plaintext letter with a 
+number corresponding to that letter’s order in the alphabet 
+Backup software Software that creates extra copies of data that can be used to recover 
+critical data lost due to breaches, system failures, or other security 
+events. 
+Brute force attack A cyberattack in which the attacker tries different passwords until they 
+find one that works. 
+Caesar cipher An encryption process that replaces each plaintext letter with the 
+letter three places before or after it in the alphabet. 
+CIA triad An information security model with confidentiality, integrity, and 
+availability as the objectives of data protection. 
+Cipher A set of transformations that convert plaintext, the intelligible, human
+readable data, into ciphertext, the data’s encrypted form. 
+Cloud DLP A type of data loss prevention that involves detecting and encrypting 
+sensitive data before it is stored in the cloud. 
+Confidential data Data that an organization protects from unauthorized access, such as 
+proprietary information, source code, employee records, personally 
+identifiable information (PII), and protected health information (PHI). 
+Confidentiality An objective of the CIA triad that means protecting data by ensuring 
+that only authorized people can access or disclose it. 
+Control A measure that you can take to mitigate risks. Controls come in three 
+types: administrative, physical, and technical. 
+Cyberattacker 
+(attacker) 
+A hacker who tries to bypass system or network security to access 
+data without authorization for malicious purposes. 
+Data at rest Data residing in a storage device. 
+Data erasure 
+software 
+Software that permanently clears a repository’s unneeded or unused 
+data. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 3 of 44 
+Term Definition 
+Data in motion 
+(Data in transit) 
+Data that is actively moving across a network or between systems. 
+Data in use Data that a computer or application is actively using and processing. 
+Data loss 
+prevention (DLP) 
+systems  
+Processes, procedures, and tools that help detect and prevent data 
+loss. 
+Data privacy Data security focused only on preventing unauthorized collection, 
+disclosure, or use of customers’ and employees’ private data. 
+Data security How an organization protects confidential data from unauthorized 
+access, disclosure, or destruction. 
+Differential 
+backups 
+A data backup process that starts with a full backup, and then each 
+additional backup includes only the changes made since the last full 
+backup. 
+Encryption Technical control that ensures data confidentiality by converting 
+readable data into an unreadable form. 
+Encryption 
+software 
+Software that converts data into a format that unauthorized people 
+cannot understand, preserving confidentiality. 
+Endpoint DLP A system that monitors all endpoints for data loss or leakage. 
+File encryption The process of encrypting files or file systems so that only those with 
+the key can access them. 
+File-level DLP A system that identifies sensitive files in a file system. 
+Full backups A data backup process in which you copy the entire content of your 
+system or device. 
+Full drive 
+encryption 
+The process of encrypting an entire hard disk, including its data, files, 
+programs, and operating system. 
+Generally 
+Accepted Privacy 
+Principles (GAPP) 
+A standard for data privacy developed by the American Institute of 
+Certified Public Accountants (AICPA) and the Canadian Institute of 
+Chartered Accountants (CICA). 
+Hacker Someone who tries to bypass system or network security to access 
+data. 
+Hard disk 
+encryption 
+The process of encrypting data stored on a hard disk and new files 
+being added. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 4 of 44 
+Term Definition 
+Incremental 
+backups 
+A data backup process that captures only the changes made since the 
+last backup. 
+Integrity An objective of the CIA triad that means protecting data from 
+unauthorized modification and destruction to ensure it is trustworthy 
+and accurate. 
+Malware Software or firmware intended to conduct unauthorized actions that 
+negatively affect system security. 
+Monoalphabetic 
+cipher 
+An encryption process that replaces each plaintext letter with another 
+letter in the alphabet. For example, maybe all A’s become Z’s and all 
+B’s become Y’s. 
+Network DLP A system that protects data at rest, in motion, or in use on an 
+organization’s network. 
+Network 
+encryption 
+Encryption used to protect sensitive data in motion between the server 
+and the client. 
+Non-repudiation Assurrance that neither the sender nor the receiver of a message can 
+deny its transmission; the sender receives proof of delivery, and the 
+receiver receives proof of the sender’s identity. 
+Personally 
+identifiable 
+information (PII) 
+Private data that can be used to identify someone, such as birthdays, 
+addresses, phone numbers, and government-issued ID numbers. 
+Physical controls Devices or structures designed to restrict access to areas or devices 
+containing sensitive data. Common examples include fences, locks, 
+key cards, security cameras, alarms, and cabinets. 
+Private data Data about a person and their private life that other parties should not 
+be able to collect, use, or disclose unless authorized. Some examples 
+include financial activity, credit card numbers, email login credentials, 
+personally identifiable information (PII), and protected health 
+information (PHI). 
+Proprietary data Organization-owned or organization-generated data relevant to the 
+organization’s products or actions that must remain confidential. 
+Protected health 
+information (PHI) 
+Private data in medical records used to identify someone, such as 
+diagnoses, test results, prescriptions, and health insurance 
+information. 
+Public data Data that anyone can access, use, and redistribute without restriction. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Term 
+Definition 
+Symmetric 
+encryption 
+An encryption process that involves using a single private key to 
+encrypt and decrypt data. 
+Technical controls 
+Hardware or software that helps secure data or processes. Common 
+examples include antimalware software and encryption software. 
+Threat 
+Something that can cause harm to a network, system, or data. 
+Vulnerability 
+A weakness in hardware, firmware, or software that a hacker can 
+exploit. 
+Questions I have 
+Example: What is the difference between confidential data and private data? 
+Page 5 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Example: Confidential data is data that an organization protects from unauthorized access, 
+such as proprietary information, source code, employee records, personally identifiable 
+information (PII), and protected health information (PHI). 
+Private data is a type of confidential data. Specifically, it’s confidential data about a person, 
+such as login credentials, credit card numbers, and medical test results. 
+Page 6 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 7 of 44 
+Module 2: Governance, Risk, and Compliance 
+Term Definition 
+California 
+Consumer Privacy 
+Act (CCPA) 
+A data privacy law that applies to any organization that does business 
+in California and must share with customers the data it collects about 
+them and their children. 
+Compliance 
+controls 
+Risk-based controls that companies implement to protect 
+confidentiality, integrity, and availability of data and comply with laws, 
+regulations, and standards. 
+Compliance (in 
+cybersecurity) 
+An organization’s adherence to applicable laws, regulations, and 
+standards designed to keep data and systems safe from cyberthreats. 
+Disaster 
+preparedness plan 
+A written plan that lists the precautions that an organization takes to 
+prevent or mitigate the harm that disasters cause. 
+Disaster recovery 
+plan (DRP) 
+A written plan for recovering data or systems if a disaster occurs. 
+Federal 
+Educational Rights 
+and Privacy Act 
+(FERPA) 
+A US federal law designed to keep student education records private. 
+The law requires that schools implement appropriate controls, such as 
+policies, procedures, and training, to prevent unauthorized access, 
+disclosure, and use of those records. 
+General Data 
+Protection 
+Regulation (GDPR) 
+An extensive data privacy law and regulation that applies to any 
+company that hosts the data of EU residents or does business with EU 
+countries. 
+Gramm-Leach
+Bliley Act (GLBA) 
+A US federal law that requires financial institutions and companies that 
+offer US consumers financial products or services to disclose their 
+data-sharing practices to customers. 
+Governance The process of making and enforcing decisions within an organization. 
+It defines how a governing body structures and sustains rules, norms, 
+and actions and how it holds everyone accountable for them. 
+Governance, risk, 
+and compliance 
+(GRC) 
+A structured way to align an organization’s business goals with its 
+recognition of risk and risk mitigation to meet all government and 
+industry regulations and standards. 
+Guideline A recommended, not required, way to perform a task at an 
+organization. For example, a company guideline might be that 
+employees use a specific PowerPoint template for all internal 
+meetings. But if an employee violates this guideline, they’ll probably 
+receive a reminder, not a punishment. 
+Health Insurance 
+Portability and 
+Accountability Act 
+(HIPAA) 
+A US federal law that defines the control of protected health 
+information (PHI), such as medical records and diagnoses. HIPAA’s 
+Privacy Rule places strict restrictions on access and disclosure of 
+someone’s PHI. HIPAA’s Security Rule establishes standards for 
+protecting PHI. 
+IEEE 802 
+networking 
+standards 
+Industry-standard guidance for securing area networks of various 
+sizes. For example, the standards cover network access, encryption, 
+and threat detection. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 8 of 44 
+Term Definition 
+ISO 2700 and ISO 
+27001 
+International standards for a wide range of cybersecurity topics, such 
+as assessing risks, creating information security management systems, 
+and deploying security controls. 
+Law A legal requirement established by a congress, parliament, or other 
+legislative group. Laws tend to be broad in scope. Violating them can 
+lead to penalties, fines, and other legal consequences. In the context 
+of cybersecurity, laws protect data and punish those who violate its 
+confidentiality, integrity, or availability without proper authorization. 
+Multiparty risks Risks that impact more than one organization. A common example is 
+an internet or service provider outage. 
+National Institute 
+of Standards and 
+Technology (NIST) 
+A US federal agency dedicated to advancing American technology and 
+innovation that provides extensive cybersecurity resources, including 
+hundreds of cybersecurity and data privacy standards. 
+NIST risk 
+management 
+framework (RMF) 
+A comprehensive, repeatable, and measurable approach to managing 
+data security and privacy risk. It includes seven steps. 
+NYDFS 
+Cybersecurity 
+Regulation 
+A New York state regulation that requires financial institutions doing 
+business in the state to perform risk management. 
+Payment Card 
+Industry Data 
+Security Standard 
+(PCI DSS) 
+A data security standard for credit cards that applies to organizations 
+storing or transmitting credit card data. 
+Procedure Step-by-step processes for completing a task to meet a standard or 
+guideline. 
+Policy A broad statement about the overall intent of an organization and how 
+it should be run, including details about the organization’s goals, 
+intentions, and values that the organization must defend with the 
+security framework. 
+Regulation A legal requirement, established by a government agency, intended to 
+interpret and implement a law. Regulations clarify what organizations 
+must do to stay within the law. Non-compliance with regulations can 
+lead to penalties, fines, and other legal consequences. 
+Risk The extent to which a potential cyberattack or other event threatens an 
+organization’s operations. 
+Risk assessment A process of identifying risks, evaluating their impact, and deciding 
+what to do about them. 
+Risk management Process of identifying, assessing, and controlling financial, legal, 
+strategic, and security risks to an organization’s capital and earnings. 
+Risk tolerance Level of risk or degree of uncertainty that is acceptable to 
+organizations. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Term 
+Definition 
+Standard (in 
+compliance) 
+A set of guidelines or best practices created by experts, industry 
+groups, or governments that organizations might follow. 
+Standard (in 
+governance) 
+A measurable requirement that all employees in an organization must 
+follow. Common examples include configuration settings for devices or 
+requirements for using company equipment. 
+Questions I have 
+Page 9 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 10 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 11 of 44 
+Module 3: Threats and Vulnerabilities 
+Term Definition 
+Adware Advertising-supported software that automatically displays unsolicited 
+advertisements on a device. 
+Bot (standard 
+definition) 
+A program that performs automated tasks over a network. A common 
+example is a chatbot performing customer service. 
+Bot (specifically, a 
+malicious bot or 
+zombie) 
+An internet-connected device infected with malware that enables the 
+attacker to control the device remotely. Often referred to as a bot in 
+cybersecurity. 
+Botnet A network of malicious bots that an attacker controls under the same 
+instance to launch cyberattacks. 
+Defense in depth A strategy in which you use multiple layers of security controls to 
+protect assets. For example, an employee might have to pass physical 
+controls, such as a security guard and security cameras, before 
+successfully entering their login credentials, a technical control. 
+Door access 
+control systems 
+Systems that restrict entrance to only those with the correct 
+credentials. 
+Dumpster diving When someone searches a person’s or organization’s trash for 
+confidential information. 
+Electromagnetic 
+interference (EMI) 
+Interference caused by electromagnetic radiation that can hinder 
+hardware performance. EMI typically comes from electronic devices, 
+such as computers, cell phones, microwaves, and LED lights. 
+EMI shielding A technique that encloses equipment, such as audio-video (AV) and 
+ethernet cables, within conductive or magnetic materials to block 
+external electromagnetic waves. 
+Keylogger Spyware that records each keystroke that you make on your device. 
+Logic bomb Malware saved in a file or embedded in software that activates only 
+when specific conditions are met, such as a specific time of the day. 
+Malware Software designed to threaten the confidentiality, integrity, or 
+availability of data or systems. 
+Malwarebytes An antimalware program that detects and removes malware such as 
+viruses, exploits, and ransomware. 
+Malware signature A pattern of attributes that corresponds to known malware. When 
+antimalware software identifies a signature in a file, the software 
+deletes the file, quarantines it, or alerts you that the file might be 
+infected. 
+Patch 
+management 
+The process of updating software to add new features or fix 
+vulnerabilities. 
+Phishing The practice of sending messages, seemingly from a legitimate 
+organization, to trick users into providing confidential information. 
+Physical threat A direct threat to assets, such as unauthorized intrusion into a 
+restricted area and natural hazards such as fires. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 12 of 44 
+Term Definition 
+Shoulder surfing When an attacker steals your personal information by looking over your 
+shoulder as you use a computer or device. 
+Social engineering The use of deception to trick people into divulging confidential or 
+private information for fraudulent purposes. 
+Spear phishing A type of phishing that targets a specific person, group, or organization. 
+Tailgating When an unauthorized person enters a restricted area by following 
+behind an authorized person. 
+Ransomware Malware that holds your system hostage, infects it, restricts access to 
+it or its data, and instructs you to pay a ransom to regain access. 
+Spyware Malware installed secretly on a device or system to collect and report 
+data, such as keystrokes, web browsing habits, download history, and 
+other internet behavior. 
+Trojan A seemingly helpful program designed to give an attacker access to a 
+device secretly to control remotely, steal data, spy on activity, install 
+malware, or perform other malicious actions. 
+Virus Malware that attaches to a device’s files or programs to replicate itself 
+and then spreads to another device. 
+Worms Malware that self-replicates without needing a host device’s files or 
+programs and then spreads across systems. 
+Zero-day 
+vulnerability 
+A previously unknown security flaw in software that haven’t been fixed. 
+ 
+Questions I have 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 13 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 14 of 44 
+Module 4: Vulnerability Management 
+Term Definition 
+Cross-site 
+scripting (XSS) 
+An attack that inserts malicious code into a client web page. When a 
+user accesses the page, their browser recognizes the code as coming 
+from a trusted site, enabling the code to run. 
+Cyberattacker Someone who tries to bypass system or network security without 
+authorization for malicious purposes. 
+Ethical hacker or 
+offensive security 
+researcher 
+A hacker who works with organizations to identify and fix 
+vulnerabilities, not exploit them for malicious purposes. 
+Exploitation 
+frameworks 
+Tools that provide repositories of prebuilt cyberattacks and exploits. 
+For example, with the Metasploit application, you can search for 
+attacks tailored to a specific version of an OS that you want to target 
+and then let Metasploit perform the attack. 
+Expression A combination of code components that a program can interpret and 
+use. 
+Footprinting or 
+reconnaissance 
+The act of profiling a system and its users to gather threat intelligence. 
+For example, a pen tester might collect a network’s IP addresses and 
+domain names and determine its topology. 
+Host A device, such as a server or laptop, that can communicate with other 
+devices on a network and grant access to devices outside the network. 
+Indicators of 
+compromise 
+(IOCs) 
+The symptoms or evidence of a cyberattack. For example, the subject 
+line of a suspicious email might match that of a known phishing scam. 
+Intelligence Information and knowledge about an adversary obtained through 
+observation, investigation, analysis, or understanding. 
+JavaScript Object 
+Notation (JSON) 
+A standard text-based data format that uses human-readable text that 
+can be easily stored and transmitted using an automated system. 
+Network mappers Tools to find and map out all devices on a network and discover data 
+about each device, such as its IP address. 
+Open port A network port that accepts a connection. Attackers want to find and 
+exploit open ports, while network administrators want to close or block 
+them while ensuring that legitimate users still have access. 
+Open-source 
+intelligence 
+(OSINT) 
+Intelligence that anyone can create from publicly available 
+information. Common sources of OSINT include blogs, libraries, news 
+organizations, company websites, social media, and public records. 
+Operational 
+intelligence 
+Intelligence that helps security teams anticipate and prevent future 
+attacks. 
+OWASP ZAP A free, open-source vulnerability scanner and penetration testing tool 
+designed for testing a web application’s security. 
+Packet analyzer A tool that captures and inspects data in transit across a network. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 15 of 44 
+Term Definition 
+Penetration testing A type of security testing that simulates real hacking techniques to find 
+application, network, or system vulnerabilities that attackers can 
+exploit. 
+Port scanner A program that identifies a network’s open or available ports. 
+Spider or web 
+crawler 
+A program that searches and indexes web content. 
+Strategic 
+intelligence 
+High-level intelligence about current worldwide trends in cyberthreats. 
+Structured Threat 
+Information 
+Expression (STIX) 
+An open-source programming language that provides a standardized 
+format for sharing threat intelligence. 
+SQL injection A cyberattack that places malicious code into a Structured Query 
+Language (SQL) statement through an application or web page. 
+Attackers typically use a user input request, such as a username, to 
+enter the SQL statement, which runs on the server database. 
+Tactical 
+intelligence 
+Intelligence that helps security teams detect and respond to 
+cyberattacks in real time. 
+Threat actor 
+(malicious actor) 
+An entity, such as a person, group, or organization, that poses a 
+cybersecurity threat. 
+Threat intelligence Intelligence that helps organizations make informed decisions about 
+cybersecurity threats. 
+Vulnerability 
+assessment 
+A systematic process in which you identify and evaluate system, 
+network, or application vulnerabilities to determine security risk. 
+Vulnerability scan A software-assisted evaluation of a system for known vulnerabilities. 
+Vulnerability 
+scanner 
+An application that scans a system for known vulnerabilities. 
+ 
+Questions I have 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 16 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 17 of 44 
+Module 5: System Security 
+Term Definition 
+Application server A server that connects clients to software applications through virtual 
+server connections. 
+Bootkit Malware that infects a computer’s boot loader or master boot record 
+(MBR), which is responsible for starting the operating system. 
+Boot program Software that loads the operating system into the computer, allowing 
+applications to interact with its hardware. 
+Client A device connected to a network. 
+Collaboration server A server that allows multiple users to share and store files, 
+applications, and large amounts of data. 
+Common Weakness 
+Enumeration (CWE) 
+A community-developed list of software weaknesses that can lead to 
+security vulnerabilities in firmware. 
+Database server A server that functions as a large storage space that the organization 
+uses and accesses to run multiple programs. 
+Domain name 
+system (DNS) 
+server 
+A server that transforms readable computer domain names into 
+computer language internet protocol (IP) addresses, taking search 
+data from a user to find the requested address to deliver to another 
+device. 
+File server A server that stores data files for multiple users and allows for faster 
+data retrieval. 
+Firmware A critical computer program embedded in a device for controlling its 
+specific hardware functions, such as system startup and interacting 
+with a router. 
+File transfer 
+protocol (FTP) 
+server 
+A server that relocates files from one computer to another. File 
+transfer protocol also refers to using a server to connect one 
+computer to another to share data safely. 
+Gaming server A server that hosts multiplayer online games. Large gaming networks 
+use servers to connect users from around the world. 
+High-level firmware Firmware used with flash memory chips for updating and typically has 
+more complex instructions than low-level firmware. 
+Jailbreaking A method used to gain access to the underlying operating system of 
+an iPhone. 
+Kernel Software that manages essential components of the operating 
+system, such as managing memory and device drivers and scheduling 
+processes, and ensures proper coordination between hardware and 
+software. 
+Low-level firmware Firmware stored on a non-volatile memory chip, such as read-only 
+memory (ROM). It provides the most basic control for a device’s 
+hardware, typically managing the hardware’s initial startup processes. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 18 of 44 
+Term Definition 
+Mail server A server that stores and delivers mail for clients through email service 
+platforms. 
+Mobile OS An operating system developed specifically to run on a mobile device. 
+Well-known examples include iOS and Android. 
+Monitoring and 
+management server 
+A server designed for recording and tracking digital transactions and 
+receiving user requests. 
+Operating system 
+(OS) 
+A type of software that manages all a computer’s applications, 
+programs, and hardware resources and provides a user interface for 
+interacting with the computer. 
+OS security Process of ensuring the OS’s confidentiality, integrity, and availability. 
+It involves protecting the OS from threats, such as viruses, worms, 
+malware, and remote hacker intrusions. 
+Patch management Process for keeping computers and networks secure, reliable, and up
+to-date with necessary features and functionality. 
+Print server A server that connects remotely to local computers to print through a 
+network. With these servers, organizations can use a single printer to 
+serve an entire department. 
+Proxy server A server that intercepts data sent by a website to then send it to a 
+computer’s IP address. 
+Rooting A method used to gain access to the underlying operating system of 
+an Android device. 
+Rootkit Malware designed to hide its presence and activities from the user 
+and the operating system’s security mechanisms. 
+Server A specialized device or software system that stores and processes 
+data and acts as a central hub in a network, providing this data to 
+other devices in the network. 
+Server OS An operating system developed specifically to manage and run a 
+server. Examples of widely-used server OSs include Red Hat 
+Enterprise Linux Server and Windows Server. 
+Software A set of instructions and data that tells a computer how to perform 
+specific tasks. It includes programs and applications that help users 
+accomplish various activities, such as browsing the internet, writing 
+documents, or playing games. 
+Subsystem 
+firmware (device 
+firmware) 
+Specialized firmware that functions independently of the main system 
+firmware. For example, a printer operates with its own firmware, but 
+firmware is also embedded in the ink cartridge chip to manage 
+communication with the printer about ink levels. 
+System hardening The process of securing a computer system or server by mitigating 
+potential vulnerabilities. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Term 
+Definition 
+Web server 
+A server that accesses the World Wide Web through public domain 
+software. It connects the stored information from an internet website 
+to the user’s computer. 
+Workstation OS 
+An operating system developed specifically to run on desktop or 
+laptop computers. Windows, macOS, and Linux are some of the most 
+well-known workstation operating systems. 
+Questions I have 
+Page 19 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 20 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 21 of 44 
+Module 6: Network Security 
+Term Definition 
+Access control 
+schemes 
+Models for providing consistency in access control to network 
+resources. 
+Advanced 
+Encryption 
+Standard (AES) 
+A type of router encryption used to secure classified information. 
+Routers made after 2006 should have the option to enable AES along 
+with WPA2. 
+Air gap A technique for secure network design that completely isolates a 
+digital device component or private network from other devices and 
+networks. Air gaps frequently protect systems that need very high 
+security, such as those involved with the military, utilities, or medical 
+practices. 
+Attribute-based 
+access control 
+(ABAC) scheme 
+An access control model in which decisions are based on attributes 
+that define the user, resource, and environment where users are 
+requesting access. 
+Bluesnarfing An attack that exploits Bluetooth vulnerabilities to steal information or 
+use the device. 
+Buffer overflow 
+attack 
+An attack in which a program tries to store more data in a temporary 
+storage area, called a buffer, than it can handle. The overflow leaves 
+the program vulnerable to more attacks, including code that crashes 
+the system, damages data, or gives the attacker control of the system. 
+Denial-of-service 
+(DoS) attack 
+An attack that interrupts a device’s normal functioning so that normal 
+users can’t access it. DoS attacks typically function by flooding a 
+targeted machine with requests until normal traffic can’t be processed. 
+Discretionary 
+access control 
+(DAC) scheme 
+An access control model in which every object or resource in the 
+system has an owner who determines which users can access it. 
+Distributed denial
+of-service (DDoS) 
+attack 
+An attack that involves multiple connected online devices 
+overwhelming a target website with fake traffic. 
+DMZ A separate network that protects and adds an extra layer of security to 
+an organization’s internal local area network (LAN) from untrusted 
+traffic.  
+Domain Name 
+System (DNS) 
+poisoning 
+A type of spoofing in which the attacker enters fake information into 
+the cache of a domain name server. The result is that users looking for 
+a specific website are instead sent to one of the attacker’s choosing. 
+Evil twin attack An attack in which malicious actors set up a fake wifi source to steal 
+information or further infiltrate a connecting device. Attackers often 
+use this strategy in public settings such as airports, cafes, or large 
+public parks where people often look for freely available wifi. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 22 of 44 
+Term Definition 
+Extranet A private network open to external users such as business partners, 
+suppliers, and key customers. An extranet can be useful for functions 
+that involve external users or the public, such as online ordering, 
+electronic order tracking, and inventory management. 
+Filesystem 
+controls 
+An access control method in which controls determine which accounts, 
+users, groups, or services can perform actions such as reading, writing, 
+and running files. 
+Firewall A network’s gatekeeper filters traffic blocks outsiders from gaining 
+unauthorized access and blocks malicious software. 
+Hardware security 
+module (HSM) 
+A dedicated cryptographic processor that is specifically designed to 
+protect the cryptographic key lifecycle. Enterprises use HSMs to 
+protect transactions, identities, and applications. 
+Honeypot A system that attracts attackers by acting like a network full of 
+valuable resources but also contains tools for monitoring and 
+performing security functions. For example, a bank’s honeypot system 
+might mimic a fake login page or section of the bank’s website to 
+attract attackers and gather information on their tactics. The bank can 
+then use this information to train its employees on how to detect and 
+prevent similar attacks and to improve security defenses. 
+Intranet A private network for distributing communications exclusively to the 
+organization’s internal users. 
+IP spoofing A type of spoofing that involves impersonating another computer 
+system by creating IP packets with false source IP addresses. This 
+attack enables cybercriminals to engage in malicious activity, such as 
+infecting a device with malware, stealing data, or crashing a server 
+without detection. 
+Jamming An attack in which malicious nodes intentionally interfere with wireless 
+networks to prevent legitimate communication. A common method of 
+jamming uses a device that emits electromagnetic energy that makes 
+the network unusable by sending out signals and increasing noise. 
+Load balancer A dedicated hardware device or an internet-facing server running a 
+load balance service, distributing traffic among multiple servers and 
+decrypting website traffic. Cloud load balancing is rapidly becoming 
+the most popular form. 
+Man-in-the-middle 
+attack 
+An attack in which an attacker breaks into an existing conversation or 
+data transfer between two participants and pretends to be a legitimate 
+participant. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 23 of 44 
+Term Definition 
+Media access 
+control (MAC) 
+spoofing 
+A type of spoofing in which someone or something intercepts or 
+tampers with the control messages exchanged between a networked 
+device and its unique media access control (MAC) address. Attackers 
+can use many methods to do this, such as tampering with messages 
+sent from legitimate access points or capturing and manipulating 
+packets that contain response data before they reach their destination. 
+Mandatory access 
+control (MAC) 
+scheme 
+An access control model in which users do not have control over their 
+own access rights. 
+Network access 
+control (NAC) 
+A process for controlling and managing access to a network by 
+authenticating users and devices before allowing them to connect. 
+Network address 
+translation (NAT) 
+A process by which one unique IP address can represent multiple 
+computers. A network device, often a router or NAT firewall, assigns 
+this single public IP address to a computer or group of computers 
+inside a private network. 
+Network 
+architecture 
+A network’s structural and logical layout. It describes the network 
+devices used, how they are connected, and the rules that govern data 
+transfer between them. 
+Network design Process of creating network architecture for a specific organization and 
+situation. It includes network analysis, hardware selection, and 
+implementation planning, among other planning processes. 
+Network 
+infrastructure 
+devices 
+Components of a network that control communications needed for 
+data, applications, services, and multimedia. These devices include 
+routers, firewalls, switches, servers, load-balancers, intrusion 
+detection systems, domain name systems, and storage area networks. 
+Network security Deployment and monitoring of cybersecurity solutions to protect an 
+organization’s IT systems from attacks and breaches. 
+Network 
+segmentation 
+A technique for secure network design that splits a larger network into 
+smaller segments, also called subnets, usually through switches and 
+routers. 
+Network switch A device that integrates all devices on a network, allowing for seamless 
+sharing and data transfer among them. Connected network devices 
+can include everything from firewalls and wireless access points to 
+Voice Over Internet Protocol (VoIP) phones, printers, servers, and 
+more. 
+Proxy server 
+(proxy) 
+A system or router that provides a gateway between users and the 
+internet. When users send requests online, the request travels through 
+the proxy server. The proxy server gets the response from the web 
+server, and then forwards the data to the user’s browser. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 24 of 44 
+Term Definition 
+Rogue access 
+point 
+A wireless access point that does not belong to the network. An 
+attacker can use an unauthorized wireless access points for various 
+purposes, such as leaking a business’ sensitive information. 
+Role-based access 
+control (RBAC) 
+scheme 
+An access control model in which access control decisions are based 
+on the roles assigned to users or groups. 
+Router A network’s hardware connection to outside data, usually from the 
+internet. That data travels from a modem to a router, which then 
+directs the outside data to network devices. 
+Spoofing An attack in which an attacker uses a device or network to trick other 
+computer networks into believing they are a legitimate entity. This 
+deception allows them to take over the devices to use in attacks or 
+gain access to sensitive data. 
+Wi-Fi Protected 
+Access (WPA) 
+A type of router encryption that scrambles the encryption key and is 
+more secure than WEP. 
+Wi-Fi Protected 
+Access 2 (WPA2) 
+A type of router encryption that scrambles the encryption key and does 
+not allow the use of a less secure protocol. 
+Wired Equivalent 
+Privacy (WEP) 
+A type of router encryption that uses radio waves and the same 
+encryption key for every data packet. 
+Zero-day attack An attack in which the attacker exploits a software vulnerability 
+unknown to the software’s creator before the creator can release a 
+patch to fix it. 
+ 
+Questions I have 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 25 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 26 of 44 
+Module 7: Cloud Computing and Virtualization 
+Term Definition 
+Cloud as a service 
+(CaaS) 
+Application and infrastructure resources that reside on the internet. 
+Database as a 
+service (DBaaS) 
+A cloud computing service that provides users with access to a fully 
+managed database system through a CSP. With DBaaS, users can 
+access a database without setting up physical hardware, installing 
+software, or configuring it for performance. 
+External network 
+virtualization 
+A type of virtualization that helps service providers create virtual local 
+area networks (VLANs) by either grouping physical systems that are 
+connected to the same LAN or dividing separate LANs into the same 
+VLAN. For example, a provider can use external network virtualization 
+to make separate VLANs for different groups or customers. Each group 
+would have its own security policies and network settings. 
+Hybrid cloud A cloud deployment model in which a company uses both public and 
+private cloud infrastructure for data storage and processing. 
+Hypervisor A unique software that enables a single physical computer to run 
+multiple virtual machines. 
+Infrastructure as a 
+service (IaaS) 
+A cloud computing service that enables you to rent virtualized 
+hardware resources from the cloud service provider (CSP). Examples of 
+these resources include servers, storage, and network components. 
+Internal network 
+virtualization 
+A type of virtualization that creates a pretend network inside a single 
+server to make the server more efficient. Internal virtualization 
+provides many benefits, such as using less hardware, being more 
+flexible, and changing network resources to meet different needs. 
+Network functions 
+virtualization (NFV) 
+A technology that virtualizes network services, such as routers, 
+firewalls, and load balancers, by packaging them as virtual machines or 
+containers on standard servers. 
+Network interface 
+card (NIC) 
+A hardware component that connects a computer or other electronic 
+device to a network. 
+Network 
+virtualization 
+A type of virtualization that combines hardware, software resources, 
+and network functionality into a single, software-based system. 
+Platform as a 
+service (PaaS) 
+A cloud computing service that enables developers to build, deploy, 
+and manage applications without concern about the technical 
+foundation. Developers can focus on creating applications rather than 
+managing servers, databases, and other infrastructure components. 
+Private cloud A cloud deployment model in which a company has its own computer 
+infrastructure in the cloud and it is not shared with anyone else. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 27 of 44 
+Term Definition 
+Public cloud A cloud deployment model in which a cloud service provider (CSP) 
+gives users access to virtual systems, services, and data over the 
+internet. 
+Software as a 
+service (SaaS) 
+A cloud computing service that delivers applications over the internet. 
+Examples of SaaS applications include email, document management, 
+and customer relationship management (CRM) software. 
+Virtual appliance A preinstalled software on one or more virtual machines that serves a 
+specific function. 
+Virtual host A hosting platform that provides computing and storage resources to 
+single or multiple websites, apps, or services, each with a unique 
+domain name and IP address. 
+Virtualization A process by which a single physical machine can run multiple 
+operating systems. 
+Virtual network 
+interface card 
+(VNIC) 
+A hardware component that connects a computer or other electronic 
+device to a network in a virtualized environment. 
+VMware software Software that allows you to create and manage virtual versions of 
+computing functions. It targets home, small business, and enterprise
+level users. 
+ 
+Questions I have 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 28 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 29 of 44 
+Module 8: Securing Cloud Infrastructure 
+Term Definition 
+Application 
+programming 
+interface (API) 
+A group of routines, protocols, and tools for building software 
+applications. 
+Cloud access 
+security broker 
+(CASB) 
+A security tool or service that acts as a firewall for cloud services, 
+providing a gateway for enforcing security policies to ensure that 
+authorized users’ actions adhere to the company’s security policies. 
+Cloud application A type of software application that runs in the cloud infrastructure. 
+Cloud application 
+security 
+Policies, tools, and protocols designed to protect cloud-based 
+applications and data by ensuring visibility, defending against 
+cyberattacks, and restricting access to authorized users. 
+Cloud disaster 
+recovery 
+A service that enables organizations to replicate and recover their 
+critical applications and data in the cloud in the event of an IT outage 
+or disaster, ensuring business continuity and minimizing downtime. 
+Cloud 
+infrastructure 
+entitlement 
+management 
+(CIEM) 
+A set of tools and practices that enable organizations to understand 
+their entitlements and permissions by analyzing and mapping all 
+identities, roles, groups, and policies across multiple cloud platforms. 
+Cloud-native 
+application 
+protection 
+platform (CNAPP) 
+A security solution to protect cloud-native applications that is built 
+using microservices, containers, and other cloud-native technologies. 
+Cloud security 
+posture 
+management 
+(CSPM) 
+A critical component of cloud application security that helps 
+organizations identify and mitigate potential security risks.  
+Data loss 
+prevention (DLP) 
+A set of tools and processes that help organizations protect sensitive 
+information from unauthorized disclosure or use by detecting and 
+preventing data breaches in real time. 
+Identity access 
+management 
+(IAM) 
+A tool that involves managing users’ identities and controlling their 
+access to applications, networks, and other resources.  
+Identity 
+governance and 
+administration 
+(IGA) 
+A solution that helps organizations manage the identity lifecycle of 
+users and their access to critical applications and data. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Term 
+Definition 
+Microservices 
+A type of architecture used in cloud applications where a software 
+system is broken down into small, independent components that 
+communicate with each other through APIs. 
+On-demand 
+scalability 
+The ability of a system or application to quickly and easily adjust its 
+computing resources to meet changing demands or workloads. 
+Principle of least 
+privilege (POLP) 
+A security concept that that restricts users or processes to only access 
+and permissions necessary to perform their tasks.  
+Privileged access 
+management 
+(PAM) 
+A solution that provides secure and controlled access to privileged 
+accounts, such as those of system administrators, to prevent 
+unauthorized access. 
+Shadow IT 
+Use of unauthorized or unsanctioned technology solutions in an 
+organization, often outside the purview of the IT department 
+Questions I have 
+Page 30 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 31 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 32 of 44 
+Module 9: Security Operations 
+Term Definition 
+Compliance 
+management 
+The systematic approach that organizations take to ensure that all 
+applications, systems, and security tools and processes comply with 
+data privacy regulations. Examples of these regulations include but are 
+not limited to the General Data Protection Regulation (GDPR) and the 
+Health Insurance Portability and Accountability Act (HIPAA). 
+Compliance 
+training 
+Educational programs and initiatives designed to educate employees 
+about relevant laws, regulations, industry standards, and internal 
+policies that govern their work activities. For example, an organization 
+might host training sessions on identifying and mitigating cyber risks, 
+securing sensitive data, and adhering to regulatory requirements. 
+Hybrid SOC A SOC model that combines in-house SOC and SOCaaS models so that 
+the organization can use in-house resources, including internal staff, 
+and outsourced security services. 
+Incident response 
+(IR) 
+The set of actions an organization takes to prepare for, expose, and 
+stop cyberattacks. 
+In-house SOC A SOC model in which an organization has an internal SOC team and 
+resources dedicated to managing security operations. The organization 
+owns and maintains the infrastructure and tools required to operate 
+the SOC. 
+Log management The process of collecting, storing, analyzing, and managing log data 
+generated by various systems, applications, and network devices 
+within an organization. 
+Onboarding 
+training 
+The process of educating newly hired employees or contractors about 
+essential cybersecurity principles, practices, policies, and procedures 
+specific to their roles within an organization. 
+Phishing training Educational programs designed to teach individuals how to recognize, 
+avoid, and respond to phishing attacks. 
+Post-mortem and 
+refinement (post
+incident review) 
+A structured analysis conducted after a security incident or breach. 
+Refinement in cybersecurity refers to the process of implementing 
+improvements and adjustments based on the findings and 
+recommendations from a post-mortem or ongoing security 
+assessments. 
+Recovery and 
+remediation 
+Critical processes that follow incident response and aim to restore 
+normal operations, mitigate damage, and prevent future occurrences. 
+Recurring training Ongoing educational programs and initiatives that provide regular 
+updates, refreshers, and new information to employees and 
+stakeholders about cybersecurity threats, best practices, and 
+compliance requirements. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 33 of 44 
+Term Definition 
+Security 
+operations center 
+(SOC) 
+A dedicated team of cybersecurity professionals that uses specialized 
+software to actively monitor, detect, investigate, and respond to an 
+organization’s potential security threats and incidents in real time. 
+SOC as a service 
+(SOCaaS) 
+A SOC model in which an organization outsources nearly all its security 
+operations to a third-party provider. In turn, the third party provides 
+the necessary staff and technology to monitor, analyze, and respond to 
+incidents. 
+SOC facility  A centralized physical location where cybersecurity professionals 
+monitor, detect, analyze, and respond to security incidents and 
+threats. 
+SOC software A type of security software that SOC teams use to monitor, analyze, 
+and respond to security threats in real time. 
+SOC team A group of cybersecurity professionals responsible for monitoring and 
+analyzing an organization’s security posture. 
+Threat detection The process of identifying potential security threats and malicious 
+activities within an organization’s IT environment. 
+Virtual SOC (V
+SOC) 
+A cloud-based SOC model in which an organization builds, hosts, and 
+maintains its security infrastructure and tools in the cloud, and the 
+organization’s internal SOC team works remotely. 
+ 
+Questions I have 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 34 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 35 of 44 
+Module 10: Security Monitoring 
+Term Definition 
+Active monitoring 
+solutions 
+Software tools that operate in the background and actively search for 
+potential issues or slowdowns. These types of solutions alert network 
+administrators as soon as anomalies or predefined thresholds are met, 
+enabling swift response and resolution. 
+Agent  A software application installed on an endpoint that collects, 
+processes, and reports data related to the device’s security status. 
+Behavioral 
+analytics  
+The practice of collecting and analyzing data on user activities, 
+network traffic, and system events to understand patterns of behavior. 
+This analysis helps identify deviations from normal behavior that can 
+indicate security incidents, fraud, or other risks. 
+Endpoint 
+management  
+The process of monitoring, securing, and controlling devices connected 
+to a network. This involves deploying security policies, updating 
+software, monitoring device health, and ensuring compliance to 
+protect the network from vulnerabilities associated with endpoints. 
+Endpoints Devices such as computers, smartphones, tablets, and IoT devices 
+that connect to a network. These devices act as entry points for 
+communication and interaction within the network, making them 
+critical to network security and management. 
+Network 
+reconnaissance 
+The process of gathering information actively or passively about a 
+computer network, its devices, and its services to identify potential 
+vulnerabilities. 
+Incident response 
+plan 
+A predefined set of procedures and actions that security teams follow 
+when a security incident is detected. The plan outlines steps for 
+identifying, containing, eradicating, and recovering from threats to 
+minimize damage and restore normal operations. 
+nslookup A command-line tool that obtains information about a host system: it 
+helps diagnose and troubleshoot DNS-related issues by retrieving 
+details such as the IP address of a domain or the domain associated 
+with an IP address. 
+ 
+One example is running the ‘ping’ command, such as ‘ping 
+google.com’, to check the connectivity and measure the round-trip 
+time to the Google servers. 
+Packet analyzer A tool that captures and analyzes data in transit across a network. 
+ 
+For example, Wireshark is a network protocol analyzer that lets you 
+capture and interactively browse the traffic running on a computer 
+network.  
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 36 of 44 
+Term Definition 
+Passive monitoring 
+solutions 
+Software tools that observe and record network activities without 
+actively interacting with the traffic. These solutions provide 
+administrators with detailed logs and historical data, enabling them to 
+analyze network behavior, performance, and security trends without 
+affecting the system’s operation. 
+Ping test A diagnostic tool that measures the time it takes for a data packet, or 
+ping, to travel from one computer or server to another. It tests the 
+reachability of a host and assesses the latency, which is crucial for 
+determining network performance and detecting potential connectivity 
+issues. 
+Security 
+information and 
+event 
+management 
+(SIEM) 
+A security solution that helps organizations recognize and address 
+potential security threats and vulnerabilities before they have a chance 
+to disrupt business operations. 
+Security posture An organization’s overall security status, reflecting its ability to protect 
+against and respond to cybersecurity threats. This includes the 
+effectiveness of security controls, policies, procedures, and the 
+organization’s readiness to manage and mitigate risks. 
+Traceroute A diagnostic tool that actively interacts with a computer network to 
+find problems with an internet connection. 
+User and entity 
+behavior analytics 
+(UEBA)  
+A cybersecurity approach that focuses on monitoring and analyzing the 
+behavior of users and entities within a network to detect unusual or 
+potentially malicious activities. 
+ 
+Questions I have 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+My notes 
+Page 37 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 38 of 44 
+Module 11: Incident Response 
+Term Definition 
+Attack surface An analysis of all the potential vulnerabilities and entry points 
+through which an unauthorized user can try to access a system, 
+network, or application, to affect, or extract data from the system. 
+Containment The process of stopping an attack from proceeding further and 
+causing any more damage or disablement to the system. 
+Cyber Kill Chain 
+framework 
+A tool for intrusion analysis that provides a structure to identify, 
+understand, isolate, and respond to malicious behavior. 
+Eradication The process of eliminating a threat from all affected devices, such 
+as by reimaging devices, disabling services, and updating software. 
+Functional impact The extent to which an attack will affect a system’s effectiveness 
+and users’ ability to access what they need. 
+Incident response 
+framework 
+A structured approach for handling and managing security incidents, 
+outlining the processes and procedures for identifying, investigating, 
+and responding to cybersecurity threats.  
+Incident response 
+(IR) 
+The set of actions an organization takes to prepare for, expose, and 
+stop cyberattacks. 
+Incident response 
+plan (IRP) 
+Documentation that details the necessary actions in the event of a 
+cyberattack, the order in which they should take place, and the team 
+members who should carry them out. 
+Indicator A sign that an incident might have occurred or is occurring now, 
+such as an antimalware program alert indicating that a trojan has 
+infected a device. 
+Informational impact The extent to which an attack will affect the information in a system, 
+including the information that might be stolen or destroyed and a 
+measurement of the potential consequences. 
+Intrusion analysis The process of using information about an attack to determine the 
+scope of the attack, the method used by the attacker to gain access, 
+and the extent of the damage to the system or network. 
+MITRE ATT&CK 
+framework 
+A detailed matrix that categorizes the tactics and techniques 
+attackers use to conduct cyberattacks. It stands for Adversarial 
+Tactics, Techniques, and Common Knowledge. 
+Precursor A sign or indication that an attack or security incident might occur in 
+the future.  
+Recoverability impact The extent of damage that an attack causes and the time that the 
+organization might need to restore the system and information to its 
+previous state. 
+Recovery The process of restoring and returning affected systems, data, and 
+operations to normalcy following a security incident or breach. 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Questions I have 
+My notes 
+Page 39 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 40 of 44 
+Module 12: Digital System Forensics 
+Term Definition 
+Acquisition and 
+analysis tools 
+Tools that collect and analyze digital evidence from data sources such 
+as hard disk drives and memory cards. 
+Analysis The third phase of digital forensics when investigators analyze the 
+relevant data from the examination phase to draw meaningful 
+conclusions about it. 
+Autopsy An open-source data recovery tool used to analyze and recover data 
+from storage media on Windows, Linux, and macOS operating systems. 
+Chain of custody A process used in forensic investigations to record the chronological 
+history of evidence. It tracks the possession, handling, and transfer of 
+evidence from the moment someone collects it to its presentation in 
+court, ensuring its integrity and admissibility. 
+Collection The first phase of a digital forensic investigation when investigators 
+identify and gather potential sources of evidence. This phase involves 
+labeling, documenting, and collecting data from various digital devices 
+while ensuring the integrity and authenticity of the evidence. 
+Command-line 
+interface (CLI) 
+A user interface in which users type commands to navigate and 
+manage the system. 
+Data carving The process of extracting data from a storage device without relying on 
+the file system or metadata. This process is especially valuable for 
+retrieving digital evidence from corrupted or reformatted storage 
+devices where traditional file system analysis is impractical. It involves 
+extracting data directly from the storage device by identifying specific 
+file signatures or patterns in the raw data, bypassing the need for file 
+system or metadata dependency. 
+Data preservation The process of protecting and safeguarding electronic data to maintain 
+its integrity, authenticity, and usability for investigative purposes. 
+Data recovery A process for retrieving lost, deleted, corrupted, or otherwise 
+inaccessible data. 
+Digital forensics 
+tools  
+Hardware or software that collects, extracts, triages, preserves, or 
+recovers digital evidence. 
+Digital forensics The application of science to the identification, collection, examination, 
+and analysis of data while preserving the integrity of the information 
+and maintaining a strict chain of custody for the data. 
+Examination The second phase of a digital forensic investigation when investigators 
+sift through the collected data to determine what’s relevant and 
+extract it for later analysis. 
+FTK Imager An open-source acquisition and analysis tool for creating disk images 
+without modifying or making any changes to the original data, ensuring 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 41 of 44 
+Term Definition 
+forensic soundness and preserving evidence for investigative 
+purposes. 
+Hash value A series of numbers, generated using a mathematical algorithm, that 
+uniquely identifies a piece of data. It serves as a digital fingerprint, 
+uniquely identifying the data in a way that makes detecting any 
+alterations or tampering easy. 
+Image A bit-for-bit copy of a storage device, such as a hard disk drive or USB 
+flash drive, including all its contents and structure.  
+Imaging tools Tools that create exact replicas of storage media, such as hard disk 
+drives, USB flash drives, memory cards, or other storage media. They 
+enable investigators to work with copies of data without altering or 
+compromising the original source, thus maintaining its forensic 
+soundness. 
+Kali Linux A cybersecurity-focused Linux distribution with an array of standard 
+cybersecurity tools, including Autopsy, data carving utilities, and other 
+digital forensics applications. 
+Packet A small piece of data in transit across a network. It contains both the 
+payload, which carries the actual information being sent, and header 
+information, which includes details such as the source and destination 
+addresses and other information needed for routing and delivery.  
+Problem solving The use of logic and reason to solve a problem. It involves using 
+creative thinking, knowledge, intuition, and experience to develop 
+solutions that best meet the person or organization’s needs. 
+Raw data Unprocessed and unanalyzed information that investigators have 
+collected during a digital forensic investigation. 
+Recovery tools Tools that recover deleted or otherwise inaccessible files, such as files 
+stored in damaged or corrupted images. 
+Triage tools Tools that quickly scan large amounts of acquired data for important 
+files or keywords. They prioritize the extraction of potentially relevant 
+data based on predefined criteria, such as file types, metadata, or 
+keywords. 
+Virtual machine 
+(VM) 
+A software-based version of a physical computer system that operates 
+within another computing environment. VMs can run their own 
+applications and other software, just like physical machines can. 
+Volatile data  Temporary information stored in the device’s memory, such as running 
+processes, open files, and network connections, that is lost once the 
+system is shut down or the session ends. 
+Volatility An acquisition and analysis tool that can extract volatile data from 
+RAM, such as data from the operating system and processes running in 
+memory. 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Term 
+Definition 
+Write-blocker 
+A device that blocks any write commands sent to a storage device, 
+such as a hard disk drive or USB flash drive. By intercepting and 
+blocking write requests, write-blockers ensure that the integrity of the 
+original evidence is preserved during the forensic examination process. 
+Questions I have 
+My notes 
+Page 42 of 44 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Page 43 of 44 
+Module 13: Emerging Threats and the Future of Cybersecurity 
+Technologies 
+Term Definition 
+5G The fifth generation of cellular networks, which allows for faster 
+speeds because of ultra-low latency and increases network coverage. 
+Artificial 
+intelligence 
+Technology that enables computers and machines to simulate human 
+intelligence and problem-solving capabilities. Cybersecurity 
+professionals use AI for various tasks, such as creating predictive 
+models that alert organizations to potential threats before an attack 
+occurs. 
+Biotechnology The use of living organisms or their components to create useful 
+products or solve problems. Biotechnology can be used in various 
+fields to develop new treatments, improve crop yields, create vaccines, 
+and find innovative solutions to the challenges that people face. 
+Domain Name 
+System (DNS)  
+A fundamental part of the internet infrastructure that translates 
+domain names (such as example.com) into their corresponding IP 
+addresses (such as 192.0.2.1). 
+Emerging 
+technology 
+Any innovative product or service still in the early stages of 
+development, testing, or adoption. 
+Generative AI A subset of AI that focuses on creating or generating high-quality text, 
+images, and other content based on data on which the AI model is 
+trained. Some well-known examples of generative AI include chatbots 
+and OpenAI’s ChatGPT. 
+Genomics The branch of molecular biology that studies the structure, function, 
+evolution, and mapping of genomes, which is the complete set of DNA, 
+including all of an organism’s genes. 
+Internet of Things 
+(IoT) 
+A network of physical devices, vehicles, appliances, and other physical 
+objects that are embedded with sensors, software, and network 
+connectivity that allows them to collect and share data. 
+Nanotechnology The field of science and engineering that studies the design, synthesis, 
+characterization, and application of materials and devices at the 
+nanoscale.  
+Quantum 
+computing 
+A technology that uses quantum mechanics to solve problems that are 
+too complex for classical computers or supercomputers to solve or 
+solve quickly enough. 
+Ultra-low latency  An extremely short delay in transmitting and receiving data, allowing 
+for near-instantaneous communication or response. Delivering ultra
+low latency is one of the most significant advancements that 5G 
+networks introduce. 
+ 
+IBM SkillsBuild Cybersecurity Certificate:    
+Glossary 
+Questions I have 
+My notes 
+Page 44 of 44 
