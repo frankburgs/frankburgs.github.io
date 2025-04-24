@@ -1,41 +1,19 @@
-<html lang="en" class="bg-black">
-<head>
-  <title>Safety Observations</title>
-  <link rel="icon" href="components/svg/icon.svg" type="image">
-  
-  <!-- Components -->
-  <script src="components/svg/svg.js"></script>
-  <script src="components/btnModal.js"></script>
-  <script src="components/fullscreen.js"></script>
-  
-  <!-- Style, bootstrap needs a .CSS, a .JS @ bottom, & popper for dropdowns & such-->
-  <script src="style/bootstrap/popper.js"></script>
-  <link rel="stylesheet" href="style/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" media="print" href="style/print.css">
+<!--
+  type = module on line 14 not shown in bootstrap docs. Bundle includes popper for dropdowns
+-->
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
 
-  <!-- Functions -->
-  <script src="scripts/sort.js"></script>
-  <script src="scripts/populateCell.js"></script>
-  <script src="scripts/populateRow.js"></script>
-  <script src="scripts/print.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reactify</title>
+    <script type="module" crossorigin src="/assets/index-2rpOpS2H.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DlllPM0g.css">
+  </head>
 
-  <!-- The list -->
-  <script src="obs/observations.js"></script>
-</head>
-
-<body>
-  <table class="table align-middle">
-    <thead class="d-print-none">
-      <tr class="border-primary text-start align-middle">
-        <th class="bg-black text-white"></th>
-        <th class="bg-black text-white">Reference</th>
-        <th class="bg-black text-white">Observation</th>
-        <th class="bg-black text-white">Recommendation</th>
-      </tr>
-    </thead>
-    <tbody id="tableBody"></tbody>
-  </table>
-</body>
+  <body>
+    <div id="root"></div>
+  </body>
+
 </html>
-<script src="scripts/script.js"></script><!-- Populate the table -->
-<script src="style/bootstrap/js/bootstrap.min.js"></script><!-- Bootstrap script -->
