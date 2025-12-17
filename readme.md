@@ -1,13 +1,15 @@
 # About
-- The index.html in root calls script and style from assets folder.
-- Backup base images elsewhere.
-- $ npm run build
-- I move the index.html and assets folder out of dist folder and into root, these contain hashed files.
-- Delete dist folder.
 
-- Change to HashRouter & Router
-- add to vite.config.js  base: "/frankburgs.github.io/"
-- add to package.json "homepage": "frankburgs.github.io",
+- Changed to HashRouter
+
+- Local routing works when both configs below are deleted using both npm dev & preview
+
+- add to vite.config.js  
+- base: "/frankburgs.github.io/"
+
+- add to package.json
+- "homepage": "/frankburgs.github.io/#",
+
 
 # Current tasks
 - Shorten & fix :
