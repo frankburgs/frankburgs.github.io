@@ -1,3 +1,10 @@
+# About
+- The index.html in root calls script and style from assets folder.
+- Backup base images elsewhere.
+- $ npm run build
+- I move the index.html and assets folder out of dist folder and into root, these contain hashed files.
+- Delete dist folder.
+
 
 # Current tasks
 - Shorten & fix :
@@ -25,4 +32,5 @@
 - 🔁 (ongoing) serve as backup for 📁notes.
 
 # Revision history
-- 23 Apr 2025 : Switched from Vanilla Bootstrap to React.
+- 23 Apr 2025 React
+- 17 Dec 2025 react-router
