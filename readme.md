@@ -1,41 +1,23 @@
-# About
 
-- Changed to HashRouter
+# Steps
+``` shell
+$ npm i react, react-dom, vite, @vitejs/plugin-react, react-router
+```
 
-- Local routing works when both configs below are deleted using both npm dev & preview
-
-- add to vite.config.js  
-- base: "/frankburgs.github.io/"
-
-- add to package.json
-- "homepage": "/frankburgs.github.io/#",
+- Comment out assets .js file.
+- Comment in src/main.js.
+- Download image backups and include in folder.
 
 
-# Current tasks
-- Shorten & fix :
-- item 10 (months in next text object), 20, 21.
+# Uploading changes
 
-- Switch to TailwindCSS, html has a native modal new feature.
+- Vite build generates /dist which holds a .html and /assets.
 
-- Push current BS version to pages :
-- root files (except package-lock and node_modules)
-- 📁notes and 📁src
+- GH Pages does not work through /dist, the .html needs to be in root folder.
+
+- Rm /img since images are duplicated in dist
 
 
-
-# Tasks
-- Incorporate ANSI/AWS pdf instead of link to download.
-- Replace BS icons : textbook, eye, ear.
-- React router, add home, shelver diagram, inventory table.
-- Shorten App.jsx (image handling in other .js)
-- Import sort function to relevant .jsx component.
-- SVG sanitation steps and put inline for type icons.
-- Avatar
-- TS
-- SQL (student 4F,5F... weld images)
-- 🔁 (ongoing) serve as backup for 📁welding images.
-- 🔁 (ongoing) serve as backup for 📁notes.
-
-# Revision history
-- 23 Apr 2025 React
-- 17 Dec 2025 react-router
+# Issues
+- favicon
+- css import, handling, documenting
