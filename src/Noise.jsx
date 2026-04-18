@@ -1,24 +1,92 @@
+const memorables = [
+        {
+            date: "15 Jun 2025",
+            desc: "Loud gathering, past midnight"
+        },
+        {
+            date: "22 Aug 2025",
+            desc: "Music, loud gathering til 3 AM"
+        },
+        {
+            date: "23 Aug 2025",
+            desc: "til 2 AM"
+        },
+        {
+            date: "25 Aug  2025",
+            desc: "Loud conversations @ 4 AM"
+        },
+        {
+            date: "5 Sep 2025",
+            desc: "til 2 AM"
+        },
+        {
+            date: "6 Sep 2025",
+            desc: "til 2 AM"
+        },
+        {
+            date: "11 Sep 2025",
+            desc: "til 4:30 AM"
+        },
+        {
+            date: "12 Sep 2025",
+            desc: "til 4 AM"
+        },
+        {
+            date: "13 Sep 2025",
+            desc: "til 3 AM"
+        },
+        {
+            date: "14 Sep 2025",
+            desc: "possible violent incident"
+        },
+        {
+            date: "17 Sep 2025",
+            desc: "screaming @ 4 AM"
+        },
+        {
+            date: "24 Sep 2025",
+            desc: "@ 1 AM"
+        },
+        {
+            date: "Oct 10 2025",
+            desc: "all night"
+        },
+        {
+            date: "Oct 11 2025",
+            desc: "all night"
+        },
+        {
+            date: "Oct 12 2025",
+            desc: "loud music, loud group until ~ 2 AM"
+        },
+        {
+            date: "16 Oct 2025",
+            desc: "possible mental health incident"
+        },
+        {
+            date: "19 Nov 2025",
+            desc: "loud music, loud talking until 2 AM"
+        },
+        {
+            date: "12 Apr 2026",
+            desc: "Audible music, group gathering, 1:00 AM - 3:00 AM"
+        }
+]
+
 export default function Noise(){
-return (
-<table className="table table-hover">
-    <tbody>
-        <tr><td>15 Jun</td><td>Loud gathering, past midnight</td></tr>
-        <tr><td>22 Aug</td><td>Music, loud gathering til 3 AM</td></tr>
-        <tr><td>23 Aug</td><td>til 2 AM</td></tr>
-        <tr><td>25Aug </td><td>Loud conversations @ 4 AM</td></tr>
-        <tr><td>5 Sep</td><td>til 2 AM</td></tr>
-        <tr><td>6 Sep</td><td>til 2 AM</td></tr>
-        <tr><td>11 Sep</td><td>til 4:30 AM</td></tr>
-        <tr><td>12 Sep</td><td>til 4 AM</td></tr>
-        <tr><td>13 Sep</td><td>til 3 AM</td></tr>
-        <tr><td>14 Sep</td><td>possible violent incident</td></tr>
-        <tr><td>17 Sep</td><td>screaming @ 4 AM</td></tr>
-        <tr><td>24 Sep</td><td>@ 1 AM</td></tr>
-        <tr><td>Oct 10</td><td>all night</td></tr>
-        <tr><td>Oct 11</td><td>all night</td></tr>
-        <tr><td>Oct 12</td><td>loud music, loud group until ~ 2 AM</td></tr>
-        <tr><td>16 Oct</td><td>possible mental health incident</td></tr>
-        <tr><td>19 Nov</td><td>loud music, loud talking until 2 AM</td></tr>
-    </tbody>
-</table>
-)}
+
+    const peaceAndQuiet = memorables.map((item, index) =>
+        <tr key={index}>
+            <td>{item.date}</td>
+            <td>{item.desc}</td>
+        </tr>
+    );
+
+    return (
+        <table className="table table-hover">
+            <tbody>
+                {peaceAndQuiet}
+            </tbody>
+        </table>
+    )
+}
